@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1741232700 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1741318920 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 06 Mar 2025 03:45 UTC
-; Version: 2025.0306.0345.49
+; Last modified: 07 Mar 2025 03:42 UTC
+; Version: 2025.0307.0342.03
 ; Syntax: RPZ
-; Number of entries: 2804
+; Number of entries: 2806
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -2359,6 +2359,8 @@ https443.org CNAME .
 *.https443.org CNAME .
 idigo.org CNAME .
 *.idigo.org CNAME .
+inet2.org CNAME .
+*.inet2.org CNAME .
 iownyour.org CNAME .
 *.iownyour.org CNAME .
 is-a-bruinsfan.org CNAME .
