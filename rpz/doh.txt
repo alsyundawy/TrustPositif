@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1741363080 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1741449480 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 07 Mar 2025 15:58 UTC
-; Version: 2025.0307.1558.52
+; Last modified: 08 Mar 2025 15:58 UTC
+; Version: 2025.0308.1558.21
 ; Syntax: RPZ
 ; Number of entries: 2976
 ;
@@ -548,8 +548,6 @@ dns.indybanipal.com CNAME .
 *.dns.indybanipal.com CNAME .
 dns.inforlogia.com CNAME .
 *.dns.inforlogia.com CNAME .
-dns.invisv.com CNAME .
-*.dns.invisv.com CNAME .
 dns1.irumatech.com CNAME .
 *.dns1.irumatech.com CNAME .
 dns.is0mino.com CNAME .
@@ -2790,6 +2788,8 @@ v.dnscrypt.uk CNAME .
 *.v.dnscrypt.uk CNAME .
 dns.dooks.uk CNAME .
 *.dns.dooks.uk CNAME .
+adguard.mattiafenzi.uk CNAME .
+*.adguard.mattiafenzi.uk CNAME .
 dns.aa.net.uk CNAME .
 *.dns.aa.net.uk CNAME .
 resolver.dnsprivacy.org.uk CNAME .

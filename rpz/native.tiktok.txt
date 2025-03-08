@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1740788220 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1741393980 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Fingerprinting DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 01 Mar 2025 00:17 UTC
-; Version: 2025.0301.0017.54
+; Last modified: 08 Mar 2025 00:33 UTC
+; Version: 2025.0308.0033.19
 ; Syntax: RPZ
-; Number of entries: 562
+; Number of entries: 566
 ;
 frontier.byteoversea.com CNAME .
 *.frontier.byteoversea.com CNAME .
@@ -43,6 +43,8 @@ mon.byteoversea.com CNAME .
 *.mon.byteoversea.com CNAME .
 mon-csj-maliva-ios.byteoversea.com CNAME .
 *.mon-csj-maliva-ios.byteoversea.com CNAME .
+mon-sg.byteoversea.com CNAME .
+*.mon-sg.byteoversea.com CNAME .
 mon-va.byteoversea.com CNAME .
 *.mon-va.byteoversea.com CNAME .
 mon-va-useast2a.byteoversea.com CNAME .
@@ -549,6 +551,8 @@ ad.tiktokv.us CNAME .
 *.ad.tiktokv.us CNAME .
 ad-instantpage.tiktokv.us CNAME .
 *.ad-instantpage.tiktokv.us CNAME .
+ad-instantpage-ttp2.tiktokv.us CNAME .
+*.ad-instantpage-ttp2.tiktokv.us CNAME .
 location-v6.tiktokv.us CNAME .
 *.location-v6.tiktokv.us CNAME .
 location-v6-ttp2.tiktokv.us CNAME .
