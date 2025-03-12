@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1741394640 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1741763580 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 08 Mar 2025 00:44 UTC
-; Version: 2025.0308.0044.32
+; Last modified: 12 Mar 2025 07:13 UTC
+; Version: 2025.0312.0713.52
 ; Syntax: RPZ
-; Number of entries: 730
+; Number of entries: 740
 ;
 traffic-media.co CNAME .
 *.traffic-media.co CNAME .
@@ -29,18 +29,16 @@ us.noteapi.micloud.xiaomi.net.iberostar.com CNAME .
 *.us.noteapi.micloud.xiaomi.net.iberostar.com CNAME .
 us.pdc.micloud.xiaomi.net.iberostar.com CNAME .
 *.us.pdc.micloud.xiaomi.net.iberostar.com CNAME .
+mistat.xiaomi.com.download.ks-cdn.com CNAME .
+*.mistat.xiaomi.com.download.ks-cdn.com CNAME .
 kuyun.com CNAME .
 *.kuyun.com CNAME .
 ad.mi.com CNAME .
 *.ad.mi.com CNAME .
 ads.mi.com CNAME .
 *.ads.mi.com CNAME .
-staging.admin.e.mi.com CNAME .
-*.staging.admin.e.mi.com CNAME .
-api.e.mi.com CNAME .
-*.api.e.mi.com CNAME .
-site.e.mi.com CNAME .
-*.site.e.mi.com CNAME .
+e.mi.com CNAME .
+*.e.mi.com CNAME .
 d.g.mi.com CNAME .
 *.d.g.mi.com CNAME .
 video.kts.g.mi.com CNAME .
@@ -407,8 +405,8 @@ sdkconfig.ad.india.xiaomi.com CNAME .
 *.sdkconfig.ad.india.xiaomi.com CNAME .
 controller.india.xiaomi.com CNAME .
 *.controller.india.xiaomi.com CNAME .
-data.mistat.india.xiaomi.com CNAME .
-*.data.mistat.india.xiaomi.com CNAME .
+mistat.india.xiaomi.com CNAME .
+*.mistat.india.xiaomi.com CNAME .
 sys.tv.india.xiaomi.com CNAME .
 *.sys.tv.india.xiaomi.com CNAME .
 api.installer.xiaomi.com CNAME .
@@ -669,10 +667,22 @@ test-api.xmpush.xiaomi.com CNAME .
 *.test-api.xmpush.xiaomi.com CNAME .
 vip-api.xmpush.xiaomi.com CNAME .
 *.vip-api.xmpush.xiaomi.com CNAME .
+mistat.india.xiaomi.com.edgesuite.net CNAME .
+*.mistat.india.xiaomi.com.edgesuite.net CNAME .
 ad.intl.xiaomi.com.edgesuite.net CNAME .
 *.ad.intl.xiaomi.com.edgesuite.net CNAME .
+mistat.intl.xiaomi.com.edgesuite.net CNAME .
+*.mistat.intl.xiaomi.com.edgesuite.net CNAME .
+mistat.rus.xiaomi.com.edgesuite.net CNAME .
+*.mistat.rus.xiaomi.com.edgesuite.net CNAME .
+mistat.india.xiaomi.com.ksyna.net CNAME .
+*.mistat.india.xiaomi.com.ksyna.net CNAME .
 ad.intl.xiaomi.com.ksyna.net CNAME .
 *.ad.intl.xiaomi.com.ksyna.net CNAME .
+mistat.intl.xiaomi.com.ksyna.net CNAME .
+*.mistat.intl.xiaomi.com.ksyna.net CNAME .
+mistat.rus.xiaomi.com.ksyna.net CNAME .
+*.mistat.rus.xiaomi.com.ksyna.net CNAME .
 miui.net CNAME .
 *.miui.net CNAME .
 bugreport.xiaomi.net CNAME .
