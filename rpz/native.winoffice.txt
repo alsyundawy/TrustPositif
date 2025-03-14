@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1741393740 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1741930080 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 08 Mar 2025 00:29 UTC
-; Version: 2025.0308.0029.43
+; Last modified: 14 Mar 2025 05:28 UTC
+; Version: 2025.0314.0528.19
 ; Syntax: RPZ
-; Number of entries: 706
+; Number of entries: 718
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -315,6 +315,10 @@ ac2.msn.com CNAME .
 *.ac2.msn.com CNAME .
 ac3.msn.com CNAME .
 *.ac3.msn.com CNAME .
+accesshollywood.msn.com CNAME .
+*.accesshollywood.msn.com CNAME .
+accountservices.msn.com CNAME .
+*.accountservices.msn.com CNAME .
 ad.msn.com CNAME .
 *.ad.msn.com CNAME .
 adevents.msn.com CNAME .
@@ -349,8 +353,12 @@ c.at.msn.com CNAME .
 *.c.at.msn.com CNAME .
 c.be.msn.com CNAME .
 *.c.be.msn.com CNAME .
+actualite.fr.be.msn.com CNAME .
+*.actualite.fr.be.msn.com CNAME .
 c.br.msn.com CNAME .
 *.c.br.msn.com CNAME .
+actualites.ca.msn.com CNAME .
+*.actualites.ca.msn.com CNAME .
 c.ca.msn.com CNAME .
 *.c.ca.msn.com CNAME .
 c.cl.msn.com CNAME .
@@ -511,8 +519,6 @@ c-bingapis-com.dual-a-0034.a-msedge.net CNAME .
 *.c-bingapis-com.dual-a-0034.a-msedge.net CNAME .
 measure.office.com.akamaized.net CNAME .
 *.measure.office.com.akamaized.net CNAME .
-adsdkpreprod.azureedge.net CNAME .
-*.adsdkpreprod.azureedge.net CNAME .
 adsdkprod.azureedge.net CNAME .
 *.adsdkprod.azureedge.net CNAME .
 adsdkpreprod.afd.azureedge.net CNAME .
@@ -531,12 +537,16 @@ gateway.bingviz.microsoftapp.net CNAME .
 *.gateway.bingviz.microsoftapp.net CNAME .
 msads.net CNAME .
 *.msads.net CNAME .
+az667904.vo.msecnd.net CNAME .
+*.az667904.vo.msecnd.net CNAME .
 fp.msedge.net CNAME .
 *.fp.msedge.net CNAME .
 win10-trt.msedge.net CNAME .
 *.win10-trt.msedge.net CNAME .
 measure.office.net CNAME .
 *.measure.office.net CNAME .
+ads-msn-com-profile.trafficmanager.net CNAME .
+*.ads-msn-com-profile.trafficmanager.net CNAME .
 adsdk.trafficmanager.net CNAME .
 *.adsdk.trafficmanager.net CNAME .
 agps-location-livenet.trafficmanager.net CNAME .
@@ -623,6 +633,8 @@ tm-analytics-pr.trafficmanager.net CNAME .
 *.tm-analytics-pr.trafficmanager.net CNAME .
 tm-enrollment-telemetry-datacore.trafficmanager.net CNAME .
 *.tm-enrollment-telemetry-datacore.trafficmanager.net CNAME .
+vstelemetry.trafficmanager.net CNAME .
+*.vstelemetry.trafficmanager.net CNAME .
 euc-excel-telemetry.wac.trafficmanager.net CNAME .
 *.euc-excel-telemetry.wac.trafficmanager.net CNAME .
 euc-powerpoint-telemetry.wac.trafficmanager.net CNAME .
