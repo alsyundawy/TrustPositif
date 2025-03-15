@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1741394100 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1742001300 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 08 Mar 2025 00:35 UTC
-; Version: 2025.0308.0035.26
+; Last modified: 15 Mar 2025 01:15 UTC
+; Version: 2025.0315.0115.00
 ; Syntax: RPZ
 ; Number of entries: 726
 ;
@@ -43,8 +43,6 @@ mon.byteoversea.com CNAME .
 *.mon.byteoversea.com CNAME .
 mon-csj-maliva-ios.byteoversea.com CNAME .
 *.mon-csj-maliva-ios.byteoversea.com CNAME .
-mon-sg.byteoversea.com CNAME .
-*.mon-sg.byteoversea.com CNAME .
 mon-va.byteoversea.com CNAME .
 *.mon-va.byteoversea.com CNAME .
 mon-va-useast2a.byteoversea.com CNAME .
@@ -157,6 +155,8 @@ ads-api.tiktok.com CNAME .
 *.ads-api.tiktok.com CNAME .
 ads-frontier.tiktok.com CNAME .
 *.ads-frontier.tiktok.com CNAME .
+ads-service.tiktok.com CNAME .
+*.ads-service.tiktok.com CNAME .
 ads-sg.tiktok.com CNAME .
 *.ads-sg.tiktok.com CNAME .
 analytics.tiktok.com CNAME .
@@ -227,6 +227,8 @@ ad-instantpage-va.tiktokv.com CNAME .
 *.ad-instantpage-va.tiktokv.com CNAME .
 frontier.tiktokv.com CNAME .
 *.frontier.tiktokv.com CNAME .
+live-video-log16-normal-alisg.tiktokv.com CNAME .
+*.live-video-log16-normal-alisg.tiktokv.com CNAME .
 location.tiktokv.com CNAME .
 *.location.tiktokv.com CNAME .
 location-i18n.tiktokv.com CNAME .
@@ -729,8 +731,6 @@ rtlog16-normal-useast5.tiktokv.us CNAME .
 *.rtlog16-normal-useast5.tiktokv.us CNAME .
 rtlog16-normal-useast8.tiktokv.us CNAME .
 *.rtlog16-normal-useast8.tiktokv.us CNAME .
-analytics-ipv6.tiktokw.us CNAME .
-*.analytics-ipv6.tiktokw.us CNAME .
 location.tiktokw.us CNAME .
 *.location.tiktokw.us CNAME .
 mcs.tiktokw.us CNAME .
