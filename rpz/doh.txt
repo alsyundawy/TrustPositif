@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1741969920 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1742099100 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 14 Mar 2025 16:32 UTC
-; Version: 2025.0314.1632.41
+; Last modified: 16 Mar 2025 04:25 UTC
+; Version: 2025.0316.0425.41
 ; Syntax: RPZ
 ; Number of entries: 2940
 ;
@@ -182,8 +182,6 @@ dns.brono.cloud CNAME .
 *.dns.brono.cloud CNAME .
 dns.clanto.cloud CNAME .
 *.dns.clanto.cloud CNAME .
-doh.cnetwork.cloud CNAME .
-*.doh.cnetwork.cloud CNAME .
 gateway.fomichev.cloud CNAME .
 *.gateway.fomichev.cloud CNAME .
 adguard.hartley.cloud CNAME .
@@ -1206,6 +1204,8 @@ dns.spirio.fr CNAME .
 *.dns.spirio.fr CNAME .
 adb-home.xaoimoon.fr CNAME .
 *.adb-home.xaoimoon.fr CNAME .
+dns.auapi.fun CNAME .
+*.dns.auapi.fun CNAME .
 cloudbenders.fun CNAME .
 *.cloudbenders.fun CNAME .
 cynntex.fun CNAME .
