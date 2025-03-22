@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1742001060 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1742603160 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Fingerprinting DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 15 Mar 2025 01:11 UTC
-; Version: 2025.0315.0111.43
+; Last modified: 22 Mar 2025 00:26 UTC
+; Version: 2025.0322.0026.49
 ; Syntax: RPZ
-; Number of entries: 566
+; Number of entries: 560
 ;
 frontier.byteoversea.com CNAME .
 *.frontier.byteoversea.com CNAME .
@@ -155,8 +155,6 @@ ads-api.tiktok.com CNAME .
 *.ads-api.tiktok.com CNAME .
 ads-frontier.tiktok.com CNAME .
 *.ads-frontier.tiktok.com CNAME .
-ads-service.tiktok.com CNAME .
-*.ads-service.tiktok.com CNAME .
 ads-sg.tiktok.com CNAME .
 *.ads-sg.tiktok.com CNAME .
 analytics.tiktok.com CNAME .
@@ -207,8 +205,6 @@ mcs-ttp2.us.tiktok.com CNAME .
 *.mcs-ttp2.us.tiktok.com CNAME .
 mssdk.us.tiktok.com CNAME .
 *.mssdk.us.tiktok.com CNAME .
-mssdk-ttp2.us.tiktok.com CNAME .
-*.mssdk-ttp2.us.tiktok.com CNAME .
 sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 *.sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 ad.tiktokv.com CNAME .
@@ -577,5 +573,3 @@ mcs.tiktokw.us CNAME .
 *.mcs.tiktokw.us CNAME .
 mssdk.tiktokw.us CNAME .
 *.mssdk.tiktokw.us CNAME .
-mssdk-ttp2.tiktokw.us CNAME .
-*.mssdk-ttp2.tiktokw.us CNAME .
