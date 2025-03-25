@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1742604000 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1742734800 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker DNS Blocklist
@@ -8,27 +8,13 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 22 Mar 2025 00:40 UTC
-; Version: 2025.0322.0040.31
+; Last modified: 23 Mar 2025 13:00 UTC
+; Version: 2025.0323.1300.39
 ; Syntax: RPZ
-; Number of entries: 742
+; Number of entries: 728
 ;
 traffic-media.co CNAME .
 *.traffic-media.co CNAME .
-app.chat.global.xiaomi.net.iberostar.com CNAME .
-*.app.chat.global.xiaomi.net.iberostar.com CNAME .
-resolver.msg.global.xiaomi.net.iberostar.com CNAME .
-*.resolver.msg.global.xiaomi.net.iberostar.com CNAME .
-find.api.micloud.xiaomi.net.iberostar.com CNAME .
-*.find.api.micloud.xiaomi.net.iberostar.com CNAME .
-us.appbackupapi.micloud.xiaomi.net.iberostar.com CNAME .
-*.us.appbackupapi.micloud.xiaomi.net.iberostar.com CNAME .
-us.micardapi.micloud.xiaomi.net.iberostar.com CNAME .
-*.us.micardapi.micloud.xiaomi.net.iberostar.com CNAME .
-us.noteapi.micloud.xiaomi.net.iberostar.com CNAME .
-*.us.noteapi.micloud.xiaomi.net.iberostar.com CNAME .
-us.pdc.micloud.xiaomi.net.iberostar.com CNAME .
-*.us.pdc.micloud.xiaomi.net.iberostar.com CNAME .
 mistat.xiaomi.com.download.ks-cdn.com CNAME .
 *.mistat.xiaomi.com.download.ks-cdn.com CNAME .
 kuyun.com CNAME .
