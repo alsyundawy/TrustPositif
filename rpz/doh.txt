@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1743146940 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1743204480 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 28 Mar 2025 07:29 UTC
-; Version: 2025.0328.0729.53
+; Last modified: 28 Mar 2025 23:28 UTC
+; Version: 2025.0328.2328.40
 ; Syntax: RPZ
 ; Number of entries: 2930
 ;
@@ -220,8 +220,6 @@ dns.weixin.qq.com.cn CNAME .
 *.dns.weixin.qq.com.cn CNAME .
 dns.tuna.tsinghua.edu.cn CNAME .
 *.dns.tuna.tsinghua.edu.cn CNAME .
-dns.hshoe.cn CNAME .
-*.dns.hshoe.cn CNAME .
 dns.hujiayucc.cn CNAME .
 *.dns.hujiayucc.cn CNAME .
 dns.mbrjun.cn CNAME .
@@ -2102,6 +2100,8 @@ dns.csswg.org CNAME .
 *.dns.csswg.org CNAME .
 home27.duckdns.org CNAME .
 *.home27.duckdns.org CNAME .
+jurre-home.duckdns.org CNAME .
+*.jurre-home.duckdns.org CNAME .
 krtekvpn.duckdns.org CNAME .
 *.krtekvpn.duckdns.org CNAME .
 punono.duckdns.org CNAME .

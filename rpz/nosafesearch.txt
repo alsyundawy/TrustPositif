@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1741187400 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1743204240 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 05 Mar 2025 15:10 UTC
-; Version: 2025.0305.1510.53
+; Last modified: 28 Mar 2025 23:24 UTC
+; Version: 2025.0328.2324.43
 ; Syntax: RPZ
 ; Number of entries: 368
 ;
@@ -57,6 +57,8 @@ beezboo.com CNAME .
 *.beezboo.com CNAME .
 searx.bissisoft.com CNAME .
 *.searx.bissisoft.com CNAME .
+blackle.com CNAME .
+*.blackle.com CNAME .
 boomle.com CNAME .
 *.boomle.com CNAME .
 dogpile.com CNAME .
@@ -259,8 +261,6 @@ wiby.me CNAME .
 *.wiby.me CNAME .
 null.media CNAME .
 *.null.media CNAME .
-searchx.mobi CNAME .
-*.searchx.mobi CNAME .
 search.azkware.net CNAME .
 *.search.azkware.net CNAME .
 searx.nakhan.net CNAME .

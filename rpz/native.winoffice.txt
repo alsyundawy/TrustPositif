@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1742602920 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1743207600 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 22 Mar 2025 00:22 UTC
-; Version: 2025.0322.0022.38
+; Last modified: 29 Mar 2025 00:20 UTC
+; Version: 2025.0329.0020.22
 ; Syntax: RPZ
-; Number of entries: 716
+; Number of entries: 712
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -23,8 +23,6 @@ events.data.msn.cn CNAME .
 *.events.data.msn.cn CNAME .
 applicationinsights.azure.com CNAME .
 *.applicationinsights.azure.com CNAME .
-inference-app-gateway.eastus2.cloudapp.azure.com CNAME .
-*.inference-app-gateway.eastus2.cloudapp.azure.com CNAME .
 inference-app-gateway.koreacentral.cloudapp.azure.com CNAME .
 *.inference-app-gateway.koreacentral.cloudapp.azure.com CNAME .
 inference-app-gateway.northeurope.cloudapp.azure.com CNAME .
@@ -95,8 +93,6 @@ frc-visio-telemetry.officeapps.live.com CNAME .
 *.frc-visio-telemetry.officeapps.live.com CNAME .
 inc-visio-telemetry.officeapps.live.com CNAME .
 *.inc-visio-telemetry.officeapps.live.com CNAME .
-jpc-visio-telemetry.officeapps.live.com CNAME .
-*.jpc-visio-telemetry.officeapps.live.com CNAME .
 nexus.officeapps.live.com CNAME .
 *.nexus.officeapps.live.com CNAME .
 nexusrules.officeapps.live.com CNAME .
