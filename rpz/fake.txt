@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1743375420 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1743418980 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 30 Mar 2025 22:57 UTC
-; Version: 2025.0330.2257.48
+; Last modified: 31 Mar 2025 11:03 UTC
+; Version: 2025.0331.1103.38
 ; Syntax: RPZ
-; Number of entries: 21214
+; Number of entries: 21216
 ;
 prosperi.academy CNAME .
 *.prosperi.academy CNAME .
@@ -2731,6 +2731,8 @@ btcoinpro.com CNAME .
 *.btcoinpro.com CNAME .
 btcswing.com CNAME .
 *.btcswing.com CNAME .
+btvtransport.com CNAME .
+*.btvtransport.com CNAME .
 building-toysshop.com CNAME .
 *.building-toysshop.com CNAME .
 buronstar-sports.com CNAME .
