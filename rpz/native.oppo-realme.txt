@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1743136560 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1743598560 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 28 Mar 2025 04:36 UTC
-; Version: 2025.0328.0436.14
+; Last modified: 02 Apr 2025 12:56 UTC
+; Version: 2025.0402.1256.24
 ; Syntax: RPZ
-; Number of entries: 668
+; Number of entries: 700
 ;
 calculator-api-fr.allawnos.com CNAME .
 *.calculator-api-fr.allawnos.com CNAME .
@@ -179,6 +179,24 @@ zen-core-sg.allawnos.com CNAME .
 *.zen-core-sg.allawnos.com CNAME .
 zen-core-us.allawnos.com CNAME .
 *.zen-core-us.allawnos.com CNAME .
+conn-service-cn-01.allawntech.com CNAME .
+*.conn-service-cn-01.allawntech.com CNAME .
+conn-service-cn-03.allawntech.com CNAME .
+*.conn-service-cn-03.allawntech.com CNAME .
+conn-service-cn-04.allawntech.com CNAME .
+*.conn-service-cn-04.allawntech.com CNAME .
+conn-service-cn-05.allawntech.com CNAME .
+*.conn-service-cn-05.allawntech.com CNAME .
+conn-service-cn-07.allawntech.com CNAME .
+*.conn-service-cn-07.allawntech.com CNAME .
+conn-service-cn-08.allawntech.com CNAME .
+*.conn-service-cn-08.allawntech.com CNAME .
+conn-service-gl-01.allawntech.com CNAME .
+*.conn-service-gl-01.allawntech.com CNAME .
+conn-service-gl-03.allawntech.com CNAME .
+*.conn-service-gl-03.allawntech.com CNAME .
+conn-service-gl-04.allawntech.com CNAME .
+*.conn-service-gl-04.allawntech.com CNAME .
 smartcard.apps.coloros.com CNAME .
 *.smartcard.apps.coloros.com CNAME .
 smartcardf.apps.coloros.com CNAME .
@@ -469,6 +487,12 @@ api-gl.cdo.heytapmobi.com CNAME .
 *.api-gl.cdo.heytapmobi.com CNAME .
 epoch-id.cdo.heytapmobi.com CNAME .
 *.epoch-id.cdo.heytapmobi.com CNAME .
+dragate-cn.dc.heytapmobi.com CNAME .
+*.dragate-cn.dc.heytapmobi.com CNAME .
+dragate-in.dc.heytapmobi.com CNAME .
+*.dragate-in.dc.heytapmobi.com CNAME .
+dragate-sg.dc.heytapmobi.com CNAME .
+*.dragate-sg.dc.heytapmobi.com CNAME .
 obus-cn.dc.heytapmobi.com CNAME .
 *.obus-cn.dc.heytapmobi.com CNAME .
 api-id.game.heytapmobi.com CNAME .
@@ -671,6 +695,14 @@ ads.oppomobile.com CNAME .
 *.ads.oppomobile.com CNAME .
 adsfs.oppomobile.com CNAME .
 *.adsfs.oppomobile.com CNAME .
+dragate.dc.oppomobile.com CNAME .
+*.dragate.dc.oppomobile.com CNAME .
+dragate-br.dc.oppomobile.com CNAME .
+*.dragate-br.dc.oppomobile.com CNAME .
+dragate-sg.dc.oppomobile.com CNAME .
+*.dragate-sg.dc.oppomobile.com CNAME .
+predragate.dc.oppomobile.com CNAME .
+*.predragate.dc.oppomobile.com CNAME .
 dhfs-id.oppomobile.com CNAME .
 *.dhfs-id.oppomobile.com CNAME .
 dhfs-in.oppomobile.com CNAME .
