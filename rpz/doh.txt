@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1743524160 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1743579960 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 01 Apr 2025 16:16 UTC
-; Version: 2025.0401.1616.24
+; Last modified: 02 Apr 2025 07:46 UTC
+; Version: 2025.0402.0746.46
 ; Syntax: RPZ
-; Number of entries: 2930
+; Number of entries: 2908
 ;
 polisitogel.accountant CNAME .
 *.polisitogel.accountant CNAME .
@@ -282,8 +282,6 @@ dns.alvosec.com CNAME .
 *.dns.alvosec.com CNAME .
 ag.apollohct.com CNAME .
 *.ag.apollohct.com CNAME .
-apple-relay.apple.com CNAME .
-*.apple-relay.apple.com CNAME .
 doh.dns.apple.com CNAME .
 *.doh.dns.apple.com CNAME .
 dns.ares-taiwan.com CNAME .
@@ -374,10 +372,6 @@ oraclejp2.chungyu.com CNAME .
 *.oraclejp2.chungyu.com CNAME .
 doh.cippapp.com CNAME .
 *.doh.cippapp.com CNAME .
-apple-relay.cloudfare.com CNAME .
-*.apple-relay.cloudfare.com CNAME .
-apple-relay.cloudflare.com CNAME .
-*.apple-relay.cloudflare.com CNAME .
 dns.cloudflare.com CNAME .
 *.dns.cloudflare.com CNAME .
 cloudflare-dns.com CNAME .
@@ -482,8 +476,6 @@ dns.emiliyan.com CNAME .
 *.dns.emiliyan.com CNAME .
 dns.enzonix.com CNAME .
 *.dns.enzonix.com CNAME .
-apple-relay.fastly-edge.com CNAME .
-*.apple-relay.fastly-edge.com CNAME .
 dns.flwagners.com CNAME .
 *.dns.flwagners.com CNAME .
 biying.flymlc.com CNAME .
@@ -528,10 +520,6 @@ mask.icloud.com CNAME .
 *.mask.icloud.com CNAME .
 mask-api.icloud.com CNAME .
 *.mask-api.icloud.com CNAME .
-mask-boot.icloud.com CNAME .
-*.mask-boot.icloud.com CNAME .
-mask-canary.icloud.com CNAME .
-*.mask-canary.icloud.com CNAME .
 mask-h2.icloud.com CNAME .
 *.mask-h2.icloud.com CNAME .
 dns.ihaveacloud.com CNAME .
@@ -1642,18 +1630,8 @@ affcdn.net CNAME .
 *.affcdn.net CNAME .
 ahadns.net CNAME .
 *.ahadns.net CNAME .
-apple-relay.akamaized.net CNAME .
-*.apple-relay.akamaized.net CNAME .
-dnsnl.alekberg.net CNAME .
-*.dnsnl.alekberg.net CNAME .
-dnsse.alekberg.net CNAME .
-*.dnsse.alekberg.net CNAME .
 doh.amonsul.net CNAME .
 *.doh.amonsul.net CNAME .
-mask-api.fe2.apple-dns.net CNAME .
-*.mask-api.fe2.apple-dns.net CNAME .
-mask.apple-dns.net CNAME .
-*.mask.apple-dns.net CNAME .
 doh.applied-privacy.net CNAME .
 *.doh.applied-privacy.net CNAME .
 dot1.applied-privacy.net CNAME .
