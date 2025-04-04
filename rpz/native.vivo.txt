@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1739608920 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1743790560 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Vivo Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 15 Feb 2025 08:42 UTC
-; Version: 2025.0215.0842.06
+; Last modified: 04 Apr 2025 18:16 UTC
+; Version: 2025.0404.1816.03
 ; Syntax: RPZ
-; Number of entries: 194
+; Number of entries: 216
 ;
 asia-ad-mkt-vivofs.vivoglobal.com CNAME .
 *.asia-ad-mkt-vivofs.vivoglobal.com CNAME .
@@ -79,6 +79,10 @@ eu-errup.vivoglobal.com CNAME .
 *.eu-errup.vivoglobal.com CNAME .
 eu-pnrt-stsdk.vivoglobal.com CNAME .
 *.eu-pnrt-stsdk.vivoglobal.com CNAME .
+ex-adreq-asia.vivoglobal.com CNAME .
+*.ex-adreq-asia.vivoglobal.com CNAME .
+ex-adreq-in.vivoglobal.com CNAME .
+*.ex-adreq-in.vivoglobal.com CNAME .
 id-analyzer-appstore.vivoglobal.com CNAME .
 *.id-analyzer-appstore.vivoglobal.com CNAME .
 in-adlog.vivoglobal.com CNAME .
@@ -193,17 +197,35 @@ ru-stsdk.vivoglobal.com CNAME .
 *.ru-stsdk.vivoglobal.com CNAME .
 stsdk.vivoglobal.com CNAME .
 *.stsdk.vivoglobal.com CNAME .
+tr-cota.vivoglobal.com CNAME .
+*.tr-cota.vivoglobal.com CNAME .
 tr-domaincfg.vivoglobal.com CNAME .
 *.tr-domaincfg.vivoglobal.com CNAME .
+tr-onrt-stsdk.vivoglobal.com CNAME .
+*.tr-onrt-stsdk.vivoglobal.com CNAME .
+tr-ort-stsdk.vivoglobal.com CNAME .
+*.tr-ort-stsdk.vivoglobal.com CNAME .
+tr-p.vivoglobal.com CNAME .
+*.tr-p.vivoglobal.com CNAME .
 tr-romsp-unifyconfig.vivoglobal.com CNAME .
 *.tr-romsp-unifyconfig.vivoglobal.com CNAME .
 tr-st-sl.vivoglobal.com CNAME .
 *.tr-st-sl.vivoglobal.com CNAME .
+tr-st-sysupgrade.vivoglobal.com CNAME .
+*.tr-st-sysupgrade.vivoglobal.com CNAME .
+tr-sysupgrade-api.vivoglobal.com CNAME .
+*.tr-sysupgrade-api.vivoglobal.com CNAME .
 tr-timesync.vivoglobal.com CNAME .
 *.tr-timesync.vivoglobal.com CNAME .
 tr-vcode-api.vivoglobal.com CNAME .
 *.tr-vcode-api.vivoglobal.com CNAME .
 tr-vcode-od.vivoglobal.com CNAME .
 *.tr-vcode-od.vivoglobal.com CNAME .
+tr-vcode-or.vivoglobal.com CNAME .
+*.tr-vcode-or.vivoglobal.com CNAME .
+tr-weather.vivoglobal.com CNAME .
+*.tr-weather.vivoglobal.com CNAME .
 err.up.vivoglobal.com CNAME .
 *.err.up.vivoglobal.com CNAME .
+xn-ex-adreq-asa-c5b.vivoglobal.com CNAME .
+*.xn-ex-adreq-asa-c5b.vivoglobal.com CNAME .
