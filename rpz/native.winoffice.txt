@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1743636360 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1743810960 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 02 Apr 2025 23:26 UTC
-; Version: 2025.0402.2326.07
+; Last modified: 04 Apr 2025 23:56 UTC
+; Version: 2025.0404.2356.07
 ; Syntax: RPZ
-; Number of entries: 718
+; Number of entries: 722
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -65,6 +65,8 @@ brc-visio-telemetry.officeapps.live.com CNAME .
 *.brc-visio-telemetry.officeapps.live.com CNAME .
 cac-visio-telemetry.officeapps.live.com CNAME .
 *.cac-visio-telemetry.officeapps.live.com CNAME .
+chc-visio-telemetry.officeapps.live.com CNAME .
+*.chc-visio-telemetry.officeapps.live.com CNAME .
 dec-visio-telemetry.officeapps.live.com CNAME .
 *.dec-visio-telemetry.officeapps.live.com CNAME .
 euc-excel-telemetry.officeapps.live.com CNAME .
@@ -565,6 +567,8 @@ bf-tracker-release-tm.trafficmanager.net CNAME .
 *.bf-tracker-release-tm.trafficmanager.net CNAME .
 bingads.trafficmanager.net CNAME .
 *.bingads.trafficmanager.net CNAME .
+bingadsedgeextension-prod.trafficmanager.net CNAME .
+*.bingadsedgeextension-prod.trafficmanager.net CNAME .
 collector-main.trafficmanager.net CNAME .
 *.collector-main.trafficmanager.net CNAME .
 tracker.flightview.com.trafficmanager.net CNAME .
