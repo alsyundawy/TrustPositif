@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1744125660 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1744168200 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 08 Apr 2025 15:21 UTC
-; Version: 2025.0408.1521.35
+; Last modified: 09 Apr 2025 03:10 UTC
+; Version: 2025.0409.0310.08
 ; Syntax: RPZ
-; Number of entries: 2800
+; Number of entries: 2802
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -2309,6 +2309,8 @@ essexregional.org CNAME .
 *.essexregional.org CNAME .
 etowns.org CNAME .
 *.etowns.org CNAME .
+fairuse.org CNAME .
+*.fairuse.org CNAME .
 fatdiary.org CNAME .
 *.fatdiary.org CNAME .
 flnet.org CNAME .
