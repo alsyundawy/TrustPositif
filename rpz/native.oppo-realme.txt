@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1743598560 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1744352940 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker DNS Blocklist
@@ -8,11 +8,21 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 02 Apr 2025 12:56 UTC
-; Version: 2025.0402.1256.24
+; Last modified: 11 Apr 2025 06:29 UTC
+; Version: 2025.0411.0629.50
 ; Syntax: RPZ
-; Number of entries: 700
+; Number of entries: 710
 ;
+storedl1.nearme.com.cn CNAME .
+*.storedl1.nearme.com.cn CNAME .
+storedl3f.nearme.com.cn CNAME .
+*.storedl3f.nearme.com.cn CNAME .
+storedl4f.nearme.com.cn CNAME .
+*.storedl4f.nearme.com.cn CNAME .
+storedl5f.nearme.com.cn CNAME .
+*.storedl5f.nearme.com.cn CNAME .
+storedl82cc6d1f.nearme.com.cn CNAME .
+*.storedl82cc6d1f.nearme.com.cn CNAME .
 calculator-api-fr.allawnos.com CNAME .
 *.calculator-api-fr.allawnos.com CNAME .
 calculator-api-in.allawnos.com CNAME .
