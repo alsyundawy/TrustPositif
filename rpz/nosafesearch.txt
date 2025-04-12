@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1743204240 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1744409400 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 28 Mar 2025 23:24 UTC
-; Version: 2025.0328.2324.43
+; Last modified: 11 Apr 2025 22:10 UTC
+; Version: 2025.0411.2210.12
 ; Syntax: RPZ
-; Number of entries: 368
+; Number of entries: 362
 ;
 searx.32bitflo.at CNAME .
 *.searx.32bitflo.at CNAME .
@@ -33,8 +33,6 @@ wg.vern.cc CNAME .
 *.wg.vern.cc CNAME .
 search.demoniak.ch CNAME .
 *.search.demoniak.ch CNAME .
-search.notrustverify.ch CNAME .
-*.search.notrustverify.ch CNAME .
 searx.ch CNAME .
 *.searx.ch CNAME .
 search.kokomo.cloud CNAME .
@@ -255,8 +253,6 @@ search.spaeth.me CNAME .
 *.search.spaeth.me CNAME .
 searx.sulu.me CNAME .
 *.searx.sulu.me CNAME .
-gowogle.voring.me CNAME .
-*.gowogle.voring.me CNAME .
 wiby.me CNAME .
 *.wiby.me CNAME .
 null.media CNAME .
@@ -267,8 +263,6 @@ searx.nakhan.net CNAME .
 *.searx.nakhan.net CNAME .
 search.nebulacentre.net CNAME .
 *.search.nebulacentre.net CNAME .
-whoogle.privacydev.net CNAME .
-*.whoogle.privacydev.net CNAME .
 searx.zdechov.net CNAME .
 *.searx.zdechov.net CNAME .
 librex.nohost.network CNAME .
