@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1744439100 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1745018820 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Vivo Tracker DNS Blocklist
@@ -8,11 +8,13 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 12 Apr 2025 06:25 UTC
-; Version: 2025.0412.0625.36
+; Last modified: 18 Apr 2025 23:27 UTC
+; Version: 2025.0418.2327.31
 ; Syntax: RPZ
-; Number of entries: 412
+; Number of entries: 428
 ;
+az.appstore.vivo.com.cn CNAME .
+*.az.appstore.vivo.com.cn CNAME .
 asia-abeacdataonrt-stsdk.vivoglobal.com CNAME .
 *.asia-abeacdataonrt-stsdk.vivoglobal.com CNAME .
 asia-abeacdataort-stsdk.vivoglobal.com CNAME .
@@ -23,6 +25,8 @@ asia-adlog.vivoglobal.com CNAME .
 *.asia-adlog.vivoglobal.com CNAME .
 asia-adsjssdk.vivoglobal.com CNAME .
 *.asia-adsjssdk.vivoglobal.com CNAME .
+asia-album-api.vivoglobal.com CNAME .
+*.asia-album-api.vivoglobal.com CNAME .
 asia-analyzer-appstore.vivoglobal.com CNAME .
 *.asia-analyzer-appstore.vivoglobal.com CNAME .
 asia-commonitor-stsdk.vivoglobal.com CNAME .
@@ -71,6 +75,8 @@ asia-stsdk.vivoglobal.com CNAME .
 *.asia-stsdk.vivoglobal.com CNAME .
 asia-sysupgrade-api.vivoglobal.com CNAME .
 *.asia-sysupgrade-api.vivoglobal.com CNAME .
+asia-third-appstore.vivoglobal.com CNAME .
+*.asia-third-appstore.vivoglobal.com CNAME .
 asia-timesync.vivoglobal.com CNAME .
 *.asia-timesync.vivoglobal.com CNAME .
 asia-vcode-api.vivoglobal.com CNAME .
@@ -171,6 +177,8 @@ ex-romsp-unifyconfig.vivoglobal.com CNAME .
 *.ex-romsp-unifyconfig.vivoglobal.com CNAME .
 id-analyzer-appstore.vivoglobal.com CNAME .
 *.id-analyzer-appstore.vivoglobal.com CNAME .
+id-third-appstore.vivoglobal.com CNAME .
+*.id-third-appstore.vivoglobal.com CNAME .
 in-adlog.vivoglobal.com CNAME .
 *.in-adlog.vivoglobal.com CNAME .
 in-adreq.vivoglobal.com CNAME .
@@ -185,6 +193,8 @@ in-apppnrt-stsdk.vivoglobal.com CNAME .
 *.in-apppnrt-stsdk.vivoglobal.com CNAME .
 in-appprt-stsdk.vivoglobal.com CNAME .
 *.in-appprt-stsdk.vivoglobal.com CNAME .
+in-cota.vivoglobal.com CNAME .
+*.in-cota.vivoglobal.com CNAME .
 in-ctdbonrt-stsdk.vivoglobal.com CNAME .
 *.in-ctdbonrt-stsdk.vivoglobal.com CNAME .
 in-ctdbort-stsdk.vivoglobal.com CNAME .
@@ -211,6 +221,8 @@ in-os-config-appstore.vivoglobal.com CNAME .
 *.in-os-config-appstore.vivoglobal.com CNAME .
 in-pnrt-stsdk.vivoglobal.com CNAME .
 *.in-pnrt-stsdk.vivoglobal.com CNAME .
+in-third-appstore.vivoglobal.com CNAME .
+*.in-third-appstore.vivoglobal.com CNAME .
 in-timesync.vivoglobal.com CNAME .
 *.in-timesync.vivoglobal.com CNAME .
 in-vcode-api.vivoglobal.com CNAME .
@@ -345,6 +357,8 @@ ru-stsdk.vivoglobal.com CNAME .
 *.ru-stsdk.vivoglobal.com CNAME .
 ru-sysupgrade-api.vivoglobal.com CNAME .
 *.ru-sysupgrade-api.vivoglobal.com CNAME .
+ru-third-appstore.vivoglobal.com CNAME .
+*.ru-third-appstore.vivoglobal.com CNAME .
 ru-timesync.vivoglobal.com CNAME .
 *.ru-timesync.vivoglobal.com CNAME .
 ru-vcode-api.vivoglobal.com CNAME .
@@ -391,6 +405,8 @@ sg-cfg-stsdk.vivoglobal.com CNAME .
 *.sg-cfg-stsdk.vivoglobal.com CNAME .
 stsdk.vivoglobal.com CNAME .
 *.stsdk.vivoglobal.com CNAME .
+tr-album-api.vivoglobal.com CNAME .
+*.tr-album-api.vivoglobal.com CNAME .
 tr-cota.vivoglobal.com CNAME .
 *.tr-cota.vivoglobal.com CNAME .
 tr-domaincfg.vivoglobal.com CNAME .

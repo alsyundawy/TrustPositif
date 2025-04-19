@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1742603580 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1745018580 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's LG webOS Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 22 Mar 2025 00:33 UTC
-; Version: 2025.0322.0033.20
+; Last modified: 18 Apr 2025 23:23 UTC
+; Version: 2025.0418.2323.50
 ; Syntax: RPZ
-; Number of entries: 44
+; Number of entries: 30
 ;
 eic-ngfts.lge.com CNAME .
 *.eic-ngfts.lge.com CNAME .
@@ -21,30 +21,16 @@ ad.lgsmartad.com CNAME .
 *.ad.lgsmartad.com CNAME .
 us.lgsmartad.com CNAME .
 *.us.lgsmartad.com CNAME .
-aic.cdpbeacon.lgtvcommon.com CNAME .
-*.aic.cdpbeacon.lgtvcommon.com CNAME .
-eic.cdpbeacon.lgtvcommon.com CNAME .
-*.eic.cdpbeacon.lgtvcommon.com CNAME .
-aic.homeprv.lgtvcommon.com CNAME .
-*.aic.homeprv.lgtvcommon.com CNAME .
-eic.homeprv.lgtvcommon.com CNAME .
-*.eic.homeprv.lgtvcommon.com CNAME .
-kic.homeprv.lgtvcommon.com CNAME .
-*.kic.homeprv.lgtvcommon.com CNAME .
-ruc.homeprv.lgtvcommon.com CNAME .
-*.ruc.homeprv.lgtvcommon.com CNAME .
-aic.nudge.lgtvcommon.com CNAME .
-*.aic.nudge.lgtvcommon.com CNAME .
-eic.nudge.lgtvcommon.com CNAME .
-*.eic.nudge.lgtvcommon.com CNAME .
-kic.nudge.lgtvcommon.com CNAME .
-*.kic.nudge.lgtvcommon.com CNAME .
-ruc.nudge.lgtvcommon.com CNAME .
-*.ruc.nudge.lgtvcommon.com CNAME .
+cdpbeacon.lgtvcommon.com CNAME .
+*.cdpbeacon.lgtvcommon.com CNAME .
+homeprv.lgtvcommon.com CNAME .
+*.homeprv.lgtvcommon.com CNAME .
+nudge.lgtvcommon.com CNAME .
+*.nudge.lgtvcommon.com CNAME .
 rdl.lgtvcommon.com CNAME .
 *.rdl.lgtvcommon.com CNAME .
-aic.wiseconfig.lgtvcommon.com CNAME .
-*.aic.wiseconfig.lgtvcommon.com CNAME .
+wiseconfig.lgtvcommon.com CNAME .
+*.wiseconfig.lgtvcommon.com CNAME .
 us-ad-lgsmartad-com.aws-prd.net CNAME .
 *.us-ad-lgsmartad-com.aws-prd.net CNAME .
 us-info-lgsmartad-com.aws-prd.net CNAME .
