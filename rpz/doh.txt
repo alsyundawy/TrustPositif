@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1745119740 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1745162700 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 20 Apr 2025 03:29 UTC
-; Version: 2025.0420.0329.41
+; Last modified: 20 Apr 2025 15:25 UTC
+; Version: 2025.0420.1525.55
 ; Syntax: RPZ
 ; Number of entries: 2912
 ;
@@ -1324,6 +1324,8 @@ dns.api.staging.globuscs.info CNAME .
 *.dns.api.staging.globuscs.info CNAME .
 dns.api.test.globuscs.info CNAME .
 *.dns.api.test.globuscs.info CNAME .
+doh.kekew.info CNAME .
+*.doh.kekew.info CNAME .
 kilabit.info CNAME .
 *.kilabit.info CNAME .
 testaghome.meshkov.info CNAME .
@@ -2636,8 +2638,6 @@ alidns.cb1999.top CNAME .
 *.alidns.cb1999.top CNAME .
 alidns2.cb1999.top CNAME .
 *.alidns2.cb1999.top CNAME .
-dns2.cbio.top CNAME .
-*.dns2.cbio.top CNAME .
 dns.chromeina.top CNAME .
 *.dns.chromeina.top CNAME .
 dltuykfgp.top CNAME .
