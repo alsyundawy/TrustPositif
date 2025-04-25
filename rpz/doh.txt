@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1745511960 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1745549820 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 24 Apr 2025 16:26 UTC
-; Version: 2025.0424.1626.31
+; Last modified: 25 Apr 2025 02:57 UTC
+; Version: 2025.0425.0257.58
 ; Syntax: RPZ
-; Number of entries: 2910
+; Number of entries: 2908
 ;
 polisitogel.accountant CNAME .
 *.polisitogel.accountant CNAME .
@@ -290,6 +290,8 @@ dns.asterimoon.com CNAME .
 *.dns.asterimoon.com CNAME .
 dandelionsprout.asuscomm.com CNAME .
 *.dandelionsprout.asuscomm.com CNAME .
+dns.asysec.com CNAME .
+*.dns.asysec.com CNAME .
 adguardhome.atakorah.com CNAME .
 *.adguardhome.atakorah.com CNAME .
 africa.avastdns.com CNAME .
@@ -462,8 +464,6 @@ dns.edgeburnmedia.com CNAME .
 *.dns.edgeburnmedia.com CNAME .
 edgy-dns.com CNAME .
 *.edgy-dns.com CNAME .
-dns.editechstudio.com CNAME .
-*.dns.editechstudio.com CNAME .
 dns.efficientdocuments.com CNAME .
 *.dns.efficientdocuments.com CNAME .
 dns.enzonix.com CNAME .
@@ -884,8 +884,6 @@ dns2.dns-ga.de CNAME .
 *.dns2.dns-ga.de CNAME .
 doh.dns-ga.de CNAME .
 *.doh.dns-ga.de CNAME .
-secure-dns.dns-ga.de CNAME .
-*.secure-dns.dns-ga.de CNAME .
 dnsforge.de CNAME .
 *.dnsforge.de CNAME .
 dns.dnshome.de CNAME .
