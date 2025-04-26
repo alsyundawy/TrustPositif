@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1745511900 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1745619420 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 24 Apr 2025 16:25 UTC
-; Version: 2025.0424.1625.11
+; Last modified: 25 Apr 2025 22:17 UTC
+; Version: 2025.0425.2217.06
 ; Syntax: RPZ
-; Number of entries: 2808
+; Number of entries: 2800
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -133,8 +133,6 @@ netmask.ca CNAME .
 *.netmask.ca CNAME .
 no-ip.ca CNAME .
 *.no-ip.ca CNAME .
-nodns.ca CNAME .
-*.nodns.ca CNAME .
 planetdns.ca CNAME .
 *.planetdns.ca CNAME .
 roth.ca CNAME .
@@ -1005,8 +1003,6 @@ lozan.com CNAME .
 *.lozan.com CNAME .
 luckyweaving.com CNAME .
 *.luckyweaving.com CNAME .
-lundellnet.com CNAME .
-*.lundellnet.com CNAME .
 marieblazek.com CNAME .
 *.marieblazek.com CNAME .
 maurinfor.com CNAME .
@@ -2491,14 +2487,10 @@ sheatfish.org CNAME .
 *.sheatfish.org CNAME .
 sheepindonesia.org CNAME .
 *.sheepindonesia.org CNAME .
-solfa.org CNAME .
-*.solfa.org CNAME .
 spdns.org CNAME .
 *.spdns.org CNAME .
 ssl443.org CNAME .
 *.ssl443.org CNAME .
-stroyexpert.org CNAME .
-*.stroyexpert.org CNAME .
 stuff-4-sale.org CNAME .
 *.stuff-4-sale.org CNAME .
 stuns.org CNAME .

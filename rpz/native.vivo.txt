@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1745018820 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1745623860 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Vivo Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 18 Apr 2025 23:27 UTC
-; Version: 2025.0418.2327.31
+; Last modified: 25 Apr 2025 23:31 UTC
+; Version: 2025.0425.2331.22
 ; Syntax: RPZ
-; Number of entries: 428
+; Number of entries: 424
 ;
 az.appstore.vivo.com.cn CNAME .
 *.az.appstore.vivo.com.cn CNAME .
@@ -99,8 +99,6 @@ cl-vcode-api.vivoglobal.com CNAME .
 *.cl-vcode-api.vivoglobal.com CNAME .
 cl-vcode-od.vivoglobal.com CNAME .
 *.cl-vcode-od.vivoglobal.com CNAME .
-cl-weather.vivoglobal.com CNAME .
-*.cl-weather.vivoglobal.com CNAME .
 cname-ali-asia-stsdk.vivoglobal.com CNAME .
 *.cname-ali-asia-stsdk.vivoglobal.com CNAME .
 cname-asia-st-exappupgrade.vivoglobal.com CNAME .
@@ -147,6 +145,8 @@ eu-domaincfg.vivoglobal.com CNAME .
 *.eu-domaincfg.vivoglobal.com CNAME .
 eu-errup.vivoglobal.com CNAME .
 *.eu-errup.vivoglobal.com CNAME .
+eu-onrt-stsdk.vivoglobal.com CNAME .
+*.eu-onrt-stsdk.vivoglobal.com CNAME .
 eu-ort-stsdk.vivoglobal.com CNAME .
 *.eu-ort-stsdk.vivoglobal.com CNAME .
 eu-pnrt-stsdk.vivoglobal.com CNAME .
@@ -193,8 +193,6 @@ in-apppnrt-stsdk.vivoglobal.com CNAME .
 *.in-apppnrt-stsdk.vivoglobal.com CNAME .
 in-appprt-stsdk.vivoglobal.com CNAME .
 *.in-appprt-stsdk.vivoglobal.com CNAME .
-in-cota.vivoglobal.com CNAME .
-*.in-cota.vivoglobal.com CNAME .
 in-ctdbonrt-stsdk.vivoglobal.com CNAME .
 *.in-ctdbonrt-stsdk.vivoglobal.com CNAME .
 in-ctdbort-stsdk.vivoglobal.com CNAME .
@@ -401,8 +399,6 @@ sca-vcode-or.vivoglobal.com CNAME .
 *.sca-vcode-or.vivoglobal.com CNAME .
 sca-weather.vivoglobal.com CNAME .
 *.sca-weather.vivoglobal.com CNAME .
-sg-cfg-stsdk.vivoglobal.com CNAME .
-*.sg-cfg-stsdk.vivoglobal.com CNAME .
 stsdk.vivoglobal.com CNAME .
 *.stsdk.vivoglobal.com CNAME .
 tr-album-api.vivoglobal.com CNAME .
