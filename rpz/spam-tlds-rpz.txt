@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1745809440 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1745953680 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs
@@ -13,10 +13,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 28 Apr 2025 03:04 UTC
-; Version: 2025.0428.0304.03
+; Last modified: 29 Apr 2025 19:08 UTC
+; Version: 2025.0429.1908.00
 ; Syntax: RPZ
-; Number of latin TLDs: 121/236
+; Number of latin TLDs: 140/255
 ;
 *.actor CNAME .
 *.auction CNAME .
@@ -24,6 +24,7 @@ $TTL 300
 *.baby CNAME .
 *.band CNAME .
 *.beauty CNAME .
+*.beer CNAME .
 *.bet CNAME .
 *.bid CNAME .
 *.bingo CNAME .
@@ -40,12 +41,14 @@ $TTL 300
 *.cash CNAME .
 *.casino CNAME .
 *.ceo CNAME .
+*.channel CNAME .
 *.charity CNAME .
 *.cheap CNAME .
 *.christmas CNAME .
 *.claims CNAME .
 *.clothing CNAME .
 *.college CNAME .
+*.consulting CNAME .
 *.coupons CNAME .
 *.cymru CNAME .
 *.dance CNAME .
@@ -55,15 +58,22 @@ $TTL 300
 *.diy CNAME .
 *.dog CNAME .
 *.engineer CNAME .
+*.enterprises CNAME .
+*.equipment CNAME .
 *.esq CNAME .
+*.exchange CNAME .
+*.exposed CNAME .
 *.faith CNAME .
+*.family CNAME .
 *.fashion CNAME .
 *.finance CNAME .
 *.financial CNAME .
 *.fishing CNAME .
 *.fitness CNAME .
+*.forex CNAME .
 *.forsale CNAME .
 *.fund CNAME .
+*.games CNAME .
 *.gent CNAME .
 *.gives CNAME .
 *.giving CNAME .
@@ -75,6 +85,8 @@ $TTL 300
 *.haus CNAME .
 *.international CNAME .
 *.irish CNAME .
+*.jewelry CNAME .
+*.joburg CNAME .
 *.kim CNAME .
 *.lat CNAME .
 *.lifestyle CNAME .
@@ -103,14 +115,18 @@ $TTL 300
 *.promo CNAME .
 *.qpon CNAME .
 *.realtor CNAME .
+*.realty CNAME .
 *.recipes CNAME .
 *.rehab CNAME .
 *.ren CNAME .
+*.repair CNAME .
 *.restaurant CNAME .
 *.review CNAME .
+*.reviews CNAME .
 *.rich CNAME .
 *.rodeo CNAME .
 *.rugby CNAME .
+*.ryukyu CNAME .
 *.sale CNAME .
 *.sbs CNAME .
 *.schule CNAME .
@@ -123,9 +139,11 @@ $TTL 300
 *.tattoo CNAME .
 *.tax CNAME .
 *.taxi CNAME .
+*.tienda CNAME .
 *.tokyo CNAME .
 *.town CNAME .
 *.trading CNAME .
+*.tube CNAME .
 *.vacations CNAME .
 *.vegas CNAME .
 *.ventures CNAME .
@@ -133,6 +151,7 @@ $TTL 300
 *.vision CNAME .
 *.vlaanderen CNAME .
 *.voto CNAME .
+*.wales CNAME .
 *.wang CNAME .
 *.webcam CNAME .
 *.wedding CNAME .
