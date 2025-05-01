@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1746054120 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1746093120 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 30 Apr 2025 23:02 UTC
-; Version: 2025.0430.2302.15
+; Last modified: 01 May 2025 09:52 UTC
+; Version: 2025.0501.0952.53
 ; Syntax: RPZ
-; Number of entries: 718
+; Number of entries: 760
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -543,8 +543,46 @@ msads.net CNAME .
 *.msads.net CNAME .
 az667904.vo.msecnd.net CNAME .
 *.az667904.vo.msecnd.net CNAME .
+a-ring.msedge.net CNAME .
+*.a-ring.msedge.net CNAME .
+a-ring-fallback.msedge.net CNAME .
+*.a-ring-fallback.msedge.net CNAME .
+a-ring-ipv6only.msedge.net CNAME .
+*.a-ring-ipv6only.msedge.net CNAME .
+b-ring.msedge.net CNAME .
+*.b-ring.msedge.net CNAME .
+b-ring-fallback.msedge.net CNAME .
+*.b-ring-fallback.msedge.net CNAME .
+c-ring.msedge.net CNAME .
+*.c-ring.msedge.net CNAME .
+c-ring-fallback.msedge.net CNAME .
+*.c-ring-fallback.msedge.net CNAME .
 fp.msedge.net CNAME .
 *.fp.msedge.net CNAME .
+k-ring.msedge.net CNAME .
+*.k-ring.msedge.net CNAME .
+k-ring-fallback.msedge.net CNAME .
+*.k-ring-fallback.msedge.net CNAME .
+ln-ring.msedge.net CNAME .
+*.ln-ring.msedge.net CNAME .
+ln-ring-fallback.msedge.net CNAME .
+*.ln-ring-fallback.msedge.net CNAME .
+s-ring-fallback.msedge.net CNAME .
+*.s-ring-fallback.msedge.net CNAME .
+t-ring.msedge.net CNAME .
+*.t-ring.msedge.net CNAME .
+t-ring-fallback.msedge.net CNAME .
+*.t-ring-fallback.msedge.net CNAME .
+t-ring-fallback-s2.msedge.net CNAME .
+*.t-ring-fallback-s2.msedge.net CNAME .
+t-ring-fallbacks1.msedge.net CNAME .
+*.t-ring-fallbacks1.msedge.net CNAME .
+t-ring-s.msedge.net CNAME .
+*.t-ring-s.msedge.net CNAME .
+t-ring-s2.msedge.net CNAME .
+*.t-ring-s2.msedge.net CNAME .
+t-s1-ring.msedge.net CNAME .
+*.t-s1-ring.msedge.net CNAME .
 win10-trt.msedge.net CNAME .
 *.win10-trt.msedge.net CNAME .
 measure.office.net CNAME .
@@ -677,6 +715,8 @@ analytics-dev-simpad-events.servicebus.windows.net CNAME .
 *.analytics-dev-simpad-events.servicebus.windows.net CNAME .
 analyticsehnwe.servicebus.windows.net CNAME .
 *.analyticsehnwe.servicebus.windows.net CNAME .
+analyticsiot-prod-simpad-ehn.servicebus.windows.net CNAME .
+*.analyticsiot-prod-simpad-ehn.servicebus.windows.net CNAME .
 btv-du-dev-eventhub-streamanalytics.servicebus.windows.net CNAME .
 *.btv-du-dev-eventhub-streamanalytics.servicebus.windows.net CNAME .
 btv-du-prod-eventhub-streamanalytics.servicebus.windows.net CNAME .
@@ -685,6 +725,8 @@ citrixanalyticseh.servicebus.windows.net CNAME .
 *.citrixanalyticseh.servicebus.windows.net CNAME .
 citrixanalyticseh-alias.servicebus.windows.net CNAME .
 *.citrixanalyticseh-alias.servicebus.windows.net CNAME .
+citrixanalyticseh2.servicebus.windows.net CNAME .
+*.citrixanalyticseh2.servicebus.windows.net CNAME .
 citrixanalyticseh2-alias.servicebus.windows.net CNAME .
 *.citrixanalyticseh2-alias.servicebus.windows.net CNAME .
 citrixanalyticsehaps.servicebus.windows.net CNAME .
