@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1746024480 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1746067620 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 30 Apr 2025 14:48 UTC
-; Version: 2025.0430.1448.51
+; Last modified: 01 May 2025 02:47 UTC
+; Version: 2025.0501.0247.37
 ; Syntax: RPZ
 ; Number of entries: 2898
 ;
@@ -386,6 +386,8 @@ dns.controld.com CNAME .
 *.dns.controld.com CNAME .
 freedns.controld.com CNAME .
 *.freedns.controld.com CNAME .
+dns.cooluc.com CNAME .
+*.dns.cooluc.com CNAME .
 dns.cryptomize.com CNAME .
 *.dns.cryptomize.com CNAME .
 dotdns.cryptroute.com CNAME .
@@ -510,8 +512,6 @@ doth.huque.com CNAME .
 *.doth.huque.com CNAME .
 mask.icloud.com CNAME .
 *.mask.icloud.com CNAME .
-mask-api.icloud.com CNAME .
-*.mask-api.icloud.com CNAME .
 mask-h2.icloud.com CNAME .
 *.mask-h2.icloud.com CNAME .
 dns.ihaveacloud.com CNAME .
