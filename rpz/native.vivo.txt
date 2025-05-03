@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1745623860 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1746227820 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Vivo Tracker DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 25 Apr 2025 23:31 UTC
-; Version: 2025.0425.2331.22
+; Last modified: 02 May 2025 23:17 UTC
+; Version: 2025.0502.2317.21
 ; Syntax: RPZ
 ; Number of entries: 424
 ;
@@ -99,6 +99,8 @@ cl-vcode-api.vivoglobal.com CNAME .
 *.cl-vcode-api.vivoglobal.com CNAME .
 cl-vcode-od.vivoglobal.com CNAME .
 *.cl-vcode-od.vivoglobal.com CNAME .
+cl-weather.vivoglobal.com CNAME .
+*.cl-weather.vivoglobal.com CNAME .
 cname-ali-asia-stsdk.vivoglobal.com CNAME .
 *.cname-ali-asia-stsdk.vivoglobal.com CNAME .
 cname-asia-st-exappupgrade.vivoglobal.com CNAME .
@@ -271,8 +273,6 @@ kz-weather.vivoglobal.com CNAME .
 *.kz-weather.vivoglobal.com CNAME .
 monitor-stsdk.vivoglobal.com CNAME .
 *.monitor-stsdk.vivoglobal.com CNAME .
-mx-cota.vivoglobal.com CNAME .
-*.mx-cota.vivoglobal.com CNAME .
 mx-domaincfg.vivoglobal.com CNAME .
 *.mx-domaincfg.vivoglobal.com CNAME .
 mx-err-up.vivoglobal.com CNAME .
