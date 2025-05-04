@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1746327300 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1746371880 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 04 May 2025 02:55 UTC
-; Version: 2025.0504.0255.16
+; Last modified: 04 May 2025 15:18 UTC
+; Version: 2025.0504.1518.50
 ; Syntax: RPZ
 ; Number of entries: 2884
 ;
@@ -1316,6 +1316,8 @@ dns.api.staging.globuscs.info CNAME .
 *.dns.api.staging.globuscs.info CNAME .
 dns.api.test.globuscs.info CNAME .
 *.dns.api.test.globuscs.info CNAME .
+doh.kekew.info CNAME .
+*.doh.kekew.info CNAME .
 kilabit.info CNAME .
 *.kilabit.info CNAME .
 testaghome.meshkov.info CNAME .
@@ -1328,6 +1330,8 @@ vpn.technicule.info CNAME .
 *.vpn.technicule.info CNAME .
 dns.kxy.ink CNAME .
 *.dns.kxy.ink CNAME .
+dns.tracker.ink CNAME .
+*.dns.tracker.ink CNAME .
 dns.bitservices.io CNAME .
 *.dns.bitservices.io CNAME .
 dns.guard.io CNAME .
@@ -1698,8 +1702,6 @@ dns.dnsoverhttps.net CNAME .
 *.dns.dnsoverhttps.net CNAME .
 takhtakh.domyah.net CNAME .
 *.takhtakh.domyah.net CNAME .
-gustamadh.dynv6.net CNAME .
-*.gustamadh.dynv6.net CNAME .
 dnscache.e-utp.net CNAME .
 *.dnscache.e-utp.net CNAME .
 adguard.easez.net CNAME .
@@ -2566,8 +2568,6 @@ dns.b33.space CNAME .
 *.dns.b33.space CNAME .
 adguard.neon0404.space CNAME .
 *.adguard.neon0404.space CNAME .
-adg.rueiliu.space CNAME .
-*.adg.rueiliu.space CNAME .
 dns.sy.st CNAME .
 *.dns.sy.st CNAME .
 home-server.store CNAME .
