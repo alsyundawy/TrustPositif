@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1746227820 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1746341700 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Vivo Tracker DNS Blocklist
@@ -8,13 +8,21 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 02 May 2025 23:17 UTC
-; Version: 2025.0502.2317.21
+; Last modified: 04 May 2025 06:55 UTC
+; Version: 2025.0504.0655.37
 ; Syntax: RPZ
-; Number of entries: 424
+; Number of entries: 434
 ;
+vhs.wwstat.com.dsa.dnsv1.com.cn CNAME .
+*.vhs.wwstat.com.dsa.dnsv1.com.cn CNAME .
+vhs.wwstat.com.eo.unicomcdn.com.cn CNAME .
+*.vhs.wwstat.com.eo.unicomcdn.com.cn CNAME .
 az.appstore.vivo.com.cn CNAME .
 *.az.appstore.vivo.com.cn CNAME .
+vhs.wwstat.com.ctdns.cn CNAME .
+*.vhs.wwstat.com.ctdns.cn CNAME .
+vhs.wwstat.com.eo.dnse0.com CNAME .
+*.vhs.wwstat.com.eo.dnse0.com CNAME .
 asia-abeacdataonrt-stsdk.vivoglobal.com CNAME .
 *.asia-abeacdataonrt-stsdk.vivoglobal.com CNAME .
 asia-abeacdataort-stsdk.vivoglobal.com CNAME .
@@ -437,3 +445,5 @@ err.up.vivoglobal.com CNAME .
 *.err.up.vivoglobal.com CNAME .
 xn-ex-adreq-asa-c5b.vivoglobal.com CNAME .
 *.xn-ex-adreq-asa-c5b.vivoglobal.com CNAME .
+vhs.wwstat.com CNAME .
+*.vhs.wwstat.com CNAME .
