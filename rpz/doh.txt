@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1746284520 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1746327300 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 03 May 2025 15:02 UTC
-; Version: 2025.0503.1502.50
+; Last modified: 04 May 2025 02:55 UTC
+; Version: 2025.0504.0255.16
 ; Syntax: RPZ
-; Number of entries: 2886
+; Number of entries: 2884
 ;
 polisitogel.accountant CNAME .
 *.polisitogel.accountant CNAME .
@@ -588,6 +588,8 @@ msr177.com CNAME .
 *.msr177.com CNAME .
 ns.mtsoln.com CNAME .
 *.ns.mtsoln.com CNAME .
+dns.mzjtechnology.com CNAME .
+*.dns.mzjtechnology.com CNAME .
 dns.nguyendn.com CNAME .
 *.dns.nguyendn.com CNAME .
 dns.nhtsky.com CNAME .
@@ -1314,8 +1316,6 @@ dns.api.staging.globuscs.info CNAME .
 *.dns.api.staging.globuscs.info CNAME .
 dns.api.test.globuscs.info CNAME .
 *.dns.api.test.globuscs.info CNAME .
-doh.kekew.info CNAME .
-*.doh.kekew.info CNAME .
 kilabit.info CNAME .
 *.kilabit.info CNAME .
 testaghome.meshkov.info CNAME .
@@ -2542,8 +2542,6 @@ dns.rin.sh CNAME .
 *.dns.rin.sh CNAME .
 paradise-human.shop CNAME .
 *.paradise-human.shop CNAME .
-polisitogel.show CNAME .
-*.polisitogel.show CNAME .
 privacydns.go6lab.si CNAME .
 *.privacydns.go6lab.si CNAME .
 adguard.marto.si CNAME .
@@ -2574,6 +2572,8 @@ dns.sy.st CNAME .
 *.dns.sy.st CNAME .
 home-server.store CNAME .
 *.home-server.store CNAME .
+dns.fizz.studio CNAME .
+*.dns.fizz.studio CNAME .
 dns.xuming.studio CNAME .
 *.dns.xuming.studio CNAME .
 crypto.sx CNAME .
@@ -2614,8 +2614,6 @@ dns2.cbio.top CNAME .
 *.dns2.cbio.top CNAME .
 dns.chromeina.top CNAME .
 *.dns.chromeina.top CNAME .
-dltuykfgp.top CNAME .
-*.dltuykfgp.top CNAME .
 droyd.top CNAME .
 *.droyd.top CNAME .
 fidelius.top CNAME .
