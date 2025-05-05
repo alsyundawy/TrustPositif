@@ -1,6 +1,6 @@
 # **DNS-Trust Database || DNS Bersih TrustPositif**
 
-![Kominfo](/asset/kominfo_.png) ![Aduan Content](/asset/aduan_content.png) ![Bind9](/asset/Bind_9_ISC.png) ![Unbound](/asset/Unbound.png)
+![Kominfo](/asset/komdigi.png) ![Aduan Content](/asset/aduan_content.png) ![Bind9](/asset/Bind_9_ISC.png) ![Unbound](/asset/Unbound.png)
 
 ## **Sebagai Bentuk Dukungan Terhadap Program "Internet Sehat" Milik Pemerintah Negara Kesatuan Republik Indonesia**
 
@@ -25,10 +25,10 @@
 **Jika Anda merasa terbantu dan ingin mendukung proyek ini, pertimbangkan untuk berdonasi melalui https://www.paypal.me/alsyundawy. Terima kasih atas dukungannya!**
 
 
-**Credit @2024 APJII (Asosiasi Penyelenggara Jasa Internet Indonesia) & TrustPositif Kementerian Komunikasi dan Informatika (KOMINFO)**
+**Credit @2022-2025 APJII (Asosiasi Penyelenggara Jasa Internet Indonesia) & TrustPositif Kementerian Komunikasi dan Informatika (KOMINFO)**
 
-### Anda Memang Luar Biasa | Harry DS Alsyundawy | Kaum Rebahan Garis Keras & Militan
+### Anda Memang Luar Biasa | HARRY DS ALSYUNDAWY | Kaum Rebahan Garis Keras & Militan
 
-### SAYA HANYA HOBBY NGOPREK BUKAN ORANG KOMINFO 
+### SAYA HANYA HOBBY NGOPREK BUKAN ORANG KOMDIGI 
 
 ![Alt](https://repobeats.axiom.co/api/embed/10f0e7c2891afab81bb34ae28b15b75a8bcc3b63.svg "Repobeats analytics image")
