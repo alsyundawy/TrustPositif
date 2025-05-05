@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1745622660 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1746421020 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Apple Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 25 Apr 2025 23:11 UTC
-; Version: 2025.0425.2311.59
+; Last modified: 05 May 2025 04:57 UTC
+; Version: 2025.0505.0457.17
 ; Syntax: RPZ
-; Number of entries: 186
+; Number of entries: 212
 ;
 cdn-xp-ingest.edge.apple CNAME .
 *.cdn-xp-ingest.edge.apple CNAME .
@@ -59,6 +59,8 @@ api-adservices.apple.com CNAME .
 *.api-adservices.apple.com CNAME .
 books-analytics-events.apple.com CNAME .
 *.books-analytics-events.apple.com CNAME .
+camfx-analytics-events.apple.com CNAME .
+*.camfx-analytics-events.apple.com CNAME .
 cstat.apple.com CNAME .
 *.cstat.apple.com CNAME .
 cstat-origin.apple.com CNAME .
@@ -85,8 +87,20 @@ iadworkbench.apple.com CNAME .
 *.iadworkbench.apple.com CNAME .
 idiagnostics.apple.com CNAME .
 *.idiagnostics.apple.com CNAME .
+idiagnostics-devices-mdn.apple.com CNAME .
+*.idiagnostics-devices-mdn.apple.com CNAME .
+idiagnostics-devices-qa.apple.com CNAME .
+*.idiagnostics-devices-qa.apple.com CNAME .
+idiagnostics-devices-reno.apple.com CNAME .
+*.idiagnostics-devices-reno.apple.com CNAME .
+idiagnostics-ft.apple.com CNAME .
+*.idiagnostics-ft.apple.com CNAME .
 idiagnostics-mdn1.apple.com CNAME .
 *.idiagnostics-mdn1.apple.com CNAME .
+idiagnostics-qa.apple.com CNAME .
+*.idiagnostics-qa.apple.com CNAME .
+idiagnostics-reno.apple.com CNAME .
+*.idiagnostics-reno.apple.com CNAME .
 internalcheck.apple.com CNAME .
 *.internalcheck.apple.com CNAME .
 iphonesubmissions.apple.com CNAME .
@@ -121,8 +135,14 @@ prd-usw2-requestattribution-iad.apple.com CNAME .
 *.prd-usw2-requestattribution-iad.apple.com CNAME .
 proxy-skadnetwork.apple.com CNAME .
 *.proxy-skadnetwork.apple.com CNAME .
+qa-iad.apple.com CNAME .
+*.qa-iad.apple.com CNAME .
 radarsubmissions.apple.com CNAME .
 *.radarsubmissions.apple.com CNAME .
+sdkintg-iad.apple.com CNAME .
+*.sdkintg-iad.apple.com CNAME .
+sdkintgiad.apple.com CNAME .
+*.sdkintgiad.apple.com CNAME .
 searchads.apple.com CNAME .
 *.searchads.apple.com CNAME .
 securemetrics.apple.com CNAME .
@@ -131,10 +151,16 @@ securemvt.apple.com CNAME .
 *.securemvt.apple.com CNAME .
 fbs.smoot.apple.com CNAME .
 *.fbs.smoot.apple.com CNAME .
+stg-iad.apple.com CNAME .
+*.stg-iad.apple.com CNAME .
 stocks-analytics-events.apple.com CNAME .
 *.stocks-analytics-events.apple.com CNAME .
 supportmetrics.apple.com CNAME .
 *.supportmetrics.apple.com CNAME .
+uxintg-iad.apple.com CNAME .
+*.uxintg-iad.apple.com CNAME .
+uxintgiad.apple.com CNAME .
+*.uxintgiad.apple.com CNAME .
 weather-analytics-events.apple.com CNAME .
 *.weather-analytics-events.apple.com CNAME .
 xp.apple.com CNAME .

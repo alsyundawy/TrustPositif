@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1746226860 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1746425100 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,27 +8,33 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 02 May 2025 23:01 UTC
-; Version: 2025.0502.2301.48
+; Last modified: 05 May 2025 06:05 UTC
+; Version: 2025.0505.0605.13
 ; Syntax: RPZ
-; Number of entries: 760
+; Number of entries: 804
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
 in.applicationinsights.azure.cn CNAME .
 *.in.applicationinsights.azure.cn CNAME .
+live.applicationinsights.azure.cn CNAME .
+*.live.applicationinsights.azure.cn CNAME .
 collector.azure.cn CNAME .
 *.collector.azure.cn CNAME .
 events.data.msn.cn CNAME .
 *.events.data.msn.cn CNAME .
 applicationinsights.azure.com CNAME .
 *.applicationinsights.azure.com CNAME .
+azsc-bingads-centralus.centralus.cloudapp.azure.com CNAME .
+*.azsc-bingads-centralus.centralus.cloudapp.azure.com CNAME .
 inference-app-gateway.eastus2.cloudapp.azure.com CNAME .
 *.inference-app-gateway.eastus2.cloudapp.azure.com CNAME .
 inference-app-gateway.koreacentral.cloudapp.azure.com CNAME .
 *.inference-app-gateway.koreacentral.cloudapp.azure.com CNAME .
 inference-app-gateway.northeurope.cloudapp.azure.com CNAME .
 *.inference-app-gateway.northeurope.cloudapp.azure.com CNAME .
+azsc-edge-bingads-southeastasia.southeastasia.cloudapp.azure.com CNAME .
+*.azsc-edge-bingads-southeastasia.southeastasia.cloudapp.azure.com CNAME .
 azsc-edge-bingads-westeurope.westeurope.cloudapp.azure.com CNAME .
 *.azsc-edge-bingads-westeurope.westeurope.cloudapp.azure.com CNAME .
 azsc-bingads-westus.westus.cloudapp.azure.com CNAME .
@@ -65,6 +71,8 @@ brc-visio-telemetry.officeapps.live.com CNAME .
 *.brc-visio-telemetry.officeapps.live.com CNAME .
 cac-visio-telemetry.officeapps.live.com CNAME .
 *.cac-visio-telemetry.officeapps.live.com CNAME .
+chc-visio-telemetry.officeapps.live.com CNAME .
+*.chc-visio-telemetry.officeapps.live.com CNAME .
 dec-visio-telemetry.officeapps.live.com CNAME .
 *.dec-visio-telemetry.officeapps.live.com CNAME .
 euc-excel-telemetry.officeapps.live.com CNAME .
@@ -95,6 +103,8 @@ frc-visio-telemetry.officeapps.live.com CNAME .
 *.frc-visio-telemetry.officeapps.live.com CNAME .
 inc-visio-telemetry.officeapps.live.com CNAME .
 *.inc-visio-telemetry.officeapps.live.com CNAME .
+jpc-visio-telemetry.officeapps.live.com CNAME .
+*.jpc-visio-telemetry.officeapps.live.com CNAME .
 nexus.officeapps.live.com CNAME .
 *.nexus.officeapps.live.com CNAME .
 nexusrules.officeapps.live.com CNAME .
@@ -229,8 +239,18 @@ watson.live.com CNAME .
 *.watson.live.com CNAME .
 ads.microsoft.com CNAME .
 *.ads.microsoft.com CNAME .
+clientcenter.ads-int.microsoft.com CNAME .
+*.clientcenter.ads-int.microsoft.com CNAME .
+dmc.ads-int.microsoft.com CNAME .
+*.dmc.ads-int.microsoft.com CNAME .
+ui.ads-int.microsoft.com CNAME .
+*.ui.ads-int.microsoft.com CNAME .
 adsdk.microsoft.com CNAME .
 *.adsdk.microsoft.com CNAME .
+adsstatic.microsoft.com CNAME .
+*.adsstatic.microsoft.com CNAME .
+adsstatic-int.microsoft.com CNAME .
+*.adsstatic-int.microsoft.com CNAME .
 advertising.microsoft.com CNAME .
 *.advertising.microsoft.com CNAME .
 analyticspixel.microsoft.com CNAME .
@@ -245,6 +265,8 @@ azurewatsontest.microsoft.com CNAME .
 *.azurewatsontest.microsoft.com CNAME .
 bingads.microsoft.com CNAME .
 *.bingads.microsoft.com CNAME .
+bingadseditor.microsoft.com CNAME .
+*.bingadseditor.microsoft.com CNAME .
 c1.microsoft.com CNAME .
 *.c1.microsoft.com CNAME .
 track.notif.careersppe.microsoft.com CNAME .
@@ -273,6 +295,10 @@ vortex-win-sandbox.data.microsoft.com CNAME .
 *.vortex-win-sandbox.data.microsoft.com CNAME .
 api.edgeoffer.microsoft.com CNAME .
 *.api.edgeoffer.microsoft.com CNAME .
+adsdisplay.glbdns2.microsoft.com CNAME .
+*.adsdisplay.glbdns2.microsoft.com CNAME .
+bingads.glbdns2.microsoft.com CNAME .
+*.bingads.glbdns2.microsoft.com CNAME .
 ieonline.microsoft.com CNAME .
 *.ieonline.microsoft.com CNAME .
 location.microsoft.com CNAME .
@@ -527,6 +553,8 @@ adsdkpreprod.afd.azureedge.net CNAME .
 *.adsdkpreprod.afd.azureedge.net CNAME .
 adsdkprod.afd.azureedge.net CNAME .
 *.adsdkprod.afd.azureedge.net CNAME .
+adsdkprprod.ec.azureedge.net CNAME .
+*.adsdkprprod.ec.azureedge.net CNAME .
 msadsscale.azureedge.net CNAME .
 *.msadsscale.azureedge.net CNAME .
 cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net CNAME .
@@ -607,6 +635,10 @@ bf-tracker-release-tm.trafficmanager.net CNAME .
 *.bf-tracker-release-tm.trafficmanager.net CNAME .
 bingads.trafficmanager.net CNAME .
 *.bingads.trafficmanager.net CNAME .
+bingadsresources.trafficmanager.net CNAME .
+*.bingadsresources.trafficmanager.net CNAME .
+collection-location-livenet.trafficmanager.net CNAME .
+*.collection-location-livenet.trafficmanager.net CNAME .
 collector-main.trafficmanager.net CNAME .
 *.collector-main.trafficmanager.net CNAME .
 tracker.flightview.com.trafficmanager.net CNAME .
@@ -619,6 +651,8 @@ dsp-ad-cache-tm.trafficmanager.net CNAME .
 *.dsp-ad-cache-tm.trafficmanager.net CNAME .
 adstore.response.gcp.eastus.trafficmanager.net CNAME .
 *.adstore.response.gcp.eastus.trafficmanager.net CNAME .
+adstore.response.eastus.trafficmanager.net CNAME .
+*.adstore.response.eastus.trafficmanager.net CNAME .
 telemetry.eastus.trafficmanager.net CNAME .
 *.telemetry.eastus.trafficmanager.net CNAME .
 eventservice.trafficmanager.net CNAME .
@@ -675,6 +709,8 @@ tm-analytics-pr.trafficmanager.net CNAME .
 *.tm-analytics-pr.trafficmanager.net CNAME .
 tm-enrollment-telemetry-datacore.trafficmanager.net CNAME .
 *.tm-enrollment-telemetry-datacore.trafficmanager.net CNAME .
+us-mesh-events-data-leafs.trafficmanager.net CNAME .
+*.us-mesh-events-data-leafs.trafficmanager.net CNAME .
 vstelemetry.trafficmanager.net CNAME .
 *.vstelemetry.trafficmanager.net CNAME .
 euc-excel-telemetry.wac.trafficmanager.net CNAME .
@@ -709,6 +745,8 @@ weus2watcab01.blob.core.windows.net CNAME .
 *.weus2watcab01.blob.core.windows.net CNAME .
 weus2watcab02.blob.core.windows.net CNAME .
 *.weus2watcab02.blob.core.windows.net CNAME .
+adsdktelemetry-prod.servicebus.windows.net CNAME .
+*.adsdktelemetry-prod.servicebus.windows.net CNAME .
 analytics-dev-lleap-events.servicebus.windows.net CNAME .
 *.analytics-dev-lleap-events.servicebus.windows.net CNAME .
 analytics-dev-simpad-events.servicebus.windows.net CNAME .
@@ -721,6 +759,8 @@ btv-du-dev-eventhub-streamanalytics.servicebus.windows.net CNAME .
 *.btv-du-dev-eventhub-streamanalytics.servicebus.windows.net CNAME .
 btv-du-prod-eventhub-streamanalytics.servicebus.windows.net CNAME .
 *.btv-du-prod-eventhub-streamanalytics.servicebus.windows.net CNAME .
+chem4wordtelemetry.servicebus.windows.net CNAME .
+*.chem4wordtelemetry.servicebus.windows.net CNAME .
 citrixanalyticseh.servicebus.windows.net CNAME .
 *.citrixanalyticseh.servicebus.windows.net CNAME .
 citrixanalyticseh-alias.servicebus.windows.net CNAME .
@@ -749,6 +789,8 @@ ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net CNAME .
 *.ffg-analyticsk3nvxfne4dp4s.servicebus.windows.net CNAME .
 hme-live-loganalytics-namespace.servicebus.windows.net CNAME .
 *.hme-live-loganalytics-namespace.servicebus.windows.net CNAME .
+jetanalytics.servicebus.windows.net CNAME .
+*.jetanalytics.servicebus.windows.net CNAME .
 nexxtv-events.servicebus.windows.net CNAME .
 *.nexxtv-events.servicebus.windows.net CNAME .
 ppm-licensingtelemetry.servicebus.windows.net CNAME .
@@ -767,6 +809,8 @@ ss-telemetry.servicebus.windows.net CNAME .
 *.ss-telemetry.servicebus.windows.net CNAME .
 wayfinderanalytics.servicebus.windows.net CNAME .
 *.wayfinderanalytics.servicebus.windows.net CNAME .
+in.applicationinsights.azure.com.albertk12.org CNAME .
+*.in.applicationinsights.azure.com.albertk12.org CNAME .
 collector.azure.microsoft.scloud CNAME .
 *.collector.azure.microsoft.scloud CNAME .
 dc.applicationinsights.azure.us CNAME .
