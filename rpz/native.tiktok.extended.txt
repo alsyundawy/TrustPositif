@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1746425340 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1746832800 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 05 May 2025 06:09 UTC
-; Version: 2025.0505.0609.09
+; Last modified: 09 May 2025 23:20 UTC
+; Version: 2025.0509.2320.21
 ; Syntax: RPZ
-; Number of entries: 812
+; Number of entries: 826
 ;
 frontier.byteoversea.com CNAME .
 *.frontier.byteoversea.com CNAME .
@@ -305,8 +305,6 @@ log16-normal.tiktokv.com CNAME .
 *.log16-normal.tiktokv.com CNAME .
 log16-normal-alisg.tiktokv.com CNAME .
 *.log16-normal-alisg.tiktokv.com CNAME .
-log16-normal-c-alisg.tiktokv.com CNAME .
-*.log16-normal-c-alisg.tiktokv.com CNAME .
 log16-normal-c-useast1a.tiktokv.com CNAME .
 *.log16-normal-c-useast1a.tiktokv.com CNAME .
 log16-normal-c-useast2a.tiktokv.com CNAME .
@@ -353,10 +351,6 @@ log22-normal.tiktokv.com CNAME .
 *.log22-normal.tiktokv.com CNAME .
 log22-normal-alisg.tiktokv.com CNAME .
 *.log22-normal-alisg.tiktokv.com CNAME .
-log22-normal-c-useast1a.tiktokv.com CNAME .
-*.log22-normal-c-useast1a.tiktokv.com CNAME .
-log22-normal-c-useast2a.tiktokv.com CNAME .
-*.log22-normal-c-useast2a.tiktokv.com CNAME .
 log22-normal-useast1a.tiktokv.com CNAME .
 *.log22-normal-useast1a.tiktokv.com CNAME .
 log22-normal-useast2a.tiktokv.com CNAME .
@@ -511,6 +505,8 @@ mssdk16-normal-useast1a.tiktokv.com CNAME .
 *.mssdk16-normal-useast1a.tiktokv.com CNAME .
 mssdk16-normal-useast2a.tiktokv.com CNAME .
 *.mssdk16-normal-useast2a.tiktokv.com CNAME .
+mssdk16-normal-zr-alisg.tiktokv.com CNAME .
+*.mssdk16-normal-zr-alisg.tiktokv.com CNAME .
 mssdk16-normal-zr-useast1a.tiktokv.com CNAME .
 *.mssdk16-normal-zr-useast1a.tiktokv.com CNAME .
 mssdk19-normal.tiktokv.com CNAME .
@@ -521,6 +517,10 @@ mssdk19-normal-useast1a.tiktokv.com CNAME .
 *.mssdk19-normal-useast1a.tiktokv.com CNAME .
 mssdk19-normal-useast2a.tiktokv.com CNAME .
 *.mssdk19-normal-useast2a.tiktokv.com CNAME .
+mssdk19-normal-zr-alisg.tiktokv.com CNAME .
+*.mssdk19-normal-zr-alisg.tiktokv.com CNAME .
+mssdk19-normal-zr-useast1a.tiktokv.com CNAME .
+*.mssdk19-normal-zr-useast1a.tiktokv.com CNAME .
 mssdk22-normal.tiktokv.com CNAME .
 *.mssdk22-normal.tiktokv.com CNAME .
 mssdk22-normal-alisg.tiktokv.com CNAME .
@@ -529,6 +529,14 @@ mssdk22-normal-useast1a.tiktokv.com CNAME .
 *.mssdk22-normal-useast1a.tiktokv.com CNAME .
 mssdk22-normal-useast2a.tiktokv.com CNAME .
 *.mssdk22-normal-useast2a.tiktokv.com CNAME .
+mssdk22-normal-zr-alisg.tiktokv.com CNAME .
+*.mssdk22-normal-zr-alisg.tiktokv.com CNAME .
+mssdk22-normal-zr-useast1a.tiktokv.com CNAME .
+*.mssdk22-normal-zr-useast1a.tiktokv.com CNAME .
+mssdk23-normal-zr-alisg.tiktokv.com CNAME .
+*.mssdk23-normal-zr-alisg.tiktokv.com CNAME .
+mssdk23-normal-zr-useast1a.tiktokv.com CNAME .
+*.mssdk23-normal-zr-useast1a.tiktokv.com CNAME .
 mssdk24-normal.tiktokv.com CNAME .
 *.mssdk24-normal.tiktokv.com CNAME .
 mssdk24-normal-alisg.tiktokv.com CNAME .
@@ -537,6 +545,12 @@ mssdk24-normal-useast1a.tiktokv.com CNAME .
 *.mssdk24-normal-useast1a.tiktokv.com CNAME .
 mssdk24-normal-useast2a.tiktokv.com CNAME .
 *.mssdk24-normal-useast2a.tiktokv.com CNAME .
+mssdk31-normal-zr-alisg.tiktokv.com CNAME .
+*.mssdk31-normal-zr-alisg.tiktokv.com CNAME .
+mssdk32-normal-zr-alisg.tiktokv.com CNAME .
+*.mssdk32-normal-zr-alisg.tiktokv.com CNAME .
+mssdk32-normal-zr-useast1a.tiktokv.com CNAME .
+*.mssdk32-normal-zr-useast1a.tiktokv.com CNAME .
 rtc-logger.tiktokv.com CNAME .
 *.rtc-logger.tiktokv.com CNAME .
 rtc-logger-i18n.tiktokv.com CNAME .
@@ -757,14 +771,14 @@ mcs16-normal-no1a.tiktokw.eu CNAME .
 *.mcs16-normal-no1a.tiktokw.eu CNAME .
 mssdk.tiktokw.eu CNAME .
 *.mssdk.tiktokw.eu CNAME .
+mssdk16-normal-useastred.tiktokw.eu CNAME .
+*.mssdk16-normal-useastred.tiktokw.eu CNAME .
 ads.tiktok.in CNAME .
 *.ads.tiktok.in CNAME .
 log-tiktok.byteoversea.net CNAME .
 *.log-tiktok.byteoversea.net CNAME .
 mcs-tiktok.byteoversea.net CNAME .
 *.mcs-tiktok.byteoversea.net CNAME .
-monitoring-op-ttp2.tiktokd.org CNAME .
-*.monitoring-op-ttp2.tiktokd.org CNAME .
 ad.tiktok.tv CNAME .
 *.ad.tiktok.tv CNAME .
 ads.tiktok.tv CNAME .

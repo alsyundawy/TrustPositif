@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1746425100 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1746745440 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 05 May 2025 06:05 UTC
-; Version: 2025.0505.0605.13
+; Last modified: 08 May 2025 23:04 UTC
+; Version: 2025.0508.2304.41
 ; Syntax: RPZ
 ; Number of entries: 804
 ;
@@ -553,8 +553,6 @@ adsdkpreprod.afd.azureedge.net CNAME .
 *.adsdkpreprod.afd.azureedge.net CNAME .
 adsdkprod.afd.azureedge.net CNAME .
 *.adsdkprod.afd.azureedge.net CNAME .
-adsdkprprod.ec.azureedge.net CNAME .
-*.adsdkprprod.ec.azureedge.net CNAME .
 msadsscale.azureedge.net CNAME .
 *.msadsscale.azureedge.net CNAME .
 cjs-diagnostics-office-com-gvdhgwfwbbfsd9g3.z01.azurefd.net CNAME .
@@ -807,6 +805,8 @@ rawtelemetry-west.servicebus.windows.net CNAME .
 *.rawtelemetry-west.servicebus.windows.net CNAME .
 ss-telemetry.servicebus.windows.net CNAME .
 *.ss-telemetry.servicebus.windows.net CNAME .
+swiftanalyticsprod.servicebus.windows.net CNAME .
+*.swiftanalyticsprod.servicebus.windows.net CNAME .
 wayfinderanalytics.servicebus.windows.net CNAME .
 *.wayfinderanalytics.servicebus.windows.net CNAME .
 in.applicationinsights.azure.com.albertk12.org CNAME .
