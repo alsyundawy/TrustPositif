@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1746745440 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1747440720 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 08 May 2025 23:04 UTC
-; Version: 2025.0508.2304.41
+; Last modified: 17 May 2025 00:12 UTC
+; Version: 2025.0517.0012.23
 ; Syntax: RPZ
-; Number of entries: 804
+; Number of entries: 808
 ;
 dc.applicationinsights.azure.cn CNAME .
 *.dc.applicationinsights.azure.cn CNAME .
@@ -119,6 +119,10 @@ pgtbr1-word-telemetry-vip.officeapps.live.com CNAME .
 *.pgtbr1-word-telemetry-vip.officeapps.live.com CNAME .
 pgtbr2-excel-telemetry-vip.officeapps.live.com CNAME .
 *.pgtbr2-excel-telemetry-vip.officeapps.live.com CNAME .
+pgtbr2-powerpoint-telemetry-vip.officeapps.live.com CNAME .
+*.pgtbr2-powerpoint-telemetry-vip.officeapps.live.com CNAME .
+pgtbr2-word-telemetry-vip.officeapps.live.com CNAME .
+*.pgtbr2-word-telemetry-vip.officeapps.live.com CNAME .
 pgtca1-excel-telemetry-vip.officeapps.live.com CNAME .
 *.pgtca1-excel-telemetry-vip.officeapps.live.com CNAME .
 pgtca1-powerpoint-telemetry-vip.officeapps.live.com CNAME .
@@ -649,8 +653,6 @@ dsp-ad-cache-tm.trafficmanager.net CNAME .
 *.dsp-ad-cache-tm.trafficmanager.net CNAME .
 adstore.response.gcp.eastus.trafficmanager.net CNAME .
 *.adstore.response.gcp.eastus.trafficmanager.net CNAME .
-adstore.response.eastus.trafficmanager.net CNAME .
-*.adstore.response.eastus.trafficmanager.net CNAME .
 telemetry.eastus.trafficmanager.net CNAME .
 *.telemetry.eastus.trafficmanager.net CNAME .
 eventservice.trafficmanager.net CNAME .
@@ -793,6 +795,8 @@ nexxtv-events.servicebus.windows.net CNAME .
 *.nexxtv-events.servicebus.windows.net CNAME .
 ppm-licensingtelemetry.servicebus.windows.net CNAME .
 *.ppm-licensingtelemetry.servicebus.windows.net CNAME .
+analyticsehnwe.privatelink.servicebus.windows.net CNAME .
+*.analyticsehnwe.privatelink.servicebus.windows.net CNAME .
 prod-eh-v1-analytics.servicebus.windows.net CNAME .
 *.prod-eh-v1-analytics.servicebus.windows.net CNAME .
 prod-eventhub-analytics.servicebus.windows.net CNAME .
