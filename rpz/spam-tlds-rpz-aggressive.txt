@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1747683600 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1747727400 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs - Aggressive
@@ -13,14 +13,15 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 19 May 2025 19:40 UTC
-; Version: 2025.0519.1940.15
+; Last modified: 20 May 2025 07:50 UTC
+; Version: 2025.0520.0750.04
 ; Syntax: RPZ
-; Number of latin TLDs: 256
+; Number of latin TLDs: 261
 ;
 *.actor CNAME .
 *.africa CNAME .
 *.agency CNAME .
+*.apartments CNAME .
 *.army CNAME .
 *.asia CNAME .
 *.auction CNAME .
@@ -70,6 +71,7 @@ $TTL 300
 *.consulting CNAME .
 *.cool CNAME .
 *.coupons CNAME .
+*.credit CNAME .
 *.cymru CNAME .
 *.cyou CNAME .
 *.dad CNAME .
@@ -110,6 +112,7 @@ $TTL 300
 *.forsale CNAME .
 *.foundation CNAME .
 *.fund CNAME .
+*.futbol CNAME .
 *.fyi CNAME .
 *.games CNAME .
 *.gdn CNAME .
@@ -172,6 +175,7 @@ $TTL 300
 *.new CNAME .
 *.ninja CNAME .
 *.non CNAME .
+*.observer CNAME .
 *.okinawa CNAME .
 *.ong CNAME .
 *.ooo CNAME .
@@ -240,6 +244,7 @@ $TTL 300
 *.tax CNAME .
 *.taxi CNAME .
 *.tienda CNAME .
+*.tires CNAME .
 *.tk CNAME .
 *.today CNAME .
 *.tokyo CNAME .
