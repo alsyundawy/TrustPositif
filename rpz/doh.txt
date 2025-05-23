@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1747972560 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1748018760 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 23 May 2025 03:56 UTC
-; Version: 2025.0523.0356.04
+; Last modified: 23 May 2025 16:46 UTC
+; Version: 2025.0523.1646.54
 ; Syntax: RPZ
-; Number of entries: 2878
+; Number of entries: 2880
 ;
 polisitogel.accountant CNAME .
 *.polisitogel.accountant CNAME .
@@ -34,6 +34,8 @@ jp.tiar.app CNAME .
 *.jp.tiar.app CNAME .
 dns.tryk.app CNAME .
 *.dns.tryk.app CNAME .
+h4g3z1-doh.web.app CNAME .
+*.h4g3z1-doh.web.app CNAME .
 dns.redhosting.com.ar CNAME .
 *.dns.redhosting.com.ar CNAME .
 dns.wang.art CNAME .
