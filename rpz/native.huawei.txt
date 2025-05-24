@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1745018100 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1748045640 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Huawei Tracker DNS Blocklist
@@ -8,11 +8,13 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 18 Apr 2025 23:15 UTC
-; Version: 2025.0418.2315.19
+; Last modified: 24 May 2025 00:14 UTC
+; Version: 2025.0524.0014.31
 ; Syntax: RPZ
-; Number of entries: 218
+; Number of entries: 220
 ;
+h4g3z1-native.huawei.web.app CNAME .
+*.h4g3z1-native.huawei.web.app CNAME .
 grs.dbankcloud.asia CNAME .
 *.grs.dbankcloud.asia CNAME .
 browsercfg-drcn.cloud.dbankcloud.cn CNAME .
