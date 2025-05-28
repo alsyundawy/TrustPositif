@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1748045280 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1748372940 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 24 May 2025 00:08 UTC
-; Version: 2025.0524.0008.09
+; Last modified: 27 May 2025 19:09 UTC
+; Version: 2025.0527.1909.08
 ; Syntax: RPZ
-; Number of entries: 696
+; Number of entries: 706
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
@@ -123,6 +123,8 @@ unagi-fe.amazon.com CNAME .
 *.unagi-fe.amazon.com CNAME .
 unagi-na.amazon.com CNAME .
 *.unagi-na.amazon.com CNAME .
+227.amazon-adsystem.com CNAME .
+*.227.amazon-adsystem.com CNAME .
 aax.amazon-adsystem.com CNAME .
 *.aax.amazon-adsystem.com CNAME .
 aax-apse-dtb-mobile.amazon-adsystem.com CNAME .
@@ -257,6 +259,8 @@ at-gamma-us-east.amazon-adsystem.com CNAME .
 *.at-gamma-us-east.amazon-adsystem.com CNAME .
 at-us-east.amazon-adsystem.com CNAME .
 *.at-us-east.amazon-adsystem.com CNAME .
+ateu.amazon-adsystem.com CNAME .
+*.ateu.amazon-adsystem.com CNAME .
 atfe.amazon-adsystem.com CNAME .
 *.atfe.amazon-adsystem.com CNAME .
 atue.amazon-adsystem.com CNAME .
@@ -271,6 +275,8 @@ cdn-d.amazon-adsystem.com CNAME .
 *.cdn-d.amazon-adsystem.com CNAME .
 cdn-t.amazon-adsystem.com CNAME .
 *.cdn-t.amazon-adsystem.com CNAME .
+com.amazon-adsystem.com CNAME .
+*.com.amazon-adsystem.com CNAME .
 da-cdn.amazon-adsystem.com CNAME .
 *.da-cdn.amazon-adsystem.com CNAME .
 dra.amazon-adsystem.com CNAME .
@@ -337,6 +343,8 @@ maws-aax-us-pdx-rtb.amazon-adsystem.com CNAME .
 *.maws-aax-us-pdx-rtb.amazon-adsystem.com CNAME .
 origin-sq-tungsten-ts.amazon-adsystem.com CNAME .
 *.origin-sq-tungsten-ts.amazon-adsystem.com CNAME .
+ppp.amazon-adsystem.com CNAME .
+*.ppp.amazon-adsystem.com CNAME .
 pri1-3ps.amazon-adsystem.com CNAME .
 *.pri1-3ps.amazon-adsystem.com CNAME .
 pri1-id-eu.amazon-adsystem.com CNAME .
@@ -483,6 +491,8 @@ rum.ca-central-1.amazonaws.com CNAME .
 *.rum.ca-central-1.amazonaws.com CNAME .
 monitoring.ca-west-1.amazonaws.com CNAME .
 *.monitoring.ca-west-1.amazonaws.com CNAME .
+monitoring.prod.cloudwatch.amazonaws.com CNAME .
+*.monitoring.prod.cloudwatch.amazonaws.com CNAME .
 monitoring.eu-central-1.amazonaws.com CNAME .
 *.monitoring.eu-central-1.amazonaws.com CNAME .
 rum.eu-central-1.amazonaws.com CNAME .
