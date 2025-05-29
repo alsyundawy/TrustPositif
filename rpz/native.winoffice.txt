@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1748045400 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1748469720 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 24 May 2025 00:10 UTC
-; Version: 2025.0524.0010.06
+; Last modified: 28 May 2025 22:02 UTC
+; Version: 2025.0528.2202.49
 ; Syntax: RPZ
-; Number of entries: 810
+; Number of entries: 814
 ;
 h4g3z1-native.winoffice.web.app CNAME .
 *.h4g3z1-native.winoffice.web.app CNAME .
@@ -589,6 +589,8 @@ c-ring.msedge.net CNAME .
 *.c-ring.msedge.net CNAME .
 c-ring-fallback.msedge.net CNAME .
 *.c-ring-fallback.msedge.net CNAME .
+dual-s-ring.msedge.net CNAME .
+*.dual-s-ring.msedge.net CNAME .
 fp.msedge.net CNAME .
 *.fp.msedge.net CNAME .
 k-ring.msedge.net CNAME .
@@ -599,6 +601,8 @@ ln-ring.msedge.net CNAME .
 *.ln-ring.msedge.net CNAME .
 ln-ring-fallback.msedge.net CNAME .
 *.ln-ring-fallback.msedge.net CNAME .
+s-ring.msedge.net CNAME .
+*.s-ring.msedge.net CNAME .
 s-ring-fallback.msedge.net CNAME .
 *.s-ring-fallback.msedge.net CNAME .
 t-ring.msedge.net CNAME .
