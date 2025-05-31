@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1748574000 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1748643900 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 30 May 2025 03:00 UTC
-; Version: 2025.0530.0300.20
+; Last modified: 30 May 2025 22:25 UTC
+; Version: 2025.0530.2225.34
 ; Syntax: RPZ
 ; Number of entries: 2866
 ;
@@ -1108,8 +1108,6 @@ dns.skrep.eu CNAME .
 *.dns.skrep.eu CNAME .
 unasw.eu CNAME .
 *.unasw.eu CNAME .
-zougloub.eu CNAME .
-*.zougloub.eu CNAME .
 dns.expert CNAME .
 *.dns.expert CNAME .
 dns.connect.fail CNAME .
@@ -2562,6 +2560,8 @@ dns.sy.st CNAME .
 *.dns.sy.st CNAME .
 home-server.store CNAME .
 *.home-server.store CNAME .
+dns.fizz.studio CNAME .
+*.dns.fizz.studio CNAME .
 dns.xuming.studio CNAME .
 *.dns.xuming.studio CNAME .
 crypto.sx CNAME .
