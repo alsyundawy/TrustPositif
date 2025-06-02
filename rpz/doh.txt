@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1748748360 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1748833500 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 01 Jun 2025 03:26 UTC
-; Version: 2025.0601.0326.41
+; Last modified: 02 Jun 2025 03:05 UTC
+; Version: 2025.0602.0305.31
 ; Syntax: RPZ
-; Number of entries: 2870
+; Number of entries: 2878
 ;
 polisitogel.accountant CNAME .
 *.polisitogel.accountant CNAME .
@@ -776,6 +776,8 @@ sunnygyl.com CNAME .
 *.sunnygyl.com CNAME .
 dns.surfshark.com CNAME .
 *.dns.surfshark.com CNAME .
+dns.surfsharkdns.com CNAME .
+*.dns.surfsharkdns.com CNAME .
 dns.surobe.com CNAME .
 *.dns.surobe.com CNAME .
 dns.syaifullah.com CNAME .
@@ -994,6 +996,8 @@ bazooki-infra.dev CNAME .
 *.bazooki-infra.dev CNAME .
 dns.blaumer.dev CNAME .
 *.dns.blaumer.dev CNAME .
+dns.caliph.dev CNAME .
+*.dns.caliph.dev CNAME .
 dns.daw.dev CNAME .
 *.dns.daw.dev CNAME .
 dns.hanahira.dev CNAME .
@@ -2440,6 +2444,8 @@ zal01.dnscry.pt CNAME .
 *.zal01.dnscry.pt CNAME .
 dns.pub CNAME .
 *.dns.pub CNAME .
+dnsguard.pub CNAME .
+*.dnsguard.pub CNAME .
 doh.pub CNAME .
 *.doh.pub CNAME .
 dot.pub CNAME .
@@ -2472,6 +2478,8 @@ tiger.dns.qwer.pw CNAME .
 *.tiger.dns.qwer.pw CNAME .
 5g.o0o.re CNAME .
 *.5g.o0o.re CNAME .
+v.recipes CNAME .
+*.v.recipes CNAME .
 addns1.m-it.ro CNAME .
 *.addns1.m-it.ro CNAME .
 zdn.ro CNAME .
