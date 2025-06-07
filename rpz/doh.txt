@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1749091680 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1749247740 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 05 Jun 2025 02:48 UTC
-; Version: 2025.0605.0248.04
+; Last modified: 06 Jun 2025 22:09 UTC
+; Version: 2025.0606.2209.20
 ; Syntax: RPZ
-; Number of entries: 2882
+; Number of entries: 2890
 ;
 polisitogel.accountant CNAME .
 *.polisitogel.accountant CNAME .
@@ -1038,8 +1038,6 @@ anycast.censurfridns.dk CNAME .
 *.anycast.censurfridns.dk CNAME .
 unicast.censurfridns.dk CNAME .
 *.unicast.censurfridns.dk CNAME .
-dns.norvig.dk CNAME .
-*.dns.norvig.dk CNAME .
 doh.port53.dk CNAME .
 *.doh.port53.dk CNAME .
 adguard.alu.dog CNAME .
@@ -1086,6 +1084,16 @@ dns.janl.eu CNAME .
 *.dns.janl.eu CNAME .
 dns.jiyi.eu CNAME .
 *.dns.jiyi.eu CNAME .
+child.joindns4.eu CNAME .
+*.child.joindns4.eu CNAME .
+child-noads.joindns4.eu CNAME .
+*.child-noads.joindns4.eu CNAME .
+noads.joindns4.eu CNAME .
+*.noads.joindns4.eu CNAME .
+protective.joindns4.eu CNAME .
+*.protective.joindns4.eu CNAME .
+unfiltered.joindns4.eu CNAME .
+*.unfiltered.joindns4.eu CNAME .
 dns1.klcd.eu CNAME .
 *.dns1.klcd.eu CNAME .
 dns2.klcd.eu CNAME .
