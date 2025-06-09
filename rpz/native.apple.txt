@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1749255840 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1749457740 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Apple Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 07 Jun 2025 00:24 UTC
-; Version: 2025.0607.0024.12
+; Last modified: 09 Jun 2025 08:29 UTC
+; Version: 2025.0609.0829.33
 ; Syntax: RPZ
-; Number of entries: 214
+; Number of entries: 216
 ;
 h4g3z1-native.apple.web.app CNAME .
 *.h4g3z1-native.apple.web.app CNAME .
@@ -97,6 +97,8 @@ idiagnostics-devices-reno.apple.com CNAME .
 *.idiagnostics-devices-reno.apple.com CNAME .
 idiagnostics-ft.apple.com CNAME .
 *.idiagnostics-ft.apple.com CNAME .
+idiagnostics-it2.apple.com CNAME .
+*.idiagnostics-it2.apple.com CNAME .
 idiagnostics-mdn1.apple.com CNAME .
 *.idiagnostics-mdn1.apple.com CNAME .
 idiagnostics-qa.apple.com CNAME .
