@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1749514860 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1749560100 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 10 Jun 2025 00:21 UTC
-; Version: 2025.0610.0021.55
+; Last modified: 10 Jun 2025 12:55 UTC
+; Version: 2025.0610.1255.45
 ; Syntax: RPZ
-; Number of entries: 2884
+; Number of entries: 2882
 ;
 polisitogel.accountant CNAME .
 *.polisitogel.accountant CNAME .
@@ -1338,8 +1338,6 @@ vpn.technicule.info CNAME .
 *.vpn.technicule.info CNAME .
 dns.kxy.ink CNAME .
 *.dns.kxy.ink CNAME .
-dns.tracker.ink CNAME .
-*.dns.tracker.ink CNAME .
 dns.bitservices.io CNAME .
 *.dns.bitservices.io CNAME .
 dns.guard.io CNAME .
@@ -1804,8 +1802,6 @@ securenet.mhsystems.net CNAME .
 *.securenet.mhsystems.net CNAME .
 zrh1-ns01.monzoon.net CNAME .
 *.zrh1-ns01.monzoon.net CNAME .
-dns.moulticast.net CNAME .
-*.dns.moulticast.net CNAME .
 dns.mullvad.net CNAME .
 *.dns.mullvad.net CNAME .
 doh.mullvad.net CNAME .
@@ -1980,6 +1976,8 @@ dns.yuu-g.net CNAME .
 *.dns.yuu-g.net CNAME .
 dns.daemon.za.net CNAME .
 *.dns.daemon.za.net CNAME .
+dns.edgy.network CNAME .
+*.dns.edgy.network CNAME .
 adblock.mydns.network CNAME .
 *.adblock.mydns.network CNAME .
 family.mydns.network CNAME .
