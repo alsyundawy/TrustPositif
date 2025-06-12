@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1749672000 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1749686640 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 11 Jun 2025 20:00 UTC
-; Version: 2025.0611.2000.37
+; Last modified: 12 Jun 2025 00:04 UTC
+; Version: 2025.0612.0004.40
 ; Syntax: RPZ
 ; Number of entries: 2886
 ;
@@ -60,8 +60,6 @@ dns.sv-zauner.at CNAME .
 *.dns.sv-zauner.at CNAME .
 dns.cloud88.com.au CNAME .
 *.dns.cloud88.com.au CNAME .
-dns.netraptor.com.au CNAME .
-*.dns.netraptor.com.au CNAME .
 dns.belnet.be CNAME .
 *.dns.belnet.be CNAME .
 dns1.nielsdb.be CNAME .
@@ -464,6 +462,8 @@ edgy-dns.com CNAME .
 *.edgy-dns.com CNAME .
 dns.editechstudio.com CNAME .
 *.dns.editechstudio.com CNAME .
+dns.efficientdocuments.com CNAME .
+*.dns.efficientdocuments.com CNAME .
 dns.enzonix.com CNAME .
 *.dns.enzonix.com CNAME .
 dns.flwagners.com CNAME .
