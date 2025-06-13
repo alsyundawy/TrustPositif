@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1749732840 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1749841920 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 12 Jun 2025 12:54 UTC
-; Version: 2025.0612.1254.41
+; Last modified: 13 Jun 2025 19:12 UTC
+; Version: 2025.0613.1912.04
 ; Syntax: RPZ
-; Number of entries: 702
+; Number of entries: 678
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
@@ -37,24 +37,18 @@ advertising.amazon.com.br CNAME .
 *.advertising.amazon.com.br CNAME .
 fls-na.amazon.com.br CNAME .
 *.fls-na.amazon.com.br CNAME .
-msh.amazon.com.br CNAME .
-*.msh.amazon.com.br CNAME .
 unagi.amazon.com.br CNAME .
 *.unagi.amazon.com.br CNAME .
 advertising.amazon.ca CNAME .
 *.advertising.amazon.ca CNAME .
 fls-na.amazon.ca CNAME .
 *.fls-na.amazon.ca CNAME .
-msh.amazon.ca CNAME .
-*.msh.amazon.ca CNAME .
 unagi.amazon.ca CNAME .
 *.unagi.amazon.ca CNAME .
 assoc-amazon.ca CNAME .
 *.assoc-amazon.ca CNAME .
 fls-cn.amazon.cn CNAME .
 *.fls-cn.amazon.cn CNAME .
-msh.amazon.cn CNAME .
-*.msh.amazon.cn CNAME .
 unagi.amazon.cn CNAME .
 *.unagi.amazon.cn CNAME .
 advertising.a2z.com CNAME .
@@ -109,8 +103,6 @@ mads-eu.amazon.com CNAME .
 *.mads-eu.amazon.com CNAME .
 mads-fe.amazon.com CNAME .
 *.mads-fe.amazon.com CNAME .
-msh.amazon.com CNAME .
-*.msh.amazon.com CNAME .
 rcm.amazon.com CNAME .
 *.rcm.amazon.com CNAME .
 rcm-images.amazon.com CNAME .
@@ -563,8 +555,6 @@ identity.browserapps.amazon.de CNAME .
 *.identity.browserapps.amazon.de CNAME .
 fls-eu.amazon.de CNAME .
 *.fls-eu.amazon.de CNAME .
-msh.amazon.de CNAME .
-*.msh.amazon.de CNAME .
 unagi.amazon.de CNAME .
 *.unagi.amazon.de CNAME .
 assoc-amazon.de CNAME .
@@ -593,8 +583,6 @@ advertising.amazon.es CNAME .
 *.advertising.amazon.es CNAME .
 fls-eu.amazon.es CNAME .
 *.fls-eu.amazon.es CNAME .
-msh.amazon.es CNAME .
-*.msh.amazon.es CNAME .
 unagi.amazon.es CNAME .
 *.unagi.amazon.es CNAME .
 assoc-amazon.es CNAME .
@@ -605,8 +593,6 @@ advertising.amazon.fr CNAME .
 *.advertising.amazon.fr CNAME .
 fls-eu.amazon.fr CNAME .
 *.fls-eu.amazon.fr CNAME .
-msh.amazon.fr CNAME .
-*.msh.amazon.fr CNAME .
 unagi.amazon.fr CNAME .
 *.unagi.amazon.fr CNAME .
 assoc-amazon.fr CNAME .
@@ -617,8 +603,6 @@ advertising.amazon.in CNAME .
 *.advertising.amazon.in CNAME .
 fls-eu.amazon.in CNAME .
 *.fls-eu.amazon.in CNAME .
-msh.amazon.in CNAME .
-*.msh.amazon.in CNAME .
 unagi.amazon.in CNAME .
 *.unagi.amazon.in CNAME .
 aan.amazon.it CNAME .
@@ -627,8 +611,6 @@ advertising.amazon.it CNAME .
 *.advertising.amazon.it CNAME .
 fls-eu.amazon.it CNAME .
 *.fls-eu.amazon.it CNAME .
-msh.amazon.it CNAME .
-*.msh.amazon.it CNAME .
 rcm-it.amazon.it CNAME .
 *.rcm-it.amazon.it CNAME .
 unagi.amazon.it CNAME .
@@ -645,8 +627,6 @@ aviary.amazon.co.jp CNAME .
 *.aviary.amazon.co.jp CNAME .
 fls-fe.amazon.co.jp CNAME .
 *.fls-fe.amazon.co.jp CNAME .
-msh.amazon.co.jp CNAME .
-*.msh.amazon.co.jp CNAME .
 rcm-jp.amazon.co.jp CNAME .
 *.rcm-jp.amazon.co.jp CNAME .
 unagi.amazon.co.jp CNAME .
@@ -655,8 +635,6 @@ advertising.amazon.com.mx CNAME .
 *.advertising.amazon.com.mx CNAME .
 fls-na.amazon.com.mx CNAME .
 *.fls-na.amazon.com.mx CNAME .
-msh.amazon.com.mx CNAME .
-*.msh.amazon.com.mx CNAME .
 unagi.amazon.com.mx CNAME .
 *.unagi.amazon.com.mx CNAME .
 s3-dub-ww.cf.videorolls.row.aiv-cdn.net CNAME .
@@ -707,8 +685,6 @@ advertising.amazon.co.uk CNAME .
 *.advertising.amazon.co.uk CNAME .
 fls-eu.amazon.co.uk CNAME .
 *.fls-eu.amazon.co.uk CNAME .
-msh.amazon.co.uk CNAME .
-*.msh.amazon.co.uk CNAME .
 rcm-uk.amazon.co.uk CNAME .
 *.rcm-uk.amazon.co.uk CNAME .
 unagi.amazon.co.uk CNAME .
