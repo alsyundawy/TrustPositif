@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1749855240 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1749902280 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 13 Jun 2025 22:54 UTC
-; Version: 2025.0613.2254.35
+; Last modified: 14 Jun 2025 11:58 UTC
+; Version: 2025.0614.1158.45
 ; Syntax: RPZ
-; Number of entries: 2880
+; Number of entries: 2886
 ;
 polisitogel.accountant CNAME .
 *.polisitogel.accountant CNAME .
@@ -60,6 +60,8 @@ dns.sv-zauner.at CNAME .
 *.dns.sv-zauner.at CNAME .
 dns.cloud88.com.au CNAME .
 *.dns.cloud88.com.au CNAME .
+dns.netraptor.com.au CNAME .
+*.dns.netraptor.com.au CNAME .
 dns.belnet.be CNAME .
 *.dns.belnet.be CNAME .
 dns1.nielsdb.be CNAME .
@@ -582,6 +584,8 @@ msr177.com CNAME .
 *.msr177.com CNAME .
 ns.mtsoln.com CNAME .
 *.ns.mtsoln.com CNAME .
+dns.mzjtechnology.com CNAME .
+*.dns.mzjtechnology.com CNAME .
 dns.nguyendn.com CNAME .
 *.dns.nguyendn.com CNAME .
 dns.nhtsky.com CNAME .
@@ -2578,6 +2582,8 @@ dns.sy.st CNAME .
 *.dns.sy.st CNAME .
 home-server.store CNAME .
 *.home-server.store CNAME .
+dns.fizz.studio CNAME .
+*.dns.fizz.studio CNAME .
 dns.xuming.studio CNAME .
 *.dns.xuming.studio CNAME .
 crypto.sx CNAME .
