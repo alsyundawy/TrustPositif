@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1749733020 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1750435560 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 12 Jun 2025 12:57 UTC
-; Version: 2025.0612.1257.36
+; Last modified: 20 Jun 2025 16:06 UTC
+; Version: 2025.0620.1606.06
 ; Syntax: RPZ
-; Number of entries: 836
+; Number of entries: 844
 ;
 h4g3z1-native.tiktok.extended.web.app CNAME .
 *.h4g3z1-native.tiktok.extended.web.app CNAME .
@@ -239,6 +239,8 @@ mcs-ttp2.us.tiktok.com CNAME .
 *.mcs-ttp2.us.tiktok.com CNAME .
 mssdk.us.tiktok.com CNAME .
 *.mssdk.us.tiktok.com CNAME .
+p16-tiktok-ads-sg.tiktokcdn.com CNAME .
+*.p16-tiktok-ads-sg.tiktokcdn.com CNAME .
 sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 *.sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 ad.tiktokv.com CNAME .
@@ -737,6 +739,8 @@ log16-normal-no1a.tiktokv.eu CNAME .
 *.log16-normal-no1a.tiktokv.eu CNAME .
 log16-normal-useastred.tiktokv.eu CNAME .
 *.log16-normal-useastred.tiktokv.eu CNAME .
+log19-normal-no1a.tiktokv.eu CNAME .
+*.log19-normal-no1a.tiktokv.eu CNAME .
 mon.tiktokv.eu CNAME .
 *.mon.tiktokv.eu CNAME .
 mon16-normal-ie.tiktokv.eu CNAME .
@@ -785,10 +789,14 @@ mssdk16-normal-useastred.tiktokw.eu CNAME .
 *.mssdk16-normal-useastred.tiktokw.eu CNAME .
 ads.tiktok.in CNAME .
 *.ads.tiktok.in CNAME .
+p16-tiktok-ads-sg.tiktokcdn.com.bytegeo.akadns.net CNAME .
+*.p16-tiktok-ads-sg.tiktokcdn.com.bytegeo.akadns.net CNAME .
 log-tiktok.byteoversea.net CNAME .
 *.log-tiktok.byteoversea.net CNAME .
 mcs-tiktok.byteoversea.net CNAME .
 *.mcs-tiktok.byteoversea.net CNAME .
+p16-tiktok-ads-sg.tiktokcdn.com.edgesuite.net CNAME .
+*.p16-tiktok-ads-sg.tiktokcdn.com.edgesuite.net CNAME .
 ad.tiktok.tv CNAME .
 *.ad.tiktok.tv CNAME .
 ads.tiktok.tv CNAME .
