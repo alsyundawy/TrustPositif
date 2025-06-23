@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1749732960 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1750689180 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Huawei Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 12 Jun 2025 12:56 UTC
-; Version: 2025.0612.1256.16
+; Last modified: 23 Jun 2025 14:33 UTC
+; Version: 2025.0623.1433.47
 ; Syntax: RPZ
-; Number of entries: 220
+; Number of entries: 242
 ;
 h4g3z1-native.huawei.web.app CNAME .
 *.h4g3z1-native.huawei.web.app CNAME .
@@ -217,6 +217,26 @@ rnd-cbgpas01.huawei.com CNAME .
 *.rnd-cbgpas01.huawei.com CNAME .
 uba.huaweicloud.com CNAME .
 *.uba.huaweicloud.com CNAME .
+nsp-logservice-hiview-p05-dra.obs.ap-southeast-3.myhuaweicloud.com CNAME .
+*.nsp-logservice-hiview-p05-dra.obs.ap-southeast-3.myhuaweicloud.com CNAME .
+nsp-logservice-hiview-p06-dra.obs.ap-southeast-3.myhuaweicloud.com CNAME .
+*.nsp-logservice-hiview-p06-dra.obs.ap-southeast-3.myhuaweicloud.com CNAME .
+nsp-logservice-hiview-p07-dra.obs.ap-southeast-3.myhuaweicloud.com CNAME .
+*.nsp-logservice-hiview-p07-dra.obs.ap-southeast-3.myhuaweicloud.com CNAME .
+nsp-logservice-hiview-p08-dra.obs.ap-southeast-3.myhuaweicloud.com CNAME .
+*.nsp-logservice-hiview-p08-dra.obs.ap-southeast-3.myhuaweicloud.com CNAME .
+nsp-logservice-hiview-p40-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+*.nsp-logservice-hiview-p40-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+nsp-logservice-hiview-p41-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+*.nsp-logservice-hiview-p41-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+nsp-logservice-hiview-p43-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+*.nsp-logservice-hiview-p43-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+nsp-logservice-hiview-p50-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+*.nsp-logservice-hiview-p50-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+nsp-logservice-weardevice-p42-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+*.nsp-logservice-weardevice-p42-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
+*.nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com CNAME .
 logservice.vmall.com CNAME .
 *.logservice.vmall.com CNAME .
 grs.dbankcloud.eu CNAME .
@@ -233,3 +253,5 @@ grs.platform.dbankcloud.ru CNAME .
 *.grs.platform.dbankcloud.ru CNAME .
 ads-drru.cloud.huawei.ru CNAME .
 *.ads-drru.cloud.huawei.ru CNAME .
+nsp-logservice-hiview-p01-drru.obs.ru-northwest-2.myhuaweicloud.ru CNAME .
+*.nsp-logservice-hiview-p01-drru.obs.ru-northwest-2.myhuaweicloud.ru CNAME .
