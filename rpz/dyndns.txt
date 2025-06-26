@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1750707720 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1750952580 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 23 Jun 2025 19:42 UTC
-; Version: 2025.0623.1942.10
+; Last modified: 26 Jun 2025 15:43 UTC
+; Version: 2025.0626.1543.41
 ; Syntax: RPZ
-; Number of entries: 2950
+; Number of entries: 2954
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -2939,12 +2939,16 @@ onmypc.us CNAME .
 *.onmypc.us CNAME .
 pointto.us CNAME .
 *.pointto.us CNAME .
+possessed.us CNAME .
+*.possessed.us CNAME .
 shacknet.us CNAME .
 *.shacknet.us CNAME .
 stuff-4-sale.us CNAME .
 *.stuff-4-sale.us CNAME .
 tobuy.us CNAME .
 *.tobuy.us CNAME .
+wwwhost.us CNAME .
+*.wwwhost.us CNAME .
 hs.vc CNAME .
 *.hs.vc CNAME .
 webs.vc CNAME .
