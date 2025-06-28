@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1751112540 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1751133960 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 28 Jun 2025 12:09 UTC
-; Version: 2025.0628.1209.22
+; Last modified: 28 Jun 2025 18:06 UTC
+; Version: 2025.0628.1806.55
 ; Syntax: RPZ
 ; Number of entries: 2882
 ;
@@ -580,6 +580,8 @@ msr177.com CNAME .
 *.msr177.com CNAME .
 ns.mtsoln.com CNAME .
 *.ns.mtsoln.com CNAME .
+dns.mzjtechnology.com CNAME .
+*.dns.mzjtechnology.com CNAME .
 dns.nguyendn.com CNAME .
 *.dns.nguyendn.com CNAME .
 dns.nhtsky.com CNAME .
@@ -854,8 +856,6 @@ adguard.bonis.de CNAME .
 *.adguard.bonis.de CNAME .
 chaos-system.de CNAME .
 *.chaos-system.de CNAME .
-dns.csa-rz.de CNAME .
-*.dns.csa-rz.de CNAME .
 dns.csaonline.de CNAME .
 *.dns.csaonline.de CNAME .
 dns.datenquark.de CNAME .
