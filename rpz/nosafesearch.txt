@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1750460460 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1751065680 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 20 Jun 2025 23:01 UTC
-; Version: 2025.0620.2301.25
+; Last modified: 27 Jun 2025 23:08 UTC
+; Version: 2025.0627.2308.06
 ; Syntax: RPZ
-; Number of entries: 368
+; Number of entries: 366
 ;
 h4g3z1-nosafesearch.web.app CNAME .
 *.h4g3z1-nosafesearch.web.app CNAME .
@@ -265,8 +265,6 @@ searx.zdechov.net CNAME .
 *.searx.zdechov.net CNAME .
 librex.nohost.network CNAME .
 *.librex.nohost.network CNAME .
-searx.ninja CNAME .
-*.searx.ninja CNAME .
 zoek.anchel.nl CNAME .
 *.zoek.anchel.nl CNAME .
 searx.doofpot.nl CNAME .
