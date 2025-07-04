@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1749733140 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1751654700 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Vivo Tracker DNS Blocklist
@@ -8,10 +8,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 12 Jun 2025 12:59 UTC
-; Version: 2025.0612.1259.26
+; Last modified: 04 Jul 2025 18:45 UTC
+; Version: 2025.0704.1845.26
 ; Syntax: RPZ
-; Number of entries: 444
+; Number of entries: 446
 ;
 h4g3z1-native.vivo.web.app CNAME .
 *.h4g3z1-native.vivo.web.app CNAME .
@@ -197,6 +197,8 @@ id-analyzer-appstore.vivoglobal.com CNAME .
 *.id-analyzer-appstore.vivoglobal.com CNAME .
 id-third-appstore.vivoglobal.com CNAME .
 *.id-third-appstore.vivoglobal.com CNAME .
+in-ad-mkt-vivofs.vivoglobal.com CNAME .
+*.in-ad-mkt-vivofs.vivoglobal.com CNAME .
 in-adlog.vivoglobal.com CNAME .
 *.in-adlog.vivoglobal.com CNAME .
 in-adreq.vivoglobal.com CNAME .
