@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1751702520 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1751717160 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 05 Jul 2025 08:02 UTC
-; Version: 2025.0705.0802.21
+; Last modified: 05 Jul 2025 12:06 UTC
+; Version: 2025.0705.1206.05
 ; Syntax: RPZ
 ; Number of entries: 2878
 ;
@@ -458,6 +458,8 @@ edgy-dns.com CNAME .
 *.edgy-dns.com CNAME .
 dns.editechstudio.com CNAME .
 *.dns.editechstudio.com CNAME .
+dns.efficientdocuments.com CNAME .
+*.dns.efficientdocuments.com CNAME .
 dns.enzonix.com CNAME .
 *.dns.enzonix.com CNAME .
 dns.flwagners.com CNAME .
@@ -2578,8 +2580,6 @@ dns.sy.st CNAME .
 *.dns.sy.st CNAME .
 home-server.store CNAME .
 *.home-server.store CNAME .
-dns.fizz.studio CNAME .
-*.dns.fizz.studio CNAME .
 dns.xuming.studio CNAME .
 *.dns.xuming.studio CNAME .
 crypto.sx CNAME .
