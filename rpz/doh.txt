@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1752321900 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1752336240 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 12 Jul 2025 12:05 UTC
-; Version: 2025.0712.1205.06
+; Last modified: 12 Jul 2025 16:04 UTC
+; Version: 2025.0712.1604.12
 ; Syntax: RPZ
-; Number of entries: 2872
+; Number of entries: 2878
 ;
 polisitogel.accountant CNAME .
 *.polisitogel.accountant CNAME .
@@ -172,6 +172,8 @@ dns.brembeck.cloud CNAME .
 *.dns.brembeck.cloud CNAME .
 dns.clanto.cloud CNAME .
 *.dns.clanto.cloud CNAME .
+doh.cnetwork.cloud CNAME .
+*.doh.cnetwork.cloud CNAME .
 gateway.fomichev.cloud CNAME .
 *.gateway.fomichev.cloud CNAME .
 adguard.hartley.cloud CNAME .
@@ -1178,6 +1180,8 @@ dns.spirio.fr CNAME .
 *.dns.spirio.fr CNAME .
 adb-home.xaoimoon.fr CNAME .
 *.adb-home.xaoimoon.fr CNAME .
+adfiltro.fun CNAME .
+*.adfiltro.fun CNAME .
 axaxa.fun CNAME .
 *.axaxa.fun CNAME .
 ag.brianlee.fun CNAME .
@@ -2576,6 +2580,8 @@ dns.sy.st CNAME .
 *.dns.sy.st CNAME .
 home-server.store CNAME .
 *.home-server.store CNAME .
+dns.fizz.studio CNAME .
+*.dns.fizz.studio CNAME .
 dns.xuming.studio CNAME .
 *.dns.xuming.studio CNAME .
 crypto.sx CNAME .
