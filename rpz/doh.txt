@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1752393720 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1752422640 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 13 Jul 2025 08:02 UTC
-; Version: 2025.0713.0802.38
+; Last modified: 13 Jul 2025 16:04 UTC
+; Version: 2025.0713.1604.03
 ; Syntax: RPZ
 ; Number of entries: 2880
 ;
@@ -574,8 +574,6 @@ msr177.com CNAME .
 *.msr177.com CNAME .
 ns.mtsoln.com CNAME .
 *.ns.mtsoln.com CNAME .
-dns.mzjtechnology.com CNAME .
-*.dns.mzjtechnology.com CNAME .
 dns.nguyendn.com CNAME .
 *.dns.nguyendn.com CNAME .
 dns.nhtsky.com CNAME .
@@ -1626,6 +1624,8 @@ per.adfilter.net CNAME .
 *.per.adfilter.net CNAME .
 syd.adfilter.net CNAME .
 *.syd.adfilter.net CNAME .
+affcdn.net CNAME .
+*.affcdn.net CNAME .
 ahadns.net CNAME .
 *.ahadns.net CNAME .
 doh.amonsul.net CNAME .
