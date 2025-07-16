@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1752653760 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1752696840 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 16 Jul 2025 08:16 UTC
-; Version: 2025.0716.0816.18
+; Last modified: 16 Jul 2025 20:14 UTC
+; Version: 2025.0716.2014.29
 ; Syntax: RPZ
 ; Number of entries: 2886
 ;
@@ -164,6 +164,8 @@ farewellkou.click CNAME .
 *.farewellkou.click CNAME .
 dns.listo.click CNAME .
 *.dns.listo.click CNAME .
+justhost.bedro.cloud CNAME .
+*.justhost.bedro.cloud CNAME .
 dns.brembeck.cloud CNAME .
 *.dns.brembeck.cloud CNAME .
 dns.brono.cloud CNAME .
@@ -458,8 +460,6 @@ edgy-dns.com CNAME .
 *.edgy-dns.com CNAME .
 dns.editechstudio.com CNAME .
 *.dns.editechstudio.com CNAME .
-dns.efficientdocuments.com CNAME .
-*.dns.efficientdocuments.com CNAME .
 dns.enzonix.com CNAME .
 *.dns.enzonix.com CNAME .
 dns.flwagners.com CNAME .
@@ -574,8 +574,6 @@ msr177.com CNAME .
 *.msr177.com CNAME .
 ns.mtsoln.com CNAME .
 *.ns.mtsoln.com CNAME .
-dns.mzjtechnology.com CNAME .
-*.dns.mzjtechnology.com CNAME .
 dns.nguyendn.com CNAME .
 *.dns.nguyendn.com CNAME .
 dns.nhtsky.com CNAME .
@@ -1300,6 +1298,8 @@ dns.kapite.in CNAME .
 *.dns.kapite.in CNAME .
 doh.micronets.in CNAME .
 *.doh.micronets.in CNAME .
+dns.skrep.in CNAME .
+*.dns.skrep.in CNAME .
 doh.technochat.in CNAME .
 *.doh.technochat.in CNAME .
 dns.zemows.industries CNAME .
@@ -1536,6 +1536,8 @@ gztech.me CNAME .
 *.gztech.me CNAME .
 hitian.me CNAME .
 *.hitian.me CNAME .
+dns.huas.me CNAME .
+*.dns.huas.me CNAME .
 dns.indust.me CNAME .
 *.dns.indust.me CNAME .
 jkdns.me CNAME .
@@ -2584,8 +2586,6 @@ mabuktogel.solutions CNAME .
 *.mabuktogel.solutions CNAME .
 dns.b33.space CNAME .
 *.dns.b33.space CNAME .
-adguard.neon0404.space CNAME .
-*.adguard.neon0404.space CNAME .
 dns.sy.st CNAME .
 *.dns.sy.st CNAME .
 home-server.store CNAME .
