@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1753029240 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1753293300 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker DNS Blocklist
@@ -8,8 +8,8 @@ $TTL 300
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Expires: 1 day
-; Last modified: 20 Jul 2025 16:34 UTC
-; Version: 2025.0720.1634.06
+; Last modified: 23 Jul 2025 17:55 UTC
+; Version: 2025.0723.1755.25
 ; Syntax: RPZ
 ; Number of entries: 718
 ;
@@ -539,8 +539,14 @@ i-sg01a.ocloud.heytapmobi.com CNAME .
 *.i-sg01a.ocloud.heytapmobi.com CNAME .
 omes-sec.heytapmobi.com CNAME .
 *.omes-sec.heytapmobi.com CNAME .
-push.heytapmobi.com CNAME .
-*.push.heytapmobi.com CNAME .
+dcintl.push.heytapmobi.com CNAME .
+*.dcintl.push.heytapmobi.com CNAME .
+device-ups.push.heytapmobi.com CNAME .
+*.device-ups.push.heytapmobi.com CNAME .
+id.push.heytapmobi.com CNAME .
+*.id.push.heytapmobi.com CNAME .
+userprofile.push.heytapmobi.com CNAME .
+*.userprofile.push.heytapmobi.com CNAME .
 api-id.theme.heytapmobi.com CNAME .
 *.api-id.theme.heytapmobi.com CNAME .
 ums-telemetry-cn.heytapmobi.com CNAME .
@@ -637,12 +643,6 @@ dragate-in-dc.heytapmobile.com CNAME .
 *.dragate-in-dc.heytapmobile.com CNAME .
 api-id.game.heytapmobile.com CNAME .
 *.api-id.game.heytapmobile.com CNAME .
-httpdns-euex-push.heytapmobile.com CNAME .
-*.httpdns-euex-push.heytapmobile.com CNAME .
-httpdns-ocloud.heytapmobile.com CNAME .
-*.httpdns-ocloud.heytapmobile.com CNAME .
-httpdns-push.heytapmobile.com CNAME .
-*.httpdns-push.heytapmobile.com CNAME .
 mdp-usertrace-in.heytapmobile.com CNAME .
 *.mdp-usertrace-in.heytapmobile.com CNAME .
 mdp-usertrace-sg.heytapmobile.com CNAME .
