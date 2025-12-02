@@ -1,0 +1,52 @@
+$TTL 300
+@ SOA localhost. root.localhost. 1763748300 43200 3600 86400 300
+  NS  localhost.
+;
+; Title: HaGeZi's LG webOS Tracker DNS Blocklist
+; Description: Blocks LG webOS native broadband tracker that track your activity.
+; Homepage: https://github.com/hagezi/dns-blocklists
+; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
+; Issues: https://github.com/hagezi/dns-blocklists/issues
+; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
+; Expires: 1 day
+; Last modified: 21 Nov 2025 18:05 UTC
+; Version: 2025.1121.1805.25
+; Syntax: RPZ
+; Number of entries: 36
+;
+h4g3z1-native.lgwebos.web.app CNAME .
+*.h4g3z1-native.lgwebos.web.app CNAME .
+eic-ngfts.lge.com CNAME .
+*.eic-ngfts.lge.com CNAME .
+qt2-ngfts.lge.com CNAME .
+*.qt2-ngfts.lge.com CNAME .
+ad.lgsmartad.com CNAME .
+*.ad.lgsmartad.com CNAME .
+us.lgsmartad.com CNAME .
+*.us.lgsmartad.com CNAME .
+aic.ads.lgtvcommon.com CNAME .
+*.aic.ads.lgtvcommon.com CNAME .
+eic.ads.lgtvcommon.com CNAME .
+*.eic.ads.lgtvcommon.com CNAME .
+cdpbeacon.lgtvcommon.com CNAME .
+*.cdpbeacon.lgtvcommon.com CNAME .
+homeprv.lgtvcommon.com CNAME .
+*.homeprv.lgtvcommon.com CNAME .
+nudge.lgtvcommon.com CNAME .
+*.nudge.lgtvcommon.com CNAME .
+rdl.lgtvcommon.com CNAME .
+*.rdl.lgtvcommon.com CNAME .
+wiseconfig.lgtvcommon.com CNAME .
+*.wiseconfig.lgtvcommon.com CNAME .
+us-ad-lgsmartad-com.aws-prd.net CNAME .
+*.us-ad-lgsmartad-com.aws-prd.net CNAME .
+us-info-lgsmartad-com.aws-prd.net CNAME .
+*.us-info-lgsmartad-com.aws-prd.net CNAME .
+eic-ngfts.lge.com.edgekey.net CNAME .
+*.eic-ngfts.lge.com.edgekey.net CNAME .
+qt2-ngfts.lge.com.edgekey.net CNAME .
+*.qt2-ngfts.lge.com.edgekey.net CNAME .
+alphonso.tv CNAME .
+*.alphonso.tv CNAME .
+lgads.tv CNAME .
+*.lgads.tv CNAME .
