@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1764672300 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1764729540 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Dec 2025 10:45 UTC
-; Version: 2025.1202.1045.11
+; Last modified: 03 Dec 2025 02:39 UTC
+; Version: 2025.1203.0239.39
 ; Syntax: RPZ
-; Number of entries: 6760
+; Number of entries: 6752
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -23,8 +23,6 @@ ns.etalk.ai CNAME .
 *.ns.etalk.ai CNAME .
 dns.glsoft.ai CNAME .
 *.dns.glsoft.ai CNAME .
-dns.ho.al CNAME .
-*.dns.ho.al CNAME .
 jp.95576.app CNAME .
 *.jp.95576.app CNAME .
 shield.afixer.app CNAME .
@@ -71,8 +69,6 @@ fargos2.dns.army CNAME .
 *.fargos2.dns.army CNAME .
 guigu.dns.army CNAME .
 *.guigu.dns.army CNAME .
-homec92.dns.army CNAME .
-*.homec92.dns.army CNAME .
 dnsdoh.art CNAME .
 *.dnsdoh.art CNAME .
 dns.wang.art CNAME .
@@ -1089,8 +1085,6 @@ dns01.enginyring.com CNAME .
 *.dns01.enginyring.com CNAME .
 dns02.enginyring.com CNAME .
 *.dns02.enginyring.com CNAME .
-dns.enzonix.com CNAME .
-*.dns.enzonix.com CNAME .
 adguard.eoghan-net.com CNAME .
 *.adguard.eoghan-net.com CNAME .
 agh.ero-sayhi.com CNAME .
@@ -1099,8 +1093,6 @@ dns.esegece.com CNAME .
 *.dns.esegece.com CNAME .
 dns-family.esegece.com CNAME .
 *.dns-family.esegece.com CNAME .
-essentiallyjay.com CNAME .
-*.essentiallyjay.com CNAME .
 gsat.familyds.com CNAME .
 *.gsat.familyds.com CNAME .
 home.fendya.com CNAME .
