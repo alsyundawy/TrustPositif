@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1764352440 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1764957120 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 28 Nov 2025 17:54 UTC
-; Version: 2025.1128.1754.16
+; Last modified: 05 Dec 2025 17:52 UTC
+; Version: 2025.1205.1752.36
 ; Syntax: RPZ
-; Number of entries: 360
+; Number of entries: 356
 ;
 h4g3z1-nosafesearch.web.app CNAME .
 *.h4g3z1-nosafesearch.web.app CNAME .
@@ -230,8 +230,6 @@ searx.vitanetworks.link CNAME .
 *.searx.vitanetworks.link CNAME .
 search.in.projectsegfau.lt CNAME .
 *.search.in.projectsegfau.lt CNAME .
-search.us.projectsegfau.lt CNAME .
-*.search.us.projectsegfau.lt CNAME .
 librex.baczek.me CNAME .
 *.librex.baczek.me CNAME .
 searx.baczek.me CNAME .
@@ -292,8 +290,6 @@ searx.elukerio.org CNAME .
 *.searx.elukerio.org CNAME .
 searx.everdot.org CNAME .
 *.searx.everdot.org CNAME .
-searx.fossencdi.org CNAME .
-*.searx.fossencdi.org CNAME .
 search.garudalinux.org CNAME .
 *.search.garudalinux.org CNAME .
 seeks.hsbp.org CNAME .
