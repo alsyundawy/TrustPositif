@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1764527520 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1765118340 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 30 Nov 2025 18:32 UTC
-; Version: 2025.1130.1832.28
+; Last modified: 07 Dec 2025 14:39 UTC
+; Version: 2025.1207.1439.42
 ; Syntax: RPZ
-; Number of entries: 2934
+; Number of entries: 2938
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -322,6 +322,8 @@ asiamariage.com CNAME .
 *.asiamariage.com CNAME .
 asianfreshproduce.com CNAME .
 *.asianfreshproduce.com CNAME .
+ask2ask.com CNAME .
+*.ask2ask.com CNAME .
 autoipset.com CNAME .
 *.autoipset.com CNAME .
 avandns.com CNAME .
@@ -2682,6 +2684,8 @@ v6.rocks CNAME .
 *.v6.rocks CNAME .
 iz.rs CNAME .
 *.iz.rs CNAME .
+agropeople.ru CNAME .
+*.agropeople.ru CNAME .
 albertn.ru CNAME .
 *.albertn.ru CNAME .
 asenov.ru CNAME .

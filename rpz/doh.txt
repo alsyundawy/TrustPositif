@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1764930780 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1765118400 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Dec 2025 10:33 UTC
-; Version: 2025.1205.1033.17
+; Last modified: 07 Dec 2025 14:40 UTC
+; Version: 2025.1207.1440.11
 ; Syntax: RPZ
-; Number of entries: 6688
+; Number of entries: 6694
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -625,6 +625,8 @@ dns.73zls.com CNAME .
 *.dns.73zls.com CNAME .
 dns.7vpn.com CNAME .
 *.dns.7vpn.com CNAME .
+tokyo.92-m.com CNAME .
+*.tokyo.92-m.com CNAME .
 adb.aadityakushwaha.com CNAME .
 *.adb.aadityakushwaha.com CNAME .
 doh.dns.apple.com.v.aaplimg.com CNAME .
@@ -1911,6 +1913,8 @@ mabuktogel.creditcard CNAME .
 *.mabuktogel.creditcard CNAME .
 vps.avc.cx CNAME .
 *.vps.avc.cx CNAME .
+atris.cyou CNAME .
+*.atris.cyou CNAME .
 adguard.dantynes.cyou CNAME .
 *.adguard.dantynes.cyou CNAME .
 adguard.eischmann.cz CNAME .
@@ -2251,6 +2255,8 @@ adguard01.zitronen-server.de CNAME .
 *.adguard01.zitronen-server.de CNAME .
 mabuktogel.degree CNAME .
 *.mabuktogel.degree CNAME .
+0ms.dev CNAME .
+*.0ms.dev CNAME .
 dns.applewebkit.dev CNAME .
 *.dns.applewebkit.dev CNAME .
 adguard.avdkishore.dev CNAME .
