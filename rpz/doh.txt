@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765118400 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1765161600 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Dec 2025 14:40 UTC
-; Version: 2025.1207.1440.11
+; Last modified: 08 Dec 2025 02:40 UTC
+; Version: 2025.1208.0240.31
 ; Syntax: RPZ
-; Number of entries: 6694
+; Number of entries: 6724
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -67,6 +67,8 @@ fargos2.dns.army CNAME .
 *.fargos2.dns.army CNAME .
 guigu.dns.army CNAME .
 *.guigu.dns.army CNAME .
+homec92.dns.army CNAME .
+*.homec92.dns.army CNAME .
 dnsdoh.art CNAME .
 *.dnsdoh.art CNAME .
 dns.wang.art CNAME .
@@ -323,6 +325,8 @@ ux.go20.cf CNAME .
 *.ux.go20.cf CNAME .
 ychen.cf CNAME .
 *.ychen.cf CNAME .
+deep-henchman-excuse.cfd CNAME .
+*.deep-henchman-excuse.cfd CNAME .
 ajlxwk4kedu5.absq.ch CNAME .
 *.ajlxwk4kedu5.absq.ch CNAME .
 pebdbvi58gbc.absq.ch CNAME .
@@ -831,6 +835,8 @@ bobstrecansky.com CNAME .
 *.bobstrecansky.com CNAME .
 botclassic.com CNAME .
 *.botclassic.com CNAME .
+dns.braene.com CNAME .
+*.dns.braene.com CNAME .
 bravedns.com CNAME .
 *.bravedns.com CNAME .
 agh.broaddy.com CNAME .
@@ -905,6 +911,8 @@ ag.coco-tama-hoiku.com CNAME .
 *.ag.coco-tama-hoiku.com CNAME .
 dns.coderoria.com CNAME .
 *.dns.coderoria.com CNAME .
+dns.containerpi.com CNAME .
+*.dns.containerpi.com CNAME .
 dns.controld.com CNAME .
 *.dns.controld.com CNAME .
 doh.controld.com CNAME .
@@ -979,6 +987,8 @@ ns2.recursive.dnsbycomodo.com CNAME .
 *.ns2.recursive.dnsbycomodo.com CNAME .
 2.dnscrypt-cert.shield-2.dnsbycomodo.com CNAME .
 *.2.dnscrypt-cert.shield-2.dnsbycomodo.com CNAME .
+dnsenc.com CNAME .
+*.dnsenc.com CNAME .
 doh-lb-atl.dnsflex.com CNAME .
 *.doh-lb-atl.dnsflex.com CNAME .
 doh-lb-br.dnsflex.com CNAME .
@@ -2703,6 +2713,8 @@ axaxa.fun CNAME .
 *.axaxa.fun CNAME .
 ag.brianlee.fun CNAME .
 *.ag.brianlee.fun CNAME .
+cynntex.fun CNAME .
+*.cynntex.fun CNAME .
 dupatruwi22.fun CNAME .
 *.dupatruwi22.fun CNAME .
 dns.f4a.fun CNAME .
@@ -3873,6 +3885,8 @@ flyloadguard.dynu.net CNAME .
 *.flyloadguard.dynu.net CNAME .
 quangdo92.dynu.net CNAME .
 *.quangdo92.dynu.net CNAME .
+gustamadh.dynv6.net CNAME .
+*.gustamadh.dynv6.net CNAME .
 dnscache.e-utp.net CNAME .
 *.dnscache.e-utp.net CNAME .
 adguard.easez.net CNAME .
@@ -3915,6 +3929,8 @@ doh.ffmuc.net CNAME .
 *.doh.ffmuc.net CNAME .
 dot.ffmuc.net CNAME .
 *.dot.ffmuc.net CNAME .
+dns.flightspace.net CNAME .
+*.dns.flightspace.net CNAME .
 dns01.flm9.net CNAME .
 *.dns01.flm9.net CNAME .
 ns1.flodns.net CNAME .
@@ -4359,6 +4375,8 @@ lookup.zucx.net CNAME .
 *.lookup.zucx.net CNAME .
 dns.b33.network CNAME .
 *.dns.b33.network CNAME .
+dns.edgy.network CNAME .
+*.dns.edgy.network CNAME .
 adblock.mydns.network CNAME .
 *.adblock.mydns.network CNAME .
 family.mydns.network CNAME .
@@ -4719,6 +4737,10 @@ wisehomeguard.duckdns.org CNAME .
 *.wisehomeguard.duckdns.org CNAME .
 workcavestl.duckdns.org CNAME .
 *.workcavestl.duckdns.org CNAME .
+x-o-x.duckdns.org CNAME .
+*.x-o-x.duckdns.org CNAME .
+x861g.duckdns.org CNAME .
+*.x861g.duckdns.org CNAME .
 test.zkwg.duckdns.org CNAME .
 *.test.zkwg.duckdns.org CNAME .
 akhilkalwakurthy.dyndns.org CNAME .
@@ -4747,6 +4769,8 @@ jp.dns.bliod.eu.org CNAME .
 *.jp.dns.bliod.eu.org CNAME .
 clic.eu.org CNAME .
 *.clic.eu.org CNAME .
+resolver.dns.eban.eu.org CNAME .
+*.resolver.dns.eban.eu.org CNAME .
 doh.excdn.eu.org CNAME .
 *.doh.excdn.eu.org CNAME .
 doh.greenwood.eu.org CNAME .
@@ -5927,6 +5951,8 @@ adguard.fatu.systems CNAME .
 *.adguard.fatu.systems CNAME .
 3jjxxl.tech CNAME .
 *.3jjxxl.tech CNAME .
+dns.cybertonic.tech CNAME .
+*.dns.cybertonic.tech CNAME .
 s6.dipper315.tech CNAME .
 *.s6.dipper315.tech CNAME .
 dns.everdns.tech CNAME .
@@ -5983,6 +6009,8 @@ adfreedns.top CNAME .
 *.adfreedns.top CNAME .
 bubblex2.top CNAME .
 *.bubblex2.top CNAME .
+catchen121299.top CNAME .
+*.catchen121299.top CNAME .
 alidns.cb1999.top CNAME .
 *.alidns.cb1999.top CNAME .
 alidns2.cb1999.top CNAME .
@@ -6551,6 +6579,8 @@ dns.cloud-admin.xyz CNAME .
 *.dns.cloud-admin.xyz CNAME .
 dns.d94.xyz CNAME .
 *.dns.d94.xyz CNAME .
+do-39574-tr.xyz CNAME .
+*.do-39574-tr.xyz CNAME .
 doh.xyz CNAME .
 *.doh.xyz CNAME .
 agh.dshubham.xyz CNAME .
