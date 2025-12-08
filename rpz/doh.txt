@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765161600 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1765190220 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Dec 2025 02:40 UTC
-; Version: 2025.1208.0240.31
+; Last modified: 08 Dec 2025 10:37 UTC
+; Version: 2025.1208.1037.44
 ; Syntax: RPZ
-; Number of entries: 6724
+; Number of entries: 6730
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -5919,6 +5919,8 @@ dns.epic.st CNAME .
 *.dns.epic.st CNAME .
 dns.sy.st CNAME .
 *.dns.sy.st CNAME .
+home-server.store CNAME .
+*.home-server.store CNAME .
 minilla.store CNAME .
 *.minilla.store CNAME .
 node9.servernode.store CNAME .
@@ -6065,6 +6067,8 @@ blog.kimiblock.top CNAME .
 *.2024.laijy.top CNAME .
 lboxtv.top CNAME .
 *.lboxtv.top CNAME .
+lesuo.top CNAME .
+*.lesuo.top CNAME .
 xm.ln7371.top CNAME .
 *.xm.ln7371.top CNAME .
 an.loliconapp.top CNAME .
@@ -6627,6 +6631,8 @@ adguard.kitakitsune.xyz CNAME .
 *.adguard.kitakitsune.xyz CNAME .
 ko-18948-tr.xyz CNAME .
 *.ko-18948-tr.xyz CNAME .
+kx-97795-tr.xyz CNAME .
+*.kx-97795-tr.xyz CNAME .
 tr.league1.xyz CNAME .
 *.tr.league1.xyz CNAME .
 dns.libost.xyz CNAME .
