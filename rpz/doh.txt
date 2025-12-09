@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765190220 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1765219080 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Dec 2025 10:37 UTC
-; Version: 2025.1208.1037.44
+; Last modified: 08 Dec 2025 18:38 UTC
+; Version: 2025.1208.1838.32
 ; Syntax: RPZ
-; Number of entries: 6730
+; Number of entries: 6736
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1519,6 +1519,8 @@ x.ns1net.com CNAME .
 *.x.ns1net.com CNAME .
 ns3.com CNAME .
 *.ns3.com CNAME .
+nsown.com CNAME .
+*.nsown.com CNAME .
 dns.nullrecon.com CNAME .
 *.dns.nullrecon.com CNAME .
 dns.numerus.com CNAME .
@@ -5797,6 +5799,8 @@ doh.sb CNAME .
 *.doh.sb CNAME .
 dns.butterfly87.sbs CNAME .
 *.dns.butterfly87.sbs CNAME .
+myatris.sbs CNAME .
+*.myatris.sbs CNAME .
 dns.tbs6920.sbs CNAME .
 *.dns.tbs6920.sbs CNAME .
 dns.haka.se CNAME .
@@ -6669,6 +6673,8 @@ loan.paymdm.xyz CNAME .
 *.loan.paymdm.xyz CNAME .
 pepetio.xyz CNAME .
 *.pepetio.xyz CNAME .
+pingbi.xyz CNAME .
+*.pingbi.xyz CNAME .
 pm1239-bd.xyz CNAME .
 *.pm1239-bd.xyz CNAME .
 pm7051-br.xyz CNAME .
