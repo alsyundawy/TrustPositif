@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765276440 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1765363800 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,8 +10,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Dec 2025 10:34 UTC
-; Version: 2025.1209.1034.39
+; Last modified: 10 Dec 2025 10:50 UTC
+; Version: 2025.1210.1050.07
 ; Syntax: RPZ
 ; Number of entries: 6738
 ;
@@ -1511,8 +1511,6 @@ dns1.nordvpn.com CNAME .
 *.dns1.nordvpn.com CNAME .
 dns2.nordvpn.com CNAME .
 *.dns2.nordvpn.com CNAME .
-dns.notjakob.com CNAME .
-*.dns.notjakob.com CNAME .
 adguard.npglocal.com CNAME .
 *.adguard.npglocal.com CNAME .
 x.ns1net.com CNAME .
@@ -1529,6 +1527,8 @@ dns.nxsyspro.com CNAME .
 *.dns.nxsyspro.com CNAME .
 qdns02.nymterm.com CNAME .
 *.qdns02.nymterm.com CNAME .
+ha.o51r15.com CNAME .
+*.ha.o51r15.com CNAME .
 vpn.odeccit.com CNAME .
 *.vpn.odeccit.com CNAME .
 dns.odinpl.com CNAME .
