@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765562220 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1765724340 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Dec 2025 17:57 UTC
-; Version: 2025.1212.1757.47
+; Last modified: 14 Dec 2025 14:59 UTC
+; Version: 2025.1214.1459.06
 ; Syntax: RPZ
-; Number of entries: 6740
+; Number of entries: 6734
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -487,8 +487,6 @@ doh.360.cn CNAME .
 *.doh.360.cn CNAME .
 dot.360.cn CNAME .
 *.dot.360.cn CNAME .
-520ily.cn CNAME .
-*.520ily.cn CNAME .
 dns.baishiyuan.cn CNAME .
 *.dns.baishiyuan.cn CNAME .
 dns.beardic.cn CNAME .
@@ -5957,8 +5955,6 @@ crypto.sx CNAME .
 *.crypto.sx CNAME .
 adguard.fatu.systems CNAME .
 *.adguard.fatu.systems CNAME .
-3jjxxl.tech CNAME .
-*.3jjxxl.tech CNAME .
 dns.cybertonic.tech CNAME .
 *.dns.cybertonic.tech CNAME .
 s6.dipper315.tech CNAME .
@@ -6515,8 +6511,6 @@ xjpdns.354688.xyz CNAME .
 *.xjpdns.354688.xyz CNAME .
 3dcosas.xyz CNAME .
 *.3dcosas.xyz CNAME .
-dns-hk.524228.xyz CNAME .
-*.dns-hk.524228.xyz CNAME .
 adguard2.546413.xyz CNAME .
 *.adguard2.546413.xyz CNAME .
 bwg.559299366.xyz CNAME .
