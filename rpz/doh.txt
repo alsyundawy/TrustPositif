@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765780920 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1765809540 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Dec 2025 06:42 UTC
-; Version: 2025.1215.0642.38
+; Last modified: 15 Dec 2025 14:39 UTC
+; Version: 2025.1215.1439.21
 ; Syntax: RPZ
-; Number of entries: 6732
+; Number of entries: 6726
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -887,8 +887,6 @@ midns.clicinternet.com CNAME .
 *.midns.clicinternet.com CNAME .
 dns.clickitsolutionsllc.com CNAME .
 *.dns.clickitsolutionsllc.com CNAME .
-doh.cloud-sekeng.com CNAME .
-*.doh.cloud-sekeng.com CNAME .
 dns.cloudflare.com CNAME .
 *.dns.cloudflare.com CNAME .
 cloudflare-dns.com CNAME .
@@ -2003,8 +2001,6 @@ circumitor.de CNAME .
 *.circumitor.de CNAME .
 dns.codarbyte.de CNAME .
 *.dns.codarbyte.de CNAME .
-dns.code66.de CNAME .
-*.dns.code66.de CNAME .
 dns.hub.com.de CNAME .
 *.dns.hub.com.de CNAME .
 adguard.crestfallen.de CNAME .
@@ -6579,8 +6575,6 @@ alpha.cixy.xyz CNAME .
 *.alpha.cixy.xyz CNAME .
 dns.clickhost.xyz CNAME .
 *.dns.clickhost.xyz CNAME .
-dns.cloud-admin.xyz CNAME .
-*.dns.cloud-admin.xyz CNAME .
 dns.d94.xyz CNAME .
 *.dns.d94.xyz CNAME .
 do-39574-tr.xyz CNAME .
