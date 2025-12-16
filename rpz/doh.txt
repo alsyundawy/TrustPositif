@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765852920 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1765881540 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Dec 2025 02:42 UTC
-; Version: 2025.1216.0242.42
+; Last modified: 16 Dec 2025 10:39 UTC
+; Version: 2025.1216.1039.56
 ; Syntax: RPZ
-; Number of entries: 6716
+; Number of entries: 6708
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1247,8 +1247,6 @@ ad.imblien.com CNAME .
 *.ad.imblien.com CNAME .
 noads.imbuffering.com CNAME .
 *.noads.imbuffering.com CNAME .
-dns1.imkvq.com CNAME .
-*.dns1.imkvq.com CNAME .
 incaseineeditoneday.com CNAME .
 *.incaseineeditoneday.com CNAME .
 dns.inclusioproject.com CNAME .
@@ -3299,10 +3297,6 @@ eth.link CNAME .
 *.eth.link CNAME .
 guidetoworld.link CNAME .
 *.guidetoworld.link CNAME .
-d1.insec.link CNAME .
-*.d1.insec.link CNAME .
-srv.insec.link CNAME .
-*.srv.insec.link CNAME .
 intertop.link CNAME .
 *.intertop.link CNAME .
 s2.littlebr.link CNAME .
@@ -5831,8 +5825,6 @@ ms.gswsfh2021.site CNAME .
 *.ms.gswsfh2021.site CNAME .
 dns.sgp.hicn.site CNAME .
 *.dns.sgp.hicn.site CNAME .
-dns.indraarsana.site CNAME .
-*.dns.indraarsana.site CNAME .
 dns.izyserv.site CNAME .
 *.dns.izyserv.site CNAME .
 dns.jcdn.site CNAME .
