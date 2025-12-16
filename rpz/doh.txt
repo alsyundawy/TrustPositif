@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765838700 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1765852920 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Dec 2025 22:45 UTC
-; Version: 2025.1215.2245.52
+; Last modified: 16 Dec 2025 02:42 UTC
+; Version: 2025.1216.0242.42
 ; Syntax: RPZ
-; Number of entries: 6722
+; Number of entries: 6716
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1129,8 +1129,6 @@ gclouddns.com CNAME .
 *.gclouddns.com CNAME .
 adguard.georgev22.com CNAME .
 *.adguard.georgev22.com CNAME .
-bvo.giize.com CNAME .
-*.bvo.giize.com CNAME .
 lamdtl.giize.com CNAME .
 *.lamdtl.giize.com CNAME .
 sdns22.gkonuralp.com CNAME .
@@ -2075,8 +2073,6 @@ adguard2.frece.de CNAME .
 *.adguard2.frece.de CNAME .
 doh.funil.de CNAME .
 *.doh.funil.de CNAME .
-dns.furrydns.de CNAME .
-*.dns.furrydns.de CNAME .
 dns.geekbyte.de CNAME .
 *.dns.geekbyte.de CNAME .
 eime.goip.de CNAME .
@@ -3939,8 +3935,6 @@ resolv.flokinet.net CNAME .
 *.resolv.flokinet.net CNAME .
 dns.flux24.net CNAME .
 *.dns.flux24.net CNAME .
-de-d2.foxyfy.net CNAME .
-*.de-d2.foxyfy.net CNAME .
 de-f1.foxyfy.net CNAME .
 *.de-f1.foxyfy.net CNAME .
 dns.foxyfy.net CNAME .
