@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765910700 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1765953960 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Dec 2025 18:45 UTC
-; Version: 2025.1216.1845.56
+; Last modified: 17 Dec 2025 06:46 UTC
+; Version: 2025.1217.0646.06
 ; Syntax: RPZ
-; Number of entries: 6704
+; Number of entries: 6698
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3355,8 +3355,6 @@ blackhole.myon.lu CNAME .
 *.blackhole.myon.lu CNAME .
 dnspub.restena.lu CNAME .
 *.dnspub.restena.lu CNAME .
-dns.ours.luxe CNAME .
-*.dns.ours.luxe CNAME .
 doh.lv CNAME .
 *.doh.lv CNAME .
 guard-1.vilbav.id.lv CNAME .
@@ -3605,8 +3603,6 @@ domain.name CNAME .
 *.domain.name CNAME .
 searxng.rcxpony.name CNAME .
 *.searxng.rcxpony.name CNAME .
-dns.reckoningslug.name CNAME .
-*.dns.reckoningslug.name CNAME .
 dns.therifleman.name CNAME .
 *.dns.therifleman.name CNAME .
 bh.wael.name CNAME .
@@ -4563,8 +4559,6 @@ pdnssrvagh.online CNAME .
 *.pdnssrvagh.online CNAME .
 petinom.online CNAME .
 *.petinom.online CNAME .
-reptis.online CNAME .
-*.reptis.online CNAME .
 shadowart.online CNAME .
 *.shadowart.online CNAME .
 media.streamfusion.online CNAME .
