@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765982340 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1766011080 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Dec 2025 14:39 UTC
-; Version: 2025.1217.1439.20
+; Last modified: 17 Dec 2025 22:38 UTC
+; Version: 2025.1217.2238.40
 ; Syntax: RPZ
-; Number of entries: 6694
+; Number of entries: 6692
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -5877,8 +5877,6 @@ strangerandomdomain1.space CNAME .
 *.strangerandomdomain1.space CNAME .
 adguard.vegann.space CNAME .
 *.adguard.vegann.space CNAME .
-venum.space CNAME .
-*.venum.space CNAME .
 adguard.wifri.space CNAME .
 *.adguard.wifri.space CNAME .
 dns.epic.st CNAME .
