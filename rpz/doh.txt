@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1766011080 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1766039940 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,8 +10,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Dec 2025 22:38 UTC
-; Version: 2025.1217.2238.40
+; Last modified: 18 Dec 2025 06:39 UTC
+; Version: 2025.1218.0639.37
 ; Syntax: RPZ
 ; Number of entries: 6692
 ;
@@ -1569,6 +1569,10 @@ resolver2-fs.opendns.com CNAME .
 *.resolver2-fs.opendns.com CNAME .
 sandbox.opendns.com CNAME .
 *.sandbox.opendns.com CNAME .
+adblock.opendoh.com CNAME .
+*.adblock.opendoh.com CNAME .
+dns.opendoh.com CNAME .
+*.dns.opendoh.com CNAME .
 httpdns.ocloud.oppomobile.com CNAME .
 *.httpdns.ocloud.oppomobile.com CNAME .
 httpdns.push.oppomobile.com CNAME .
@@ -1859,8 +1863,6 @@ adguard.rn.wwb1215.com CNAME .
 *.adguard.rn.wwb1215.com CNAME .
 adguard.xandersalarie.com CNAME .
 *.adguard.xandersalarie.com CNAME .
-xbcpb668.com CNAME .
-*.xbcpb668.com CNAME .
 doh.xfinity.com CNAME .
 *.doh.xfinity.com CNAME .
 dot.xfinity.com CNAME .
@@ -5737,8 +5739,6 @@ vpnmy.ru CNAME .
 *.vpnmy.ru CNAME .
 waydnes.ru CNAME .
 *.waydnes.ru CNAME .
-mydns.x96maxultra.ru CNAME .
-*.mydns.x96maxultra.ru CNAME .
 dns.xcapenet.ru CNAME .
 *.dns.xcapenet.ru CNAME .
 dns2.xcapenet.ru CNAME .
