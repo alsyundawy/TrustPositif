@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1766107620 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1766150820 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 19 Dec 2025 01:27 UTC
-; Version: 2025.1219.0127.07
+; Last modified: 19 Dec 2025 13:27 UTC
+; Version: 2025.1219.1327.34
 ; Syntax: RPZ
-; Number of entries: 122628
+; Number of entries: 122630
 ;
 fixedfloat.ac CNAME .
 *.fixedfloat.ac CNAME .
@@ -89570,6 +89570,8 @@ hxh.jp CNAME .
 *.hxh.jp CNAME .
 i2019.jp CNAME .
 *.i2019.jp CNAME .
+indiegogo.jp CNAME .
+*.indiegogo.jp CNAME .
 ir0d0r1.jp CNAME .
 *.ir0d0r1.jp CNAME .
 irha.jp CNAME .
