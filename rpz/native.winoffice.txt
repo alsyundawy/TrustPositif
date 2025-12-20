@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765562760 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1766167500 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Dec 2025 18:06 UTC
-; Version: 2025.1212.1806.45
+; Last modified: 19 Dec 2025 18:05 UTC
+; Version: 2025.1219.1805.26
 ; Syntax: RPZ
 ; Number of entries: 764
 ;
@@ -338,8 +338,6 @@ ads1.msn.com CNAME .
 *.ads1.msn.com CNAME .
 ads2.msn.com CNAME .
 *.ads2.msn.com CNAME .
-adsyndication.msn.com CNAME .
-*.adsyndication.msn.com CNAME .
 analytics.msn.com CNAME .
 *.analytics.msn.com CNAME .
 metric.appex-rf.msn.com CNAME .
@@ -696,6 +694,8 @@ word-telemetry.wac.trafficmanager.net CNAME .
 *.word-telemetry.wac.trafficmanager.net CNAME .
 win-global-asimov-leafs-events-data.trafficmanager.net CNAME .
 *.win-global-asimov-leafs-events-data.trafficmanager.net CNAME .
+wttwebsiteprodapi-liveevents.trafficmanager.net CNAME .
+*.wttwebsiteprodapi-liveevents.trafficmanager.net CNAME .
 ceuswatcab01.blob.core.windows.net CNAME .
 *.ceuswatcab01.blob.core.windows.net CNAME .
 ceuswatcab02.blob.core.windows.net CNAME .
