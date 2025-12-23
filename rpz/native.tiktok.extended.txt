@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1765562880 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1766436000 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 12 Dec 2025 18:08 UTC
-; Version: 2025.1212.1808.55
+; Last modified: 22 Dec 2025 20:40 UTC
+; Version: 2025.1222.2040.17
 ; Syntax: RPZ
-; Number of entries: 930
+; Number of entries: 934
 ;
 h4g3z1-native.tiktok.extended.web.app CNAME .
 *.h4g3z1-native.tiktok.extended.web.app CNAME .
@@ -870,6 +870,8 @@ mon-boot.tiktokv.com.edgekey.net CNAME .
 *.mon-boot.tiktokv.com.edgekey.net CNAME .
 sf16-telemetry-proxy-oci.tiktokcdn-us.com.edgesuite.net CNAME .
 *.sf16-telemetry-proxy-oci.tiktokcdn-us.com.edgesuite.net CNAME .
+frontier.capcutw.us.edgesuite.net CNAME .
+*.frontier.capcutw.us.edgesuite.net CNAME .
 ad.tiktok.tv CNAME .
 *.ad.tiktok.tv CNAME .
 ads.tiktok.tv CNAME .
@@ -892,6 +894,8 @@ pc-mon16-normal-us-ttp.capcutapi.us CNAME .
 *.pc-mon16-normal-us-ttp.capcutapi.us CNAME .
 tnc16-normal-us-ttp.capcutapi.us CNAME .
 *.tnc16-normal-us-ttp.capcutapi.us CNAME .
+frontier.capcutw.us CNAME .
+*.frontier.capcutw.us CNAME .
 ad.tiktokv.us CNAME .
 *.ad.tiktokv.us CNAME .
 ad-instantpage.tiktokv.us CNAME .

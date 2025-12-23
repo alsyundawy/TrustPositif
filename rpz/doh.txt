@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1766255880 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1766443020 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Dec 2025 18:38 UTC
-; Version: 2025.1220.1838.58
+; Last modified: 22 Dec 2025 22:37 UTC
+; Version: 2025.1222.2237.48
 ; Syntax: RPZ
-; Number of entries: 6696
+; Number of entries: 6692
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3193,8 +3193,6 @@ dns.virtual-qr.ir CNAME .
 *.dns.virtual-qr.ir CNAME .
 adg.webyfa.ir CNAME .
 *.adg.webyfa.ir CNAME .
-dns.flatuslifir.is CNAME .
-*.dns.flatuslifir.is CNAME .
 ricko.is CNAME .
 *.ricko.is CNAME .
 block.abstergo.it CNAME .
@@ -4693,8 +4691,6 @@ pitchforkwaydns.duckdns.org CNAME .
 *.pitchforkwaydns.duckdns.org CNAME .
 punono.duckdns.org CNAME .
 *.punono.duckdns.org CNAME .
-quanmeme.duckdns.org CNAME .
-*.quanmeme.duckdns.org CNAME .
 rcpc2.duckdns.org CNAME .
 *.rcpc2.duckdns.org CNAME .
 salvadoserver.duckdns.org CNAME .

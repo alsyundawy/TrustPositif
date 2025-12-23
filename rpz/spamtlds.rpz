@@ -1,0 +1,260 @@
+;
+;###########################################################################################
+;
+; FILE GENERATED ON  : 23-Dec-25
+; VERSION            : 202512231
+; SYNTAX             : RPZ
+; AUTHORS            : HARRY DERTIN SUTISNA ALSYUNDAWY
+; CONTACT            : alsyundawy@gmail.com, +628568515212 (WHATSAPP/TELEGRAM/CALL)
+; HOMEPAGE           : https://github.com/alsyundawy
+;
+;###########################################################################################
+;
+
+
+$TTL 7200
+
+
+@ IN SOA dns.alsyundawy.com. hostmaster.alsyundawy.com. (
+    					202512231 ; Serial
+    					600         ; Refresh
+    					300         ; Retry
+    					43200       ; Expire
+    					600         ; Negative Cache TTL
+)
+
+
+@ IN NS lamanlabuh.resolver.id.
+
+
+; ==============================================================================
+; MASTER WHITELIST E-COMMERCE INDONESIA (CRITICAL INFRASTRUCTURE)
+; Updated: 23 Dec 2025 | Source: Deep Traffic Analysis & Google Search
+; Status: WAJIB PASS (CNAME rpz-passthru.)
+; ==============================================================================
+
+; ------------------------------------------------------------------------------
+; [1] SHOPEE ECOSYSTEM (COMPLETE)
+; Shopee sangat bergantung pada shopeemobile.com untuk API Backend.
+; Jika shopeemobile.com terblokir, aplikasi hanya loading screen putih.
+; ------------------------------------------------------------------------------
+; Main Domains
+shopee.co.id            IN CNAME rpz-passthru.
+*.shopee.co.id          IN CNAME rpz-passthru.
+shopee.com              IN CNAME rpz-passthru.
+*.shopee.com            IN CNAME rpz-passthru.
+
+; Shortlink & Affiliate (Sangat Vital untuk Share Link)
+shp.ee                  IN CNAME rpz-passthru.
+*.shp.ee                IN CNAME rpz-passthru.
+shope.ee                IN CNAME rpz-passthru.
+*.shope.ee              IN CNAME rpz-passthru.
+s.shopee.co.id          IN CNAME rpz-passthru.
+*.s.shopee.co.id        IN CNAME rpz-passthru.
+shopee.link             IN CNAME rpz-passthru.
+*.shopee.link           IN CNAME rpz-passthru.
+
+; Backend API & CDN (JANTUNG APLIKASI)
+shopeemobile.com        IN CNAME rpz-passthru.
+*.shopeemobile.com      IN CNAME rpz-passthru.
+shopeemobile.net        IN CNAME rpz-passthru.
+*.shopeemobile.net      IN CNAME rpz-passthru.
+shopee.io               IN CNAME rpz-passthru.
+*.shopee.io             IN CNAME rpz-passthru.
+
+; Logistik (Shopee Express)
+spx.co.id               IN CNAME rpz-passthru.
+*.spx.co.id             IN CNAME rpz-passthru.
+
+; ------------------------------------------------------------------------------
+; [2] TOKOPEDIA ECOSYSTEM (COMPLETE)
+; Tokopedia masih menggunakan domain lama (.net dan .me) untuk aset gambar.
+; ------------------------------------------------------------------------------
+; Main Domains
+tokopedia.com           IN CNAME rpz-passthru.
+*.tokopedia.com         IN CNAME rpz-passthru.
+
+; Shortlink & Vanity URLs
+tokopedia.link          IN CNAME rpz-passthru.
+*.tokopedia.link        IN CNAME rpz-passthru.
+tkp.me                  IN CNAME rpz-passthru.
+*.tkp.me                IN CNAME rpz-passthru.
+tokopedia.by            IN CNAME rpz-passthru.
+*.tokopedia.by          IN CNAME rpz-passthru.
+
+; Backend & CDN (Gambar Produk)
+tokopedia.net           IN CNAME rpz-passthru.
+*.tokopedia.net         IN CNAME rpz-passthru.
+ecs7.tokopedia.net      IN CNAME rpz-passthru.
+*.ecs7.tokopedia.net    IN CNAME rpz-passthru.
+api.tokopedia.com       IN CNAME rpz-passthru.
+*.api.tokopedia.com     IN CNAME rpz-passthru.
+
+; ------------------------------------------------------------------------------
+; [3] GLOBAL SHARED INFRASTRUCTURE (APP DEPENDENCIES)
+; Tanpa ini, deep-linking dari medsos ke aplikasi akan GAGAL.
+; ------------------------------------------------------------------------------
+; Branch.io (Dipakai Tokopedia/Bibit/Traveloka)
+app.link                IN CNAME rpz-passthru.
+*.app.link              IN CNAME rpz-passthru.
+
+; Firebase Dynamic Links (Dipakai Shopee/Gojek/Grab)
+page.link               IN CNAME rpz-passthru.
+*.page.link             IN CNAME rpz-passthru.
+
+; WhatsApp Shortener (Dipakai jutaan Seller)
+wa.link                 IN CNAME rpz-passthru.
+*.wa.link               IN CNAME rpz-passthru.
+api.whatsapp.com        IN CNAME rpz-passthru.
+
+; Mobile Attribution (Tracking Install/Buka Aplikasi)
+adjust.com              IN CNAME rpz-passthru.
+*.adjust.com            IN CNAME rpz-passthru.
+appsflyer.com           IN CNAME rpz-passthru.
+*.appsflyer.com         IN CNAME rpz-passthru.
+
+; ==============================================================================
+; 					MASTER BLACKLIST
+; ==============================================================================
+
+; ==============================================================================
+; SEKTOR 1: PORNOGRAFI & ADULT CONTENT (Eksplisit)
+; Sumber: IANA Data 2025122200
+; ==============================================================================
+xxx         IN CNAME lamanlabuh.resolver.id.
+*.xxx       IN CNAME lamanlabuh.resolver.id.
+porn        IN CNAME lamanlabuh.resolver.id.
+*.porn      IN CNAME lamanlabuh.resolver.id.
+adult       IN CNAME lamanlabuh.resolver.id.
+*.adult     IN CNAME lamanlabuh.resolver.id.
+bj        	IN CNAME lamanlabuh.resolver.id.
+*.bj      	IN CNAME lamanlabuh.resolver.id.
+sex         IN CNAME lamanlabuh.resolver.id.
+*.sex       IN CNAME lamanlabuh.resolver.id.
+sexy        IN CNAME lamanlabuh.resolver.id.
+*.sexy      IN CNAME lamanlabuh.resolver.id.
+webcam      IN CNAME lamanlabuh.resolver.id.
+*.webcam    IN CNAME lamanlabuh.resolver.id.
+tube        IN CNAME lamanlabuh.resolver.id.
+*.tube      IN CNAME lamanlabuh.resolver.id.
+cam         IN CNAME lamanlabuh.resolver.id.
+*.cam       IN CNAME lamanlabuh.resolver.id.
+dating      IN CNAME lamanlabuh.resolver.id.
+*.dating    IN CNAME lamanlabuh.resolver.id.
+
+; ==============================================================================
+; SEKTOR 2: LGBT & GENDER IDENTITY (Sesuai Request)
+; Sumber: IANA Data 2025122200
+; ==============================================================================
+lgbt        IN CNAME lamanlabuh.resolver.id.
+*.lgbt      IN CNAME lamanlabuh.resolver.id.
+gay         IN CNAME lamanlabuh.resolver.id.
+*.gay       IN CNAME lamanlabuh.resolver.id.
+queer       IN CNAME lamanlabuh.resolver.id.
+*.queer     IN CNAME lamanlabuh.resolver.id.
+
+; ==============================================================================
+; SEKTOR 3: JUDI ONLINE & BETTING (Eksplisit)
+; TLD ini mahal, biasanya dipakai situs judi besar/resmi di Eropa.
+; ==============================================================================
+bet         IN CNAME lamanlabuh.resolver.id.
+*.bet       IN CNAME lamanlabuh.resolver.id.
+casino      IN CNAME lamanlabuh.resolver.id.
+*.casino    IN CNAME lamanlabuh.resolver.id.
+poker       IN CNAME lamanlabuh.resolver.id.
+*.poker     IN CNAME lamanlabuh.resolver.id.
+bingo       IN CNAME lamanlabuh.resolver.id.
+*.bingo     IN CNAME lamanlabuh.resolver.id.
+lotto       IN CNAME lamanlabuh.resolver.id.
+*.lotto     IN CNAME lamanlabuh.resolver.id.
+juegos      IN CNAME lamanlabuh.resolver.id.
+*.juegos    IN CNAME lamanlabuh.resolver.id.
+vegas       IN CNAME lamanlabuh.resolver.id.
+*.vegas     IN CNAME lamanlabuh.resolver.id.
+win         IN CNAME lamanlabuh.resolver.id.
+*.win       IN CNAME lamanlabuh.resolver.id.
+
+; ==============================================================================
+; SEKTOR 4: HIGH RISK "JUDOL" VECTORS (TLD Murah/Abused)
+; Analisa: Situs slot gacor jarang pakai .com/.net (mahal & mudah di-takedown).
+; Mereka memakai TLD "Sampah" di bawah ini. Blokir ini sangat efektif.
+; ==============================================================================
+xyz         IN CNAME lamanlabuh.resolver.id.
+*.xyz       IN CNAME lamanlabuh.resolver.id.
+top         IN CNAME lamanlabuh.resolver.id.
+*.top       IN CNAME lamanlabuh.resolver.id.
+site        IN CNAME lamanlabuh.resolver.id.
+*.site      IN CNAME lamanlabuh.resolver.id.
+online      IN CNAME lamanlabuh.resolver.id.
+*.online    IN CNAME lamanlabuh.resolver.id.
+club        IN CNAME lamanlabuh.resolver.id.
+*.club      IN CNAME lamanlabuh.resolver.id.
+vip         IN CNAME lamanlabuh.resolver.id.
+*.vip       IN CNAME lamanlabuh.resolver.id.
+link        IN CNAME lamanlabuh.resolver.id.
+*.link      IN CNAME lamanlabuh.resolver.id.
+asia        IN CNAME lamanlabuh.resolver.id.
+*.asia      IN CNAME lamanlabuh.resolver.id.
+fun         IN CNAME lamanlabuh.resolver.id.
+*.fun       IN CNAME lamanlabuh.resolver.id.
+live        IN CNAME lamanlabuh.resolver.id.
+*.live      IN CNAME lamanlabuh.resolver.id.
+mobi        IN CNAME lamanlabuh.resolver.id.
+*.mobi      IN CNAME lamanlabuh.resolver.id.
+pro         IN CNAME lamanlabuh.resolver.id.
+*.pro       IN CNAME lamanlabuh.resolver.id.
+gdn         IN CNAME lamanlabuh.resolver.id.
+*.gdn       IN CNAME lamanlabuh.resolver.id.
+work        IN CNAME lamanlabuh.resolver.id.
+*.work      IN CNAME lamanlabuh.resolver.id.
+click       IN CNAME lamanlabuh.resolver.id.
+*.click     IN CNAME lamanlabuh.resolver.id.
+buzz        IN CNAME lamanlabuh.resolver.id.
+*.buzz      IN CNAME lamanlabuh.resolver.id.
+wiki        IN CNAME lamanlabuh.resolver.id.
+*.wiki      IN CNAME lamanlabuh.resolver.id.
+review      IN CNAME lamanlabuh.resolver.id.
+*.review    IN CNAME lamanlabuh.resolver.id.
+monster     IN CNAME lamanlabuh.resolver.id.
+*.monster   IN CNAME lamanlabuh.resolver.id.
+kim         IN CNAME lamanlabuh.resolver.id.
+*.kim       IN CNAME lamanlabuh.resolver.id.
+
+; ==============================================================================
+; SEKTOR 6: SECURITY RISK (Phishing & Malware)
+; Google TLDs yang berbahaya jika tidak dikelola admin IT expert.
+; ==============================================================================
+zip         IN CNAME lamanlabuh.resolver.id.
+*.zip       IN CNAME lamanlabuh.resolver.id.
+mov         IN CNAME lamanlabuh.resolver.id.
+*.mov       IN CNAME lamanlabuh.resolver.id.
+download    IN CNAME lamanlabuh.resolver.id.
+*.download  IN CNAME lamanlabuh.resolver.id.
+
+; ==============================================================================
+; SEKTOR 7: CUSTOM (CUSTOM)
+; TLDs Custom yang berbahaya jika tidak dikelola admin IT expert.
+; ==============================================================================
+
+best        IN CNAME lamanlabuh.resolver.id.
+*.best      IN CNAME lamanlabuh.resolver.id.
+icu    		IN CNAME lamanlabuh.resolver.id.
+*.icu  		IN CNAME lamanlabuh.resolver.id.
+br        	IN CNAME lamanlabuh.resolver.id.
+*.br      	IN CNAME lamanlabuh.resolver.id.
+za    		IN CNAME lamanlabuh.resolver.id.
+*.za  		IN CNAME lamanlabuh.resolver.id.
+cfd    		IN CNAME lamanlabuh.resolver.id.
+*.cfd  		IN CNAME lamanlabuh.resolver.id.
+sbs    		IN CNAME lamanlabuh.resolver.id.
+*.sbs  		IN CNAME lamanlabuh.resolver.id.
+
+
+; ==============================================================================
+; SEKTOR 8: WHITELIST EXCEPTION (PENTING!)
+; Jika Anda memblokir .site atau .online, mungkin ada 1-2 web legit kena.
+; Pasang whitelist di BAWAH blokir wildcard untuk override (jika BIND mendukung urutan)
+; Atau gunakan file zone terpisah "db.rpz.whitelist" dengan prioritas lebih tinggi.
+; ==============================================================================
+; Contoh Whitelist (Uncomment jika perlu):
+; microsoft.site  IN CNAME rpz-passthru.
