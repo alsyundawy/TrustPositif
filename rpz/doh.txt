@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1766443020 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1766529360 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Dec 2025 22:37 UTC
-; Version: 2025.1222.2237.48
+; Last modified: 23 Dec 2025 22:36 UTC
+; Version: 2025.1223.2236.29
 ; Syntax: RPZ
-; Number of entries: 6692
+; Number of entries: 6684
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -761,16 +761,8 @@ httpsdns.baidu.com CNAME .
 *.httpsdns.baidu.com CNAME .
 httpdns.baidubce.com CNAME .
 *.httpdns.baidubce.com CNAME .
-fr-dns1.bancuh.com CNAME .
-*.fr-dns1.bancuh.com CNAME .
-fr-dns2.bancuh.com CNAME .
-*.fr-dns2.bancuh.com CNAME .
-jp-dns1.bancuh.com CNAME .
-*.jp-dns1.bancuh.com CNAME .
-sg-dns1.bancuh.com CNAME .
-*.sg-dns1.bancuh.com CNAME .
-sg-dns2.bancuh.com CNAME .
-*.sg-dns2.bancuh.com CNAME .
+bancuh.com CNAME .
+*.bancuh.com CNAME .
 httpdns.bcelive.com CNAME .
 *.httpdns.bcelive.com CNAME .
 antivirus.bebasid.com CNAME .
