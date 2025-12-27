@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1766435940 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1766772360 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Fingerprinting DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 22 Dec 2025 20:39 UTC
-; Version: 2025.1222.2039.20
+; Last modified: 26 Dec 2025 18:06 UTC
+; Version: 2025.1226.1806.29
 ; Syntax: RPZ
-; Number of entries: 742
+; Number of entries: 744
 ;
 h4g3z1-native.tiktok.web.app CNAME .
 *.h4g3z1-native.tiktok.web.app CNAME .
@@ -148,6 +148,8 @@ extlog.snssdk.com CNAME .
 *.extlog.snssdk.com CNAME .
 haohuo.snssdk.com CNAME .
 *.haohuo.snssdk.com CNAME .
+i.snssdk.com CNAME .
+*.i.snssdk.com CNAME .
 log.snssdk.com CNAME .
 *.log.snssdk.com CNAME .
 log-hl.snssdk.com CNAME .
