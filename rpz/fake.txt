@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767087000 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767173460 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 30 Dec 2025 09:30 UTC
-; Version: 2025.1230.0930.41
+; Last modified: 31 Dec 2025 09:31 UTC
+; Version: 2025.1231.0931.33
 ; Syntax: RPZ
-; Number of entries: 28236
+; Number of entries: 28238
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -1744,6 +1744,8 @@ abrisphere.com CNAME .
 *.abrisphere.com CNAME .
 absolutelk.com CNAME .
 *.absolutelk.com CNAME .
+absolutelyn.com CNAME .
+*.absolutelyn.com CNAME .
 absoluteo.com CNAME .
 *.absoluteo.com CNAME .
 absorbpath.com CNAME .
@@ -4836,6 +4838,8 @@ cryotoxtrade.com CNAME .
 *.cryotoxtrade.com CNAME .
 cryptex-vip.com CNAME .
 *.cryptex-vip.com CNAME .
+tax.crypto.com CNAME .
+*.tax.crypto.com CNAME .
 crypto-bulot.com CNAME .
 *.crypto-bulot.com CNAME .
 crypto-institute.com CNAME .
@@ -13282,8 +13286,6 @@ proupwholesale.com CNAME .
 *.proupwholesale.com CNAME .
 provenxperts.com CNAME .
 *.provenxperts.com CNAME .
-providedes.com CNAME .
-*.providedes.com CNAME .
 provise24.com CNAME .
 *.provise24.com CNAME .
 prowerkparts.com CNAME .
