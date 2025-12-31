@@ -24,6 +24,11 @@
 
 **Jika Anda merasa terbantu dan ingin mendukung proyek ini, pertimbangkan untuk berdonasi melalui https://www.paypal.me/alsyundawy. Terima kasih atas dukungannya!**
 
+**Jika Anda merasa terbantu dan ingin mendukung proyek ini, pertimbangkan untuk berdonasi melalui QRIS. Terima kasih atas dukungannya!**
+
+<img width="1240" height="1748" alt="image" src="https://github.com/user-attachments/assets/8d29f4c0-b9a8-4a0d-b90b-0bf0aa2a16f3" />
+
+
 
 **Credit @2021-2025 Kementerian Komunikasi dan Digital Republik Indonesia (KOMDIGI) & Just Me , I & My Self!**
 
