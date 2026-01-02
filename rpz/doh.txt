@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767337740 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767350760 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Jan 2026 07:09 UTC
-; Version: 2026.0102.0709.05
+; Last modified: 02 Jan 2026 10:46 UTC
+; Version: 2026.0102.1046.47
 ; Syntax: RPZ
-; Number of entries: 6776
+; Number of entries: 6774
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3967,8 +3967,6 @@ es-ma.foxyfy.net CNAME .
 *.es-ma.foxyfy.net CNAME .
 jp-to.foxyfy.net CNAME .
 *.jp-to.foxyfy.net CNAME .
-o-bu.foxyfy.net CNAME .
-*.o-bu.foxyfy.net CNAME .
 ro-bu.foxyfy.net CNAME .
 *.ro-bu.foxyfy.net CNAME .
 us-ny.foxyfy.net CNAME .
