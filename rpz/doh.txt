@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767376680 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767422940 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Jan 2026 17:58 UTC
-; Version: 2026.0102.1758.29
+; Last modified: 03 Jan 2026 06:49 UTC
+; Version: 2026.0103.0649.11
 ; Syntax: RPZ
-; Number of entries: 6766
+; Number of entries: 6756
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -279,8 +279,6 @@ dns.huanmave.cc CNAME .
 *.dns.huanmave.cc CNAME .
 d.hxhd.cc CNAME .
 *.d.hxhd.cc CNAME .
-dns.interhub.cc CNAME .
-*.dns.interhub.cc CNAME .
 irrelevant.cc CNAME .
 *.irrelevant.cc CNAME .
 bt.luoo.cc CNAME .
@@ -1027,6 +1025,8 @@ a.safe.ns.dnslify.com CNAME .
 *.a.safe.ns.dnslify.com CNAME .
 b.safe.ns.dnslify.com CNAME .
 *.b.safe.ns.dnslify.com CNAME .
+dnspod.com CNAME .
+*.dnspod.com CNAME .
 adblock-dot.dnswarden.com CNAME .
 *.adblock-dot.dnswarden.com CNAME .
 adult-filter-dot.dnswarden.com CNAME .
@@ -1133,8 +1133,6 @@ adguard.gattow.com CNAME .
 *.adguard.gattow.com CNAME .
 gclouddns.com CNAME .
 *.gclouddns.com CNAME .
-adguard.georgev22.com CNAME .
-*.adguard.georgev22.com CNAME .
 lamdtl.giize.com CNAME .
 *.lamdtl.giize.com CNAME .
 sdns22.gkonuralp.com CNAME .
@@ -1225,8 +1223,6 @@ dns.hostingim.com CNAME .
 *.dns.hostingim.com CNAME .
 httpdns.huaweicloud.com CNAME .
 *.httpdns.huaweicloud.com CNAME .
-dns.huizhechi.com CNAME .
-*.dns.huizhechi.com CNAME .
 ads.hunga1k47.com CNAME .
 *.ads.hunga1k47.com CNAME .
 doth.huque.com CNAME .
@@ -3459,8 +3455,6 @@ dns.griffioen.me CNAME .
 *.dns.griffioen.me CNAME .
 gztech.me CNAME .
 *.gztech.me CNAME .
-happy365.me CNAME .
-*.happy365.me CNAME .
 hdnsadguardhome.me CNAME .
 *.hdnsadguardhome.me CNAME .
 hitian.me CNAME .
@@ -5041,12 +5035,6 @@ adguardhome.favrep.ovh CNAME .
 *.adguardhome.favrep.ovh CNAME .
 fezgate.ovh CNAME .
 *.fezgate.ovh CNAME .
-spyro-the-bat.fleuryk.ovh CNAME .
-*.spyro-the-bat.fleuryk.ovh CNAME .
-spyrothebat.fleuryk.ovh CNAME .
-*.spyrothebat.fleuryk.ovh CNAME .
-vps.fleuryk.ovh CNAME .
-*.vps.fleuryk.ovh CNAME .
 ablock.fuckit.ovh CNAME .
 *.ablock.fuckit.ovh CNAME .
 dns.gussguss.ovh CNAME .
@@ -5639,8 +5627,10 @@ v1552270.hosted-by-vdsina.ru CNAME .
 *.v1552270.hosted-by-vdsina.ru CNAME .
 adg.hostingab.ru CNAME .
 *.adg.hostingab.ru CNAME .
-i-puppy.ru CNAME .
-*.i-puppy.ru CNAME .
+ec.i-puppy.ru CNAME .
+*.ec.i-puppy.ru CNAME .
+ru.i-puppy.ru CNAME .
+*.ru.i-puppy.ru CNAME .
 az.i81.ru CNAME .
 *.az.i81.ru CNAME .
 hr.i81.ru CNAME .
