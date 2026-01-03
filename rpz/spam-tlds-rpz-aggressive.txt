@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767293280 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767375840 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs - Aggressive
@@ -14,10 +14,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 01 Jan 2026 18:48 UTC
-; Version: 2026.0101.1848.37
+; Last modified: 02 Jan 2026 17:44 UTC
+; Version: 2026.0102.1744.40
 ; Syntax: RPZ
-; Number of latin TLDs: 283
+; Number of latin TLDs: 282
 ;
 *.actor CNAME .
 *.africa CNAME .
@@ -282,7 +282,6 @@ $TTL 300
 *.vin CNAME .
 *.vip CNAME .
 *.vision CNAME .
-*.vlaanderen CNAME .
 *.vote CNAME .
 *.voto CNAME .
 *.wang CNAME .

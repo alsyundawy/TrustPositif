@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1766167860 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767377640 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 19 Dec 2025 18:11 UTC
-; Version: 2025.1219.1811.09
+; Last modified: 02 Jan 2026 18:14 UTC
+; Version: 2026.0102.1814.45
 ; Syntax: RPZ
-; Number of entries: 708
+; Number of entries: 706
 ;
 h4g3z1-native.xiaomi.web.app CNAME .
 *.h4g3z1-native.xiaomi.web.app CNAME .
@@ -206,8 +206,6 @@ srv.greenguard.sec.miui.com CNAME .
 *.srv.greenguard.sec.miui.com CNAME .
 app.greengurad.sec.miui.com CNAME .
 *.app.greengurad.sec.miui.com CNAME .
-info.analysis.kp.sec.miui.com CNAME .
-*.info.analysis.kp.sec.miui.com CNAME .
 mazu.sec.miui.com CNAME .
 *.mazu.sec.miui.com CNAME .
 nav.sec.miui.com CNAME .
