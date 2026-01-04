@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767508860 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767522960 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 04 Jan 2026 06:41 UTC
-; Version: 2026.0104.0641.47
+; Last modified: 04 Jan 2026 10:36 UTC
+; Version: 2026.0104.1036.14
 ; Syntax: RPZ
-; Number of entries: 6706
+; Number of entries: 6704
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -2679,8 +2679,6 @@ ad.visbran.fr CNAME .
 *.ad.visbran.fr CNAME .
 vpn0109.voodonline.fr CNAME .
 *.vpn0109.voodonline.fr CNAME .
-vrehm.fr CNAME .
-*.vrehm.fr CNAME .
 lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr CNAME .
 *.lfbn-gre-1-319-7.w90-112.abo.wanadoo.fr CNAME .
 dns.warrior.fr CNAME .
