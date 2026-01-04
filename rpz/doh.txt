@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767436860 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767480240 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Jan 2026 10:41 UTC
-; Version: 2026.0103.1041.58
+; Last modified: 03 Jan 2026 22:44 UTC
+; Version: 2026.0103.2244.59
 ; Syntax: RPZ
-; Number of entries: 6724
+; Number of entries: 6710
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1433,8 +1433,6 @@ dns.miyun1.com CNAME .
 *.dns.miyun1.com CNAME .
 doh.mmmalia.com CNAME .
 *.doh.mmmalia.com CNAME .
-mo0on15.com CNAME .
-*.mo0on15.com CNAME .
 dnstls.mobik.com CNAME .
 *.dnstls.mobik.com CNAME .
 query.mobyds.com CNAME .
@@ -2657,8 +2655,6 @@ nas.patrick-antoine.fr CNAME .
 *.nas.patrick-antoine.fr CNAME .
 bit.psyk.fr CNAME .
 *.bit.psyk.fr CNAME .
-dns.psyk.fr CNAME .
-*.dns.psyk.fr CNAME .
 dns.qkc.fr CNAME .
 *.dns.qkc.fr CNAME .
 home.r01.fr CNAME .
@@ -2839,8 +2835,6 @@ d.apemlegit.my.id CNAME .
 *.d.apemlegit.my.id CNAME .
 be2aja.my.id CNAME .
 *.be2aja.my.id CNAME .
-dns.dodhymikrotik.my.id CNAME .
-*.dns.dodhymikrotik.my.id CNAME .
 dns.freddys.my.id CNAME .
 *.dns.freddys.my.id CNAME .
 dns.iki.my.id CNAME .
@@ -3489,8 +3483,6 @@ dns.reitmeier.me CNAME .
 *.dns.reitmeier.me CNAME .
 dns.rjls.me CNAME .
 *.dns.rjls.me CNAME .
-dns.root.me CNAME .
-*.dns.root.me CNAME .
 f1.dns.s3cure.me CNAME .
 *.f1.dns.s3cure.me CNAME .
 dns.seiffert.me CNAME .
@@ -4905,10 +4897,6 @@ doh.powerdns.org CNAME .
 *.doh.powerdns.org CNAME .
 office.pramanik.org CNAME .
 *.office.pramanik.org CNAME .
-lmc.privatedns.org CNAME .
-*.lmc.privatedns.org CNAME .
-lmc1.privatedns.org CNAME .
-*.lmc1.privatedns.org CNAME .
 puredns.org CNAME .
 *.puredns.org CNAME .
 ns1.qquack.org CNAME .
@@ -5691,8 +5679,6 @@ dns.ploshadi.ru CNAME .
 *.dns.ploshadi.ru CNAME .
 test.privatenode.ru CNAME .
 *.test.privatenode.ru CNAME .
-prostoclub.ru CNAME .
-*.prostoclub.ru CNAME .
 owa.pvmedia.ru CNAME .
 *.owa.pvmedia.ru CNAME .
 log.qrsoft.ru CNAME .
