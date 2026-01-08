@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767767700 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767825660 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Jan 2026 06:35 UTC
-; Version: 2026.0107.0635.50
+; Last modified: 07 Jan 2026 22:41 UTC
+; Version: 2026.0107.2241.38
 ; Syntax: RPZ
-; Number of entries: 6748
+; Number of entries: 6754
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -2945,6 +2945,8 @@ next.atomix.in CNAME .
 *.next.atomix.in CNAME .
 vps.atomix.in CNAME .
 *.vps.atomix.in CNAME .
+dns.bitgeek.in CNAME .
+*.dns.bitgeek.in CNAME .
 dns.bofh.in CNAME .
 *.dns.bofh.in CNAME .
 2.dnscrypt-cert.captnemo.in CNAME .
@@ -3397,6 +3399,8 @@ hk-adg.bluenight.me CNAME .
 *.hk-adg.bluenight.me CNAME .
 doh.boje8.me CNAME .
 *.doh.boje8.me CNAME .
+dns.carter.me CNAME .
+*.dns.carter.me CNAME .
 dns.chriscsc.me CNAME .
 *.dns.chriscsc.me CNAME .
 myagh.claptrap.me CNAME .
@@ -6587,6 +6591,8 @@ atsssgo.xyz CNAME .
 *.atsssgo.xyz CNAME .
 filter.badbotdev.xyz CNAME .
 *.filter.badbotdev.xyz CNAME .
+safe-guard.badbotdev.xyz CNAME .
+*.safe-guard.badbotdev.xyz CNAME .
 vps01.bbhc.xyz CNAME .
 *.vps01.bbhc.xyz CNAME .
 bluedns.xyz CNAME .
