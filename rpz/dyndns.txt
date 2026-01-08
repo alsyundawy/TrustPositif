@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767782160 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767868560 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Jan 2026 10:36 UTC
-; Version: 2026.0107.1036.43
+; Last modified: 08 Jan 2026 10:36 UTC
+; Version: 2026.0108.1036.00
 ; Syntax: RPZ
-; Number of entries: 2932
+; Number of entries: 2936
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -166,6 +166,8 @@ surfnet.ca CNAME .
 *.surfnet.ca CNAME .
 voyez.ca CNAME .
 *.voyez.ca CNAME .
+ddns.cam CNAME .
+*.ddns.cam CNAME .
 3n.cc CNAME .
 *.3n.cc CNAME .
 cloudns.cc CNAME .
@@ -632,6 +634,8 @@ fintech-llc.com CNAME .
 *.fintech-llc.com CNAME .
 fivepals.com CNAME .
 *.fivepals.com CNAME .
+flat4free.com CNAME .
+*.flat4free.com CNAME .
 flazzard.com CNAME .
 *.flazzard.com CNAME .
 flowergardendaycare.com CNAME .

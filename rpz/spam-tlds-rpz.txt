@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767811080 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767859140 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's The World's Most Abused TLDs
@@ -14,10 +14,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Jan 2026 18:38 UTC
-; Version: 2026.0107.1838.16
+; Last modified: 08 Jan 2026 07:59 UTC
+; Version: 2026.0108.0759.45
 ; Syntax: RPZ
-; Number of latin TLDs: 130/282
+; Number of latin TLDs: 132/285
 ;
 *.actor CNAME .
 *.apartments CNAME .
@@ -66,6 +66,7 @@ $TTL 300
 *.financial CNAME .
 *.fishing CNAME .
 *.florist CNAME .
+*.food CNAME .
 *.forex CNAME .
 *.forsale CNAME .
 *.fund CNAME .
@@ -76,7 +77,9 @@ $TTL 300
 *.gratis CNAME .
 *.hair CNAME .
 *.haus CNAME .
+*.immo CNAME .
 *.irish CNAME .
+*.jetzt CNAME .
 *.jewelry CNAME .
 *.joburg CNAME .
 *.kim CNAME .
@@ -97,7 +100,6 @@ $TTL 300
 *.mom CNAME .
 *.motorcycles CNAME .
 *.navy CNAME .
-*.observer CNAME .
 *.okinawa CNAME .
 *.ong CNAME .
 *.parts CNAME .
