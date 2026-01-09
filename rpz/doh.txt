@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767868560 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767929040 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 08 Jan 2026 10:36 UTC
-; Version: 2026.0108.1036.28
+; Last modified: 09 Jan 2026 03:24 UTC
+; Version: 2026.0109.0324.56
 ; Syntax: RPZ
-; Number of entries: 6944
+; Number of entries: 6952
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3403,6 +3403,8 @@ d.bod.lol CNAME .
 *.d.bod.lol CNAME .
 dns.green-ping.lol CNAME .
 *.dns.green-ping.lol CNAME .
+johneldenring.lol CNAME .
+*.johneldenring.lol CNAME .
 adguard.konnkors.lol CNAME .
 *.adguard.konnkors.lol CNAME .
 void.mcfly.lol CNAME .
@@ -4133,6 +4135,8 @@ yarp.lefolgoc.net CNAME .
 *.yarp.lefolgoc.net CNAME .
 dns.liberador.net CNAME .
 *.dns.liberador.net CNAME .
+adgaurd.lingmont.net CNAME .
+*.adgaurd.lingmont.net CNAME .
 africadns1.liquidtelecom.net CNAME .
 *.africadns1.liquidtelecom.net CNAME .
 africadns2.liquidtelecom.net CNAME .
@@ -6229,6 +6233,8 @@ dns-us.ibmcloud.top CNAME .
 *.dns-us.ibmcloud.top CNAME .
 imperio.top CNAME .
 *.imperio.top CNAME .
+diy.itsa.top CNAME .
+*.diy.itsa.top CNAME .
 adguardhome.ittoolman.top CNAME .
 *.adguardhome.ittoolman.top CNAME .
 hk.jason666.top CNAME .
@@ -6861,6 +6867,8 @@ lukscasino-929-tr.xyz CNAME .
 *.lukscasino-929-tr.xyz CNAME .
 dns.maolaohei.xyz CNAME .
 *.dns.maolaohei.xyz CNAME .
+maqgie.xyz CNAME .
+*.maqgie.xyz CNAME .
 dns.mh4ckt3mh4ckt1c4s.xyz CNAME .
 *.dns.mh4ckt3mh4ckt1c4s.xyz CNAME .
 mikezhang.xyz CNAME .
