@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768006860 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768041480 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 10 Jan 2026 01:01 UTC
-; Version: 2026.0110.0101.12
+; Last modified: 10 Jan 2026 10:38 UTC
+; Version: 2026.0110.1038.14
 ; Syntax: RPZ
-; Number of entries: 2936
+; Number of entries: 2940
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -1438,6 +1438,8 @@ vantechdns.com CNAME .
 *.vantechdns.com CNAME .
 vctel.com CNAME .
 *.vctel.com CNAME .
+viamisoftware.com CNAME .
+*.viamisoftware.com CNAME .
 vincomlimited.com CNAME .
 *.vincomlimited.com CNAME .
 vitalwerks.com CNAME .
@@ -2238,6 +2240,8 @@ viiic.net CNAME .
 *.viiic.net CNAME .
 vpndns.net CNAME .
 *.vpndns.net CNAME .
+vxe6.net CNAME .
+*.vxe6.net CNAME .
 webhop.net CNAME .
 *.webhop.net CNAME .
 webok.net CNAME .
