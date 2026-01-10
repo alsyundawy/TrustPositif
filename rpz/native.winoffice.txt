@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767377280 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767981780 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Jan 2026 18:08 UTC
-; Version: 2026.0102.1808.29
+; Last modified: 09 Jan 2026 18:03 UTC
+; Version: 2026.0109.1803.42
 ; Syntax: RPZ
-; Number of entries: 760
+; Number of entries: 756
 ;
 h4g3z1-native.winoffice.web.app CNAME .
 *.h4g3z1-native.winoffice.web.app CNAME .
@@ -332,12 +332,6 @@ adevents.msn.com CNAME .
 *.adevents.msn.com CNAME .
 ads.msn.com CNAME .
 *.ads.msn.com CNAME .
-ads1.msn.com CNAME .
-*.ads1.msn.com CNAME .
-ads2.msn.com CNAME .
-*.ads2.msn.com CNAME .
-analytics.msn.com CNAME .
-*.analytics.msn.com CNAME .
 metric.appex-rf.msn.com CNAME .
 *.metric.appex-rf.msn.com CNAME .
 c.ar.msn.com CNAME .
@@ -436,8 +430,8 @@ c.prodigy.msn.com CNAME .
 *.c.prodigy.msn.com CNAME .
 c.pt.msn.com CNAME .
 *.c.pt.msn.com CNAME .
-r.msn.com CNAME .
-*.r.msn.com CNAME .
+bat.r.msn.com CNAME .
+*.bat.r.msn.com CNAME .
 rads.msn.com CNAME .
 *.rads.msn.com CNAME .
 rel.msn.com CNAME .
@@ -748,6 +742,8 @@ nexxtv-events.servicebus.windows.net CNAME .
 *.nexxtv-events.servicebus.windows.net CNAME .
 ppm-licensingtelemetry.servicebus.windows.net CNAME .
 *.ppm-licensingtelemetry.servicebus.windows.net CNAME .
+prd-qlik-telemetry.servicebus.windows.net CNAME .
+*.prd-qlik-telemetry.servicebus.windows.net CNAME .
 prod-eh-v1-analytics.servicebus.windows.net CNAME .
 *.prod-eh-v1-analytics.servicebus.windows.net CNAME .
 prod-eventhub-analytics.servicebus.windows.net CNAME .

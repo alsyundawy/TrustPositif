@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1767955260 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1767998460 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 09 Jan 2026 10:41 UTC
-; Version: 2026.0109.1041.41
+; Last modified: 09 Jan 2026 22:41 UTC
+; Version: 2026.0109.2241.31
 ; Syntax: RPZ
-; Number of entries: 6954
+; Number of entries: 6966
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1753,6 +1753,8 @@ dns.sarilouis.com CNAME .
 *.dns.sarilouis.com CNAME .
 ns1.sc-lezhi.com CNAME .
 *.ns1.sc-lezhi.com CNAME .
+dns.scapetical.com CNAME .
+*.dns.scapetical.com CNAME .
 dns.scayn.com CNAME .
 *.dns.scayn.com CNAME .
 schimtar.com CNAME .
@@ -5617,6 +5619,16 @@ aitkcrev.minhduc.pw CNAME .
 *.aitkcrev.minhduc.pw CNAME .
 ttag.dns.nomu.pw CNAME .
 *.ttag.dns.nomu.pw CNAME .
+las-vegas.privacy-dns.pw CNAME .
+*.las-vegas.privacy-dns.pw CNAME .
+luxembourg.privacy-dns.pw CNAME .
+*.luxembourg.privacy-dns.pw CNAME .
+romania.privacy-dns.pw CNAME .
+*.romania.privacy-dns.pw CNAME .
+switzerland.privacy-dns.pw CNAME .
+*.switzerland.privacy-dns.pw CNAME .
+united-arab-emirates.privacy-dns.pw CNAME .
+*.united-arab-emirates.privacy-dns.pw CNAME .
 ant.dns.qwer.pw CNAME .
 *.ant.dns.qwer.pw CNAME .
 dog.dns.qwer.pw CNAME .
