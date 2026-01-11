@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768051500 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768080420 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 10 Jan 2026 13:25 UTC
-; Version: 2026.0110.1325.51
+; Last modified: 10 Jan 2026 21:27 UTC
+; Version: 2026.0110.2127.55
 ; Syntax: RPZ
-; Number of entries: 119692
+; Number of entries: 119696
 ;
 fixedfloat.ac CNAME .
 *.fixedfloat.ac CNAME .
@@ -57224,6 +57224,8 @@ nsdsvc.com CNAME .
 *.nsdsvc.com CNAME .
 nsfwadds.com CNAME .
 *.nsfwadds.com CNAME .
+go.nsfwlivechat.com CNAME .
+*.go.nsfwlivechat.com CNAME .
 nsmartad.com CNAME .
 *.nsmartad.com CNAME .
 nspmotion.com CNAME .
@@ -106898,6 +106900,8 @@ snvkkflgdoekk.site CNAME .
 *.snvkkflgdoekk.site CNAME .
 sofq.site CNAME .
 *.sofq.site CNAME .
+soft-hub.site CNAME .
+*.soft-hub.site CNAME .
 spcwtcizsymxf.site CNAME .
 *.spcwtcizsymxf.site CNAME .
 speedtestnow.site CNAME .
