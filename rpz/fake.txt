@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1768123800 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1768152600 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 11 Jan 2026 09:30 UTC
-; Version: 2026.0111.0930.38
+; Last modified: 11 Jan 2026 17:30 UTC
+; Version: 2026.0111.1730.35
 ; Syntax: RPZ
-; Number of entries: 28490
+; Number of entries: 28488
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -4902,8 +4902,6 @@ crypto-major.com CNAME .
 *.crypto-major.com CNAME .
 crypto-next.com CNAME .
 *.crypto-next.com CNAME .
-crypto-tradevest.com CNAME .
-*.crypto-tradevest.com CNAME .
 cryptoassetscontrol.com CNAME .
 *.cryptoassetscontrol.com CNAME .
 cryptocash24.com CNAME .
