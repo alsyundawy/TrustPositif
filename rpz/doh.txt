@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769005920 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1769251080 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 21 Jan 2026 14:32 UTC
-; Version: 2026.0121.1432.22
+; Last modified: 24 Jan 2026 10:38 UTC
+; Version: 2026.0124.1038.35
 ; Syntax: RPZ
-; Number of entries: 6938
+; Number of entries: 6906
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -641,8 +641,6 @@ dns.73zls.com CNAME .
 *.dns.73zls.com CNAME .
 dns.7vpn.com CNAME .
 *.dns.7vpn.com CNAME .
-tokyo.92-m.com CNAME .
-*.tokyo.92-m.com CNAME .
 adb.aadityakushwaha.com CNAME .
 *.adb.aadityakushwaha.com CNAME .
 doh.dns.apple.com.v.aaplimg.com CNAME .
@@ -1079,8 +1077,6 @@ dvgarm.com CNAME .
 *.dvgarm.com CNAME .
 roucious.dyndns-remote.com CNAME .
 *.roucious.dyndns-remote.com CNAME .
-resolver2.dyndnsinternetguide.com CNAME .
-*.resolver2.dyndnsinternetguide.com CNAME .
 rafi.dynns.com CNAME .
 *.rafi.dynns.com CNAME .
 oostelbos.dynu.com CNAME .
@@ -3963,8 +3959,6 @@ flyloadguard.dynu.net CNAME .
 *.flyloadguard.dynu.net CNAME .
 quangdo92.dynu.net CNAME .
 *.quangdo92.dynu.net CNAME .
-gustamadh.dynv6.net CNAME .
-*.gustamadh.dynv6.net CNAME .
 dnscache.e-utp.net CNAME .
 *.dnscache.e-utp.net CNAME .
 adguard.easez.net CNAME .
@@ -4427,8 +4421,6 @@ cc2.v8er.net CNAME .
 *.cc2.v8er.net CNAME .
 alina.virttec.net CNAME .
 *.alina.virttec.net CNAME .
-dns.wakgood.net CNAME .
-*.dns.wakgood.net CNAME .
 zuhause.webteufel.net CNAME .
 *.zuhause.webteufel.net CNAME .
 resov.wehao.net CNAME .
@@ -4735,8 +4727,6 @@ dns35.allone.dpdns.org CNAME .
 *.dns35.allone.dpdns.org CNAME .
 dns.ikun6.dpdns.org CNAME .
 *.dns.ikun6.dpdns.org CNAME .
-ad1guard.duckdns.org CNAME .
-*.ad1guard.duckdns.org CNAME .
 adgrm.duckdns.org CNAME .
 *.adgrm.duckdns.org CNAME .
 adguardpi.duckdns.org CNAME .
@@ -4749,8 +4739,6 @@ baksabal.duckdns.org CNAME .
 *.baksabal.duckdns.org CNAME .
 blamb.duckdns.org CNAME .
 *.blamb.duckdns.org CNAME .
-cdzopi.duckdns.org CNAME .
-*.cdzopi.duckdns.org CNAME .
 derekcastle.duckdns.org CNAME .
 *.derekcastle.duckdns.org CNAME .
 dirrectumrx.duckdns.org CNAME .
@@ -4765,28 +4753,16 @@ genielee.duckdns.org CNAME .
 *.genielee.duckdns.org CNAME .
 home27.duckdns.org CNAME .
 *.home27.duckdns.org CNAME .
-homejerem.duckdns.org CNAME .
-*.homejerem.duckdns.org CNAME .
 hrsm12181.duckdns.org CNAME .
 *.hrsm12181.duckdns.org CNAME .
-jfeoks.duckdns.org CNAME .
-*.jfeoks.duckdns.org CNAME .
 jonzalvo.duckdns.org CNAME .
 *.jonzalvo.duckdns.org CNAME .
 jurre-home.duckdns.org CNAME .
 *.jurre-home.duckdns.org CNAME .
-kalwat.duckdns.org CNAME .
-*.kalwat.duckdns.org CNAME .
 kiwifunke.duckdns.org CNAME .
 *.kiwifunke.duckdns.org CNAME .
-kolobok2.duckdns.org CNAME .
-*.kolobok2.duckdns.org CNAME .
 krafty31.duckdns.org CNAME .
 *.krafty31.duckdns.org CNAME .
-krtekvpn.duckdns.org CNAME .
-*.krtekvpn.duckdns.org CNAME .
-ldaman.duckdns.org CNAME .
-*.ldaman.duckdns.org CNAME .
 leoadguard.duckdns.org CNAME .
 *.leoadguard.duckdns.org CNAME .
 mipelinusa.duckdns.org CNAME .
@@ -4833,12 +4809,8 @@ tungdnsne.duckdns.org CNAME .
 *.tungdnsne.duckdns.org CNAME .
 unixfox.duckdns.org CNAME .
 *.unixfox.duckdns.org CNAME .
-vpich.duckdns.org CNAME .
-*.vpich.duckdns.org CNAME .
 wired-guardian.duckdns.org CNAME .
 *.wired-guardian.duckdns.org CNAME .
-wisehomeguard.duckdns.org CNAME .
-*.wisehomeguard.duckdns.org CNAME .
 workcavestl.duckdns.org CNAME .
 *.workcavestl.duckdns.org CNAME .
 x-o-x.duckdns.org CNAME .
@@ -6865,10 +6837,6 @@ irgrdns.nullapp.xyz CNAME .
 *.irgrdns.nullapp.xyz CNAME .
 paskam.xyz CNAME .
 *.paskam.xyz CNAME .
-a.passcloud.xyz CNAME .
-*.a.passcloud.xyz CNAME .
-i.passcloud.xyz CNAME .
-*.i.passcloud.xyz CNAME .
 loan.paymdm.xyz CNAME .
 *.loan.paymdm.xyz CNAME .
 pepetio.xyz CNAME .
