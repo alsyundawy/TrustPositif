@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769251080 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1769337480 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 24 Jan 2026 10:38 UTC
-; Version: 2026.0124.1038.35
+; Last modified: 25 Jan 2026 10:38 UTC
+; Version: 2026.0125.1038.33
 ; Syntax: RPZ
-; Number of entries: 6906
+; Number of entries: 6960
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -151,6 +151,8 @@ d51538618.access.telenet.be CNAME .
 *.d51538618.access.telenet.be CNAME .
 doh.beauty CNAME .
 *.doh.beauty CNAME .
+polisitogel.beauty CNAME .
+*.polisitogel.beauty CNAME .
 ad.tzockt.beer CNAME .
 *.ad.tzockt.beer CNAME .
 dns.schlagheck.berlin CNAME .
@@ -1685,6 +1687,10 @@ publicdnsserver.com CNAME .
 *.publicdnsserver.com CNAME .
 dns.pumpkinvrar.com CNAME .
 *.dns.pumpkinvrar.com CNAME .
+dns.pumplex.com CNAME .
+*.dns.pumplex.com CNAME .
+2.dnscrypt-cert.pumplex.com CNAME .
+*.2.dnscrypt-cert.pumplex.com CNAME .
 dns.qq.com CNAME .
 *.dns.qq.com CNAME .
 httpdns.kg.qq.com CNAME .
@@ -1911,6 +1917,8 @@ adguard.rn.wwb1215.com CNAME .
 *.adguard.rn.wwb1215.com CNAME .
 adguard.xandersalarie.com CNAME .
 *.adguard.xandersalarie.com CNAME .
+xbcpb668.com CNAME .
+*.xbcpb668.com CNAME .
 doh.xfinity.com CNAME .
 *.doh.xfinity.com CNAME .
 dot.xfinity.com CNAME .
@@ -2119,6 +2127,8 @@ adguard2.frece.de CNAME .
 *.adguard2.frece.de CNAME .
 doh.funil.de CNAME .
 *.doh.funil.de CNAME .
+dns.furrydns.de CNAME .
+*.dns.furrydns.de CNAME .
 dns.geekbyte.de CNAME .
 *.dns.geekbyte.de CNAME .
 eime.goip.de CNAME .
@@ -2503,6 +2513,8 @@ dns.xyz.ddnss.eu CNAME .
 *.dns.xyz.ddnss.eu CNAME .
 dns.decky.eu CNAME .
 *.dns.decky.eu CNAME .
+dns0.eu CNAME .
+*.dns0.eu CNAME .
 doh.dns4all.eu CNAME .
 *.doh.dns4all.eu CNAME .
 doq.dns4all.eu CNAME .
@@ -2753,6 +2765,8 @@ axaxa.fun CNAME .
 *.axaxa.fun CNAME .
 ag.brianlee.fun CNAME .
 *.ag.brianlee.fun CNAME .
+cloudbenders.fun CNAME .
+*.cloudbenders.fun CNAME .
 cynntex.fun CNAME .
 *.cynntex.fun CNAME .
 d.dnns.fun CNAME .
@@ -2819,6 +2833,8 @@ dot.libredns.gr CNAME .
 *.dot.libredns.gr CNAME .
 dns.rbn.gr CNAME .
 *.dns.rbn.gr CNAME .
+polisitogel.hair CNAME .
+*.polisitogel.hair CNAME .
 mail.data.haus CNAME .
 *.mail.data.haus CNAME .
 ns.data.haus CNAME .
@@ -3259,6 +3275,8 @@ dns.sbstructure.ir CNAME .
 *.dns.sbstructure.ir CNAME .
 dns.shecan.ir CNAME .
 *.dns.shecan.ir CNAME .
+free.shecan.ir CNAME .
+*.free.shecan.ir CNAME .
 pro.shecan.ir CNAME .
 *.pro.shecan.ir CNAME .
 dns.virtual-qr.ir CNAME .
@@ -3399,6 +3417,8 @@ johneldenring.lol CNAME .
 *.johneldenring.lol CNAME .
 adguard.konnkors.lol CNAME .
 *.adguard.konnkors.lol CNAME .
+lewsha.lol CNAME .
+*.lewsha.lol CNAME .
 void.mcfly.lol CNAME .
 *.void.mcfly.lol CNAME .
 dns.ntr.lol CNAME .
@@ -3661,6 +3681,8 @@ bwg.sooda.moe CNAME .
 *.bwg.sooda.moe CNAME .
 adg.g3.monster CNAME .
 *.adg.g3.monster CNAME .
+kavkaz.monster CNAME .
+*.kavkaz.monster CNAME .
 dns.sev.monster CNAME .
 *.dns.sev.monster CNAME .
 rd-service.moscow CNAME .
@@ -3839,6 +3861,8 @@ ae-agh1.dns.cryptroute.net CNAME .
 *.ae-agh1.dns.cryptroute.net CNAME .
 dns.crystalyx.net CNAME .
 *.dns.crystalyx.net CNAME .
+nanopi.cybergroove.net CNAME .
+*.nanopi.cybergroove.net CNAME .
 dns2.cybrespace.net CNAME .
 *.dns2.cybrespace.net CNAME .
 dns.cynthialabs.net CNAME .
@@ -3959,6 +3983,8 @@ flyloadguard.dynu.net CNAME .
 *.flyloadguard.dynu.net CNAME .
 quangdo92.dynu.net CNAME .
 *.quangdo92.dynu.net CNAME .
+gustamadh.dynv6.net CNAME .
+*.gustamadh.dynv6.net CNAME .
 dnscache.e-utp.net CNAME .
 *.dnscache.e-utp.net CNAME .
 adguard.easez.net CNAME .
@@ -4697,6 +4723,8 @@ dns.blokada.org CNAME .
 *.dns.blokada.org CNAME .
 jujuba.cafuringa.org CNAME .
 *.jujuba.cafuringa.org CNAME .
+console.carestyle.org CNAME .
+*.console.carestyle.org CNAME .
 catdns.org CNAME .
 *.catdns.org CNAME .
 cfdjb.org CNAME .
@@ -4739,6 +4767,8 @@ baksabal.duckdns.org CNAME .
 *.baksabal.duckdns.org CNAME .
 blamb.duckdns.org CNAME .
 *.blamb.duckdns.org CNAME .
+cdzopi.duckdns.org CNAME .
+*.cdzopi.duckdns.org CNAME .
 derekcastle.duckdns.org CNAME .
 *.derekcastle.duckdns.org CNAME .
 dirrectumrx.duckdns.org CNAME .
@@ -4753,16 +4783,28 @@ genielee.duckdns.org CNAME .
 *.genielee.duckdns.org CNAME .
 home27.duckdns.org CNAME .
 *.home27.duckdns.org CNAME .
+homejerem.duckdns.org CNAME .
+*.homejerem.duckdns.org CNAME .
 hrsm12181.duckdns.org CNAME .
 *.hrsm12181.duckdns.org CNAME .
+jfeoks.duckdns.org CNAME .
+*.jfeoks.duckdns.org CNAME .
 jonzalvo.duckdns.org CNAME .
 *.jonzalvo.duckdns.org CNAME .
 jurre-home.duckdns.org CNAME .
 *.jurre-home.duckdns.org CNAME .
+kalwat.duckdns.org CNAME .
+*.kalwat.duckdns.org CNAME .
 kiwifunke.duckdns.org CNAME .
 *.kiwifunke.duckdns.org CNAME .
+kolobok2.duckdns.org CNAME .
+*.kolobok2.duckdns.org CNAME .
 krafty31.duckdns.org CNAME .
 *.krafty31.duckdns.org CNAME .
+krtekvpn.duckdns.org CNAME .
+*.krtekvpn.duckdns.org CNAME .
+ldaman.duckdns.org CNAME .
+*.ldaman.duckdns.org CNAME .
 leoadguard.duckdns.org CNAME .
 *.leoadguard.duckdns.org CNAME .
 mipelinusa.duckdns.org CNAME .
@@ -4801,6 +4843,8 @@ testapp-0-1-1.duckdns.org CNAME .
 *.testapp-0-1-1.duckdns.org CNAME .
 thaibksri.duckdns.org CNAME .
 *.thaibksri.duckdns.org CNAME .
+theadblocksg.duckdns.org CNAME .
+*.theadblocksg.duckdns.org CNAME .
 ts653d.duckdns.org CNAME .
 *.ts653d.duckdns.org CNAME .
 tuandns.duckdns.org CNAME .
@@ -4809,8 +4853,12 @@ tungdnsne.duckdns.org CNAME .
 *.tungdnsne.duckdns.org CNAME .
 unixfox.duckdns.org CNAME .
 *.unixfox.duckdns.org CNAME .
+vpich.duckdns.org CNAME .
+*.vpich.duckdns.org CNAME .
 wired-guardian.duckdns.org CNAME .
 *.wired-guardian.duckdns.org CNAME .
+wisehomeguard.duckdns.org CNAME .
+*.wisehomeguard.duckdns.org CNAME .
 workcavestl.duckdns.org CNAME .
 *.workcavestl.duckdns.org CNAME .
 x-o-x.duckdns.org CNAME .
@@ -5737,10 +5785,8 @@ v1552270.hosted-by-vdsina.ru CNAME .
 *.v1552270.hosted-by-vdsina.ru CNAME .
 adg.hostingab.ru CNAME .
 *.adg.hostingab.ru CNAME .
-ec.i-puppy.ru CNAME .
-*.ec.i-puppy.ru CNAME .
-ru.i-puppy.ru CNAME .
-*.ru.i-puppy.ru CNAME .
+i-puppy.ru CNAME .
+*.i-puppy.ru CNAME .
 az.i81.ru CNAME .
 *.az.i81.ru CNAME .
 hr.i81.ru CNAME .
@@ -5969,6 +6015,8 @@ auberge78.site CNAME .
 *.auberge78.site CNAME .
 adguard.bse4792.site CNAME .
 *.adguard.bse4792.site CNAME .
+callies-online.site CNAME .
+*.callies-online.site CNAME .
 dns88.site CNAME .
 *.dns88.site CNAME .
 fimoshinckaya-federation.site CNAME .
@@ -6087,6 +6135,8 @@ adguard.fatu.systems CNAME .
 *.adguard.fatu.systems CNAME .
 ib.systems CNAME .
 *.ib.systems CNAME .
+3jjxxl.tech CNAME .
+*.3jjxxl.tech CNAME .
 dns.cybertonic.tech CNAME .
 *.dns.cybertonic.tech CNAME .
 dns.daarrk.tech CNAME .
@@ -6097,6 +6147,8 @@ makatla.tech CNAME .
 *.makatla.tech CNAME .
 dns.moraes.tech CNAME .
 *.dns.moraes.tech CNAME .
+qqmcfw.tech CNAME .
+*.qqmcfw.tech CNAME .
 dns.romain.tech CNAME .
 *.dns.romain.tech CNAME .
 dns.startupstack.tech CNAME .
@@ -6223,6 +6275,8 @@ dot.modsh.top CNAME .
 *.dot.modsh.top CNAME .
 dns.mooncheng.top CNAME .
 *.dns.mooncheng.top CNAME .
+najiakeji.top CNAME .
+*.najiakeji.top CNAME .
 ningyan.top CNAME .
 *.ningyan.top CNAME .
 cattery.noddos.top CNAME .
