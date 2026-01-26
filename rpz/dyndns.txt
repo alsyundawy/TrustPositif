@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769424060 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1769452920 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Jan 2026 10:41 UTC
-; Version: 2026.0126.1041.13
+; Last modified: 26 Jan 2026 18:42 UTC
+; Version: 2026.0126.1842.07
 ; Syntax: RPZ
-; Number of entries: 2826
+; Number of entries: 2834
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -80,10 +80,14 @@ for-some.biz CNAME .
 *.for-some.biz CNAME .
 for-the.biz CNAME .
 *.for-the.biz CNAME .
+freewww.biz CNAME .
+*.freewww.biz CNAME .
 ftp1.biz CNAME .
 *.ftp1.biz CNAME .
 ftpserver.biz CNAME .
 *.ftpserver.biz CNAME .
+gr8domain.biz CNAME .
+*.gr8domain.biz CNAME .
 gr8name.biz CNAME .
 *.gr8name.biz CNAME .
 iownyour.biz CNAME .
@@ -1982,6 +1986,8 @@ h0stname.net CNAME .
 *.h0stname.net CNAME .
 ham-radio-op.net CNAME .
 *.ham-radio-op.net CNAME .
+hbmc.net CNAME .
+*.hbmc.net CNAME .
 herodias.net CNAME .
 *.herodias.net CNAME .
 hicam.net CNAME .
@@ -2370,6 +2376,8 @@ hopto.org CNAME .
 *.hopto.org CNAME .
 https443.org CNAME .
 *.https443.org CNAME .
+idigo.org CNAME .
+*.idigo.org CNAME .
 iownyour.org CNAME .
 *.iownyour.org CNAME .
 is-a-bruinsfan.org CNAME .
