@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769510520 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1769597100 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,8 +10,8 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 27 Jan 2026 10:42 UTC
-; Version: 2026.0127.1042.51
+; Last modified: 28 Jan 2026 10:45 UTC
+; Version: 2026.0128.1045.10
 ; Syntax: RPZ
 ; Number of entries: 6960
 ;
@@ -4853,8 +4853,6 @@ tungdnsne.duckdns.org CNAME .
 *.tungdnsne.duckdns.org CNAME .
 unixfox.duckdns.org CNAME .
 *.unixfox.duckdns.org CNAME .
-vpich.duckdns.org CNAME .
-*.vpich.duckdns.org CNAME .
 wired-guardian.duckdns.org CNAME .
 *.wired-guardian.duckdns.org CNAME .
 wisehomeguard.duckdns.org CNAME .
@@ -5923,6 +5921,8 @@ dns1.tardishost.ru CNAME .
 *.dns1.tardishost.ru CNAME .
 thxvv.ru CNAME .
 *.thxvv.ru CNAME .
+tigrons.ru CNAME .
+*.tigrons.ru CNAME .
 dns.trifanov-online.ru CNAME .
 *.dns.trifanov-online.ru CNAME .
 trovs.ru CNAME .
