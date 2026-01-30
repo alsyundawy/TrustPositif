@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769192400 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1769789700 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Jan 2026 18:20 UTC
-; Version: 2026.0123.1820.49
+; Last modified: 30 Jan 2026 16:15 UTC
+; Version: 2026.0130.1615.50
 ; Syntax: RPZ
-; Number of entries: 758
+; Number of entries: 760
 ;
 h4g3z1-native.winoffice.web.app CNAME .
 *.h4g3z1-native.winoffice.web.app CNAME .
@@ -38,6 +38,8 @@ inference-app-gateway.koreacentral.cloudapp.azure.com CNAME .
 *.inference-app-gateway.koreacentral.cloudapp.azure.com CNAME .
 inference-app-gateway.northeurope.cloudapp.azure.com CNAME .
 *.inference-app-gateway.northeurope.cloudapp.azure.com CNAME .
+azsc-edge-bingads-westeurope.westeurope.cloudapp.azure.com CNAME .
+*.azsc-edge-bingads-westeurope.westeurope.cloudapp.azure.com CNAME .
 js.monitor.azure.com CNAME .
 *.js.monitor.azure.com CNAME .
 a4.bing.com CNAME .

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769005860 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1769789160 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 21 Jan 2026 14:31 UTC
-; Version: 2026.0121.1431.22
+; Last modified: 30 Jan 2026 16:06 UTC
+; Version: 2026.0130.1606.29
 ; Syntax: RPZ
-; Number of entries: 420
+; Number of entries: 424
 ;
 search.femboy.ad CNAME .
 *.search.femboy.ad CNAME .
@@ -190,6 +190,8 @@ search.pabloferreiro.es CNAME .
 *.search.pabloferreiro.es CNAME .
 searx.divided-by-zero.eu CNAME .
 *.searx.divided-by-zero.eu CNAME .
+librex.myroware.eu CNAME .
+*.librex.myroware.eu CNAME .
 searxng.nicfab.eu CNAME .
 *.searxng.nicfab.eu CNAME .
 nigma.eu CNAME .
@@ -216,6 +218,8 @@ searx.zapashcanon.fr CNAME .
 *.searx.zapashcanon.fr CNAME .
 s.trung.fun CNAME .
 *.s.trung.fun CNAME .
+o5.gg CNAME .
+*.o5.gg CNAME .
 whoogle.dcs0.hu CNAME .
 *.whoogle.dcs0.hu CNAME .
 searx.cthd.icu CNAME .
@@ -256,6 +260,8 @@ searx.hardwired.link CNAME .
 *.searx.hardwired.link CNAME .
 searx.vitanetworks.link CNAME .
 *.searx.vitanetworks.link CNAME .
+search.xcloud.live CNAME .
+*.search.xcloud.live CNAME .
 search.in.projectsegfau.lt CNAME .
 *.search.in.projectsegfau.lt CNAME .
 search.us.projectsegfau.lt CNAME .
@@ -326,8 +332,6 @@ search.disroot.org CNAME .
 *.search.disroot.org CNAME .
 search.dr460nf1r3.org CNAME .
 *.search.dr460nf1r3.org CNAME .
-wgl.frail.duckdns.org CNAME .
-*.wgl.frail.duckdns.org CNAME .
 searx.elukerio.org CNAME .
 *.searx.elukerio.org CNAME .
 searx.everdot.org CNAME .
