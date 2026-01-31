@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1769769600 43200 3600 86400 300
+@ SOA localhost. root.localhost. 1769855940 43200 3600 86400 300
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 300
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 30 Jan 2026 10:40 UTC
-; Version: 2026.0130.1040.05
+; Last modified: 31 Jan 2026 10:39 UTC
+; Version: 2026.0131.1039.38
 ; Syntax: RPZ
-; Number of entries: 6986
+; Number of entries: 7002
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1737,6 +1737,8 @@ dns.rogpurs.com CNAME .
 *.dns.rogpurs.com CNAME .
 o.rsaikat.com CNAME .
 *.o.rsaikat.com CNAME .
+rudolphdesigns.com CNAME .
+*.rudolphdesigns.com CNAME .
 agh-bitk.russel053.com CNAME .
 *.agh-bitk.russel053.com CNAME .
 agh-yz.russel053.com CNAME .
@@ -1909,6 +1911,8 @@ dns.wincservices.com CNAME .
 *.dns.wincservices.com CNAME .
 dns3.wistarip.com CNAME .
 *.dns3.wistarip.com CNAME .
+block-solution.wolfplaces.com CNAME .
+*.block-solution.wolfplaces.com CNAME .
 dns.wryhf.com CNAME .
 *.dns.wryhf.com CNAME .
 ns2.wuyouss.com CNAME .
@@ -3439,6 +3443,8 @@ quic.lol CNAME .
 *.quic.lol CNAME .
 toaster.lol CNAME .
 *.toaster.lol CNAME .
+adguard.ygd.lol CNAME .
+*.adguard.ygd.lol CNAME .
 dns.zui.lol CNAME .
 *.dns.zui.lol CNAME .
 beacon.fengli.love CNAME .
@@ -4723,6 +4729,8 @@ mailer.amlegion.org CNAME .
 *.mailer.amlegion.org CNAME .
 resolver1.amlegion.org CNAME .
 *.resolver1.amlegion.org CNAME .
+dns.jp.anitelecom.org CNAME .
+*.dns.jp.anitelecom.org CNAME .
 doh.archuser.org CNAME .
 *.doh.archuser.org CNAME .
 nsec.arnor.org CNAME .
@@ -4829,6 +4837,8 @@ nas1403.duckdns.org CNAME .
 *.nas1403.duckdns.org CNAME .
 naujas123.duckdns.org CNAME .
 *.naujas123.duckdns.org CNAME .
+nicko99.duckdns.org CNAME .
+*.nicko99.duckdns.org CNAME .
 nikamurs.duckdns.org CNAME .
 *.nikamurs.duckdns.org CNAME .
 o--o.duckdns.org CNAME .
@@ -4995,6 +5005,8 @@ dns.jundev.org CNAME .
 *.dns.jundev.org CNAME .
 dns.kempkens.org CNAME .
 *.dns.kempkens.org CNAME .
+kihn.org CNAME .
+*.kihn.org CNAME .
 doh.kooman.org CNAME .
 *.doh.kooman.org CNAME .
 dart.kpsn.org CNAME .
@@ -5279,6 +5291,8 @@ cdn.refined.pro CNAME .
 *.cdn.refined.pro CNAME .
 adguard.app.sabino.pro CNAME .
 *.adguard.app.sabino.pro CNAME .
+tr.skrsteam.pro CNAME .
+*.tr.skrsteam.pro CNAME .
 doh.xcom.pro CNAME .
 *.doh.xcom.pro CNAME .
 xiaoxie.pro CNAME .
@@ -5879,6 +5893,8 @@ dns.omee4.ru CNAME .
 *.dns.omee4.ru CNAME .
 adguard.oms-ctr.ru CNAME .
 *.adguard.oms-ctr.ru CNAME .
+dns.ozamagenova.ru CNAME .
+*.dns.ozamagenova.ru CNAME .
 dns.pastorov.ru CNAME .
 *.dns.pastorov.ru CNAME .
 wg.pastorov.ru CNAME .
