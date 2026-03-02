@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1772103720 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772450280 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Feb 2026 11:02 UTC
-; Version: 2026.0226.1102.05
+; Last modified: 02 Mar 2026 11:18 UTC
+; Version: 2026.0302.1118.41
 ; Syntax: RPZ
-; Number of entries: 6966
+; Number of entries: 6960
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -499,8 +499,6 @@ dot.360.cn CNAME .
 *.dot.360.cn CNAME .
 my.8484848.cn CNAME .
 *.my.8484848.cn CNAME .
-dns.baishiyuan.cn CNAME .
-*.dns.baishiyuan.cn CNAME .
 dns.beardic.cn CNAME .
 *.dns.beardic.cn CNAME .
 dns.citystars.cn CNAME .
@@ -2753,8 +2751,6 @@ dns.zarchbox.fr CNAME .
 *.dns.zarchbox.fr CNAME .
 adfiltro.fun CNAME .
 *.adfiltro.fun CNAME .
-dns.arnabhome.fun CNAME .
-*.dns.arnabhome.fun CNAME .
 axaxa.fun CNAME .
 *.axaxa.fun CNAME .
 ag.brianlee.fun CNAME .
@@ -3373,8 +3369,6 @@ solution.w10.life CNAME .
 *.solution.w10.life CNAME .
 atsilva.link CNAME .
 *.atsilva.link CNAME .
-sabine.bruno2000.link CNAME .
-*.sabine.bruno2000.link CNAME .
 dns.chattalk.link CNAME .
 *.dns.chattalk.link CNAME .
 dns-free.link CNAME .
