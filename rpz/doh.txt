@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1772514600 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772558760 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Mar 2026 05:10 UTC
-; Version: 2026.0303.0510.49
+; Last modified: 03 Mar 2026 17:26 UTC
+; Version: 2026.0303.1726.17
 ; Syntax: RPZ
-; Number of entries: 6944
+; Number of entries: 6934
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1321,8 +1321,6 @@ jp01.just-a-web.com CNAME .
 *.jp01.just-a-web.com CNAME .
 sgs02.just-a-web.com CNAME .
 *.sgs02.just-a-web.com CNAME .
-sgs03.just-a-web.com CNAME .
-*.sgs03.just-a-web.com CNAME .
 ad.justincounts.com CNAME .
 *.ad.justincounts.com CNAME .
 dns.justinnetworkingsolutions.com CNAME .
@@ -2761,8 +2759,6 @@ dupatruwi22.fun CNAME .
 *.dupatruwi22.fun CNAME .
 dns.f4a.fun CNAME .
 *.dns.f4a.fun CNAME .
-inoainoa.fun CNAME .
-*.inoainoa.fun CNAME .
 jcdns.fun CNAME .
 *.jcdns.fun CNAME .
 kekv.fun CNAME .
@@ -5595,8 +5591,6 @@ doh.datt.pw CNAME .
 *.doh.datt.pw CNAME .
 dns.freyja.pw CNAME .
 *.dns.freyja.pw CNAME .
-dns.ishan.pw CNAME .
-*.dns.ishan.pw CNAME .
 dns.iteo.pw CNAME .
 *.dns.iteo.pw CNAME .
 k3n.pw CNAME .
@@ -6025,8 +6019,6 @@ ms.gswsfh2021.site CNAME .
 *.ms.gswsfh2021.site CNAME .
 dns.sgp.hicn.site CNAME .
 *.dns.sgp.hicn.site CNAME .
-dns.jcdn.site CNAME .
-*.dns.jcdn.site CNAME .
 khome.site CNAME .
 *.khome.site CNAME .
 dns.l337.site CNAME .
@@ -6549,8 +6541,6 @@ rini.id.vn CNAME .
 *.rini.id.vn CNAME .
 tienpham.id.vn CNAME .
 *.tienpham.id.vn CNAME .
-adb.intienquan.io.vn CNAME .
-*.adb.intienquan.io.vn CNAME .
 chungocoai.name.vn CNAME .
 *.chungocoai.name.vn CNAME .
 adguard.quydang.name.vn CNAME .
