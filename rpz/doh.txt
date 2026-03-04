@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1772622420 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772665260 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 04 Mar 2026 11:07 UTC
-; Version: 2026.0304.1107.11
+; Last modified: 04 Mar 2026 23:01 UTC
+; Version: 2026.0304.2301.02
 ; Syntax: RPZ
-; Number of entries: 6926
+; Number of entries: 6916
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1769,8 +1769,6 @@ doh-02.spectrum.com CNAME .
 *.doh-02.spectrum.com CNAME .
 doh-03.spectrum.com CNAME .
 *.doh-03.spectrum.com CNAME .
-doh.srv00.com CNAME .
-*.doh.srv00.com CNAME .
 hk2.ss.startagegames.com CNAME .
 *.hk2.ss.startagegames.com CNAME .
 adguard.stealbit.com CNAME .
@@ -2839,8 +2837,6 @@ dns.devopscloud.icu CNAME .
 *.dns.devopscloud.icu CNAME .
 dns.maybe.icu CNAME .
 *.dns.maybe.icu CNAME .
-caddy.rkn.icu CNAME .
-*.caddy.rkn.icu CNAME .
 d2.shabi.icu CNAME .
 *.d2.shabi.icu CNAME .
 sq.trin.icu CNAME .
@@ -4651,8 +4647,6 @@ petinom.online CNAME .
 *.petinom.online CNAME .
 shadowart.online CNAME .
 *.shadowart.online CNAME .
-media.streamfusion.online CNAME .
-*.media.streamfusion.online CNAME .
 vadim.online CNAME .
 *.vadim.online CNAME .
 veraris.online CNAME .
@@ -5989,8 +5983,6 @@ amopython.shop CNAME .
 *.amopython.shop CNAME .
 hfgx.shop CNAME .
 *.hfgx.shop CNAME .
-beta.thegodfatheriam.shop CNAME .
-*.beta.thegodfatheriam.shop CNAME .
 polisitogel.show CNAME .
 *.polisitogel.show CNAME .
 privacydns.go6lab.si CNAME .
@@ -6501,8 +6493,6 @@ dns.scott-smith.us CNAME .
 *.dns.scott-smith.us CNAME .
 adguard.senthil.us CNAME .
 *.adguard.senthil.us CNAME .
-dns.timkevin.us CNAME .
-*.dns.timkevin.us CNAME .
 dns.xwu.us CNAME .
 *.dns.xwu.us CNAME .
 doh.aipps.vip CNAME .
