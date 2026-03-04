@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1772558760 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772622420 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Mar 2026 17:26 UTC
-; Version: 2026.0303.1726.17
+; Last modified: 04 Mar 2026 11:07 UTC
+; Version: 2026.0304.1107.11
 ; Syntax: RPZ
-; Number of entries: 6934
+; Number of entries: 6926
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -595,8 +595,6 @@ blokuj.ujwie.co CNAME .
 *.blokuj.ujwie.co CNAME .
 nitter.ujwie.co CNAME .
 *.nitter.ujwie.co CNAME .
-dns.nguyendangduong.codes CNAME .
-*.dns.nguyendangduong.codes CNAME .
 dns.tipsy.coffee CNAME .
 *.dns.tipsy.coffee CNAME .
 dns.13evl.com CNAME .
@@ -2701,8 +2699,6 @@ doh-own-recursion.nicolas-dorriere.fr CNAME .
 *.doh-own-recursion.nicolas-dorriere.fr CNAME .
 doh-random-upstream.nicolas-dorriere.fr CNAME .
 *.doh-random-upstream.nicolas-dorriere.fr CNAME .
-dns.nimzero.fr CNAME .
-*.dns.nimzero.fr CNAME .
 dns.octoworld.fr CNAME .
 *.dns.octoworld.fr CNAME .
 nas.patrick-antoine.fr CNAME .
@@ -5221,8 +5217,6 @@ dns.ghost.pm CNAME .
 *.dns.ghost.pm CNAME .
 ion.pm CNAME .
 *.ion.pm CNAME .
-michelo.line.pm CNAME .
-*.michelo.line.pm CNAME .
 abrakadabra.pro CNAME .
 *.abrakadabra.pro CNAME .
 adampowell.pro CNAME .
@@ -5833,8 +5827,6 @@ n50.martkotur.ru CNAME .
 *.n50.martkotur.ru CNAME .
 mistasinresolver.ru CNAME .
 *.mistasinresolver.ru CNAME .
-adguard.kazantsev97.msk.ru CNAME .
-*.adguard.kazantsev97.msk.ru CNAME .
 dns.msxnet.ru CNAME .
 *.dns.msxnet.ru CNAME .
 mtsdns.ru CNAME .
