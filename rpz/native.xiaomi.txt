@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1771604040 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772728680 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 20 Feb 2026 16:14 UTC
-; Version: 2026.0220.1614.22
+; Last modified: 05 Mar 2026 16:38 UTC
+; Version: 2026.0305.1638.37
 ; Syntax: RPZ
-; Number of entries: 704
+; Number of entries: 708
 ;
 h4g3z1-native.xiaomi.web.app CNAME .
 *.h4g3z1-native.xiaomi.web.app CNAME .
@@ -328,8 +328,8 @@ extranet.ap-southeast-1.miui-l7-feedback.s3hawgekth.elb.xiaomi.com CNAME .
 *.extranet.ap-southeast-1.miui-l7-feedback.s3hawgekth.elb.xiaomi.com CNAME .
 extranet.c3.bigdata-l7-dp-lan.x0x8wmy6im.elb.xiaomi.com CNAME .
 *.extranet.c3.bigdata-l7-dp-lan.x0x8wmy6im.elb.xiaomi.com CNAME .
-sdkconfig.ad.eu.xiaomi.com CNAME .
-*.sdkconfig.ad.eu.xiaomi.com CNAME .
+ad.eu.xiaomi.com CNAME .
+*.ad.eu.xiaomi.com CNAME .
 cdn.exp.xiaomi.com CNAME .
 *.cdn.exp.xiaomi.com CNAME .
 data.game.xiaomi.com CNAME .
@@ -384,8 +384,8 @@ i.xiaomi.com CNAME .
 *.i.xiaomi.com CNAME .
 pi.ias.xiaomi.com CNAME .
 *.pi.ias.xiaomi.com CNAME .
-sdkconfig.ad.india.xiaomi.com CNAME .
-*.sdkconfig.ad.india.xiaomi.com CNAME .
+ad.india.xiaomi.com CNAME .
+*.ad.india.xiaomi.com CNAME .
 controller.india.xiaomi.com CNAME .
 *.controller.india.xiaomi.com CNAME .
 mistat.india.xiaomi.com CNAME .
@@ -488,6 +488,8 @@ c3-bgp.pandora.xiaomi.com CNAME .
 *.c3-bgp.pandora.xiaomi.com CNAME .
 c3mini.pandora.xiaomi.com CNAME .
 *.c3mini.pandora.xiaomi.com CNAME .
+ad.cdn.pandora.xiaomi.com CNAME .
+*.ad.cdn.pandora.xiaomi.com CNAME .
 appstore.cdn.pandora.xiaomi.com CNAME .
 *.appstore.cdn.pandora.xiaomi.com CNAME .
 gallery.cdn.pandora.xiaomi.com CNAME .
@@ -592,8 +594,8 @@ staging.stat.pt.xiaomi.com CNAME .
 *.staging.stat.pt.xiaomi.com CNAME .
 qiye.xiaomi.com CNAME .
 *.qiye.xiaomi.com CNAME .
-sdkconfig.ad.rus.xiaomi.com CNAME .
-*.sdkconfig.ad.rus.xiaomi.com CNAME .
+ad.rus.xiaomi.com CNAME .
+*.ad.rus.xiaomi.com CNAME .
 mistat.rus.xiaomi.com CNAME .
 *.mistat.rus.xiaomi.com CNAME .
 api.miui.security.xiaomi.com CNAME .
@@ -654,6 +656,8 @@ miui.net CNAME .
 *.miui.net CNAME .
 bugreport.xiaomi.net CNAME .
 *.bugreport.xiaomi.net CNAME .
+api.device.xiaomi.net CNAME .
+*.api.device.xiaomi.net CNAME .
 lxcdn.dl.files.xiaomi.net CNAME .
 *.lxcdn.dl.files.xiaomi.net CNAME .
 idmb.app.chat.global.xiaomi.net CNAME .
