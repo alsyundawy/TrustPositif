@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1772208480 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772816040 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 27 Feb 2026 16:08 UTC
-; Version: 2026.0227.1608.11
+; Last modified: 06 Mar 2026 16:54 UTC
+; Version: 2026.0306.1654.48
 ; Syntax: RPZ
-; Number of entries: 780
+; Number of entries: 770
 ;
 h4g3z1-native.winoffice.web.app CNAME .
 *.h4g3z1-native.winoffice.web.app CNAME .
@@ -66,22 +66,12 @@ teams.nel.measure.office.net.sw.buhl-data.com CNAME .
 *.teams.nel.measure.office.net.sw.buhl-data.com CNAME .
 measure.office.net.cn.intinfra.com CNAME .
 *.measure.office.net.cn.intinfra.com CNAME .
-ecs.nel.measure.office.net.cz.intinfra.com CNAME .
-*.ecs.nel.measure.office.net.cz.intinfra.com CNAME .
-exo.nel.measure.office.net.cz.intinfra.com CNAME .
-*.exo.nel.measure.office.net.cz.intinfra.com CNAME .
-identity.nel.measure.office.net.cz.intinfra.com CNAME .
-*.identity.nel.measure.office.net.cz.intinfra.com CNAME .
-m365cdn.nel.measure.office.net.cz.intinfra.com CNAME .
-*.m365cdn.nel.measure.office.net.cz.intinfra.com CNAME .
-officehub.nel.measure.office.net.cz.intinfra.com CNAME .
-*.officehub.nel.measure.office.net.cz.intinfra.com CNAME .
-spo.nel.measure.office.net.cz.intinfra.com CNAME .
-*.spo.nel.measure.office.net.cz.intinfra.com CNAME .
-teams.nel.measure.office.net.cz.intinfra.com CNAME .
-*.teams.nel.measure.office.net.cz.intinfra.com CNAME .
-exo.nel.measure.office.net.in.intinfra.com CNAME .
-*.exo.nel.measure.office.net.in.intinfra.com CNAME .
+measure.office.net.cz.intinfra.com CNAME .
+*.measure.office.net.cz.intinfra.com CNAME .
+measure.office.net.in.intinfra.com CNAME .
+*.measure.office.net.in.intinfra.com CNAME .
+exo.nel.measure.office.net.us.intinfra.com CNAME .
+*.exo.nel.measure.office.net.us.intinfra.com CNAME .
 analytics.live.com CNAME .
 *.analytics.live.com CNAME .
 c.live.com CNAME .

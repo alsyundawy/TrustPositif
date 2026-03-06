@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1772790840 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1772816520 14400 3600 86400 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Fake DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Mar 2026 09:54 UTC
-; Version: 2026.0306.0954.42
+; Last modified: 06 Mar 2026 17:02 UTC
+; Version: 2026.0306.1702.50
 ; Syntax: RPZ
-; Number of entries: 28264
+; Number of entries: 28266
 ;
 degussa-goldhandel.ac CNAME .
 *.degussa-goldhandel.ac CNAME .
@@ -2086,6 +2086,8 @@ allekaufhauser.com CNAME .
 *.allekaufhauser.com CNAME .
 alles-anhanger.com CNAME .
 *.alles-anhanger.com CNAME .
+allesfuerdengarten.com CNAME .
+*.allesfuerdengarten.com CNAME .
 alleuropills.com CNAME .
 *.alleuropills.com CNAME .
 allgamesinone.com CNAME .
