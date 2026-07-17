@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1783103640 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1784308800 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's safesearch not supported DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Jul 2026 18:34 UTC
-; Version: 2026.0703.1834.29
+; Last modified: 17 Jul 2026 17:20 UTC
+; Version: 2026.0717.1720.39
 ; Syntax: RPZ
 ; Number of entries: 412
 ;
@@ -246,6 +246,8 @@ websearch.excite.co.jp CNAME .
 *.websearch.excite.co.jp CNAME .
 searx.foo.li CNAME .
 *.searx.foo.li CNAME .
+searx.nightmare.life CNAME .
+*.searx.nightmare.life CNAME .
 searx.hardwired.link CNAME .
 *.searx.hardwired.link CNAME .
 searx.vitanetworks.link CNAME .
@@ -382,8 +384,6 @@ searx.lynnesbian.space CNAME .
 *.searx.lynnesbian.space CNAME .
 searx.space CNAME .
 *.searx.space CNAME .
-searx.stream CNAME .
-*.searx.stream CNAME .
 searx.gnu.style CNAME .
 *.searx.gnu.style CNAME .
 search.funami.tech CNAME .

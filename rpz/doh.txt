@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784275740 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784308860 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Jul 2026 08:09 UTC
-; Version: 2026.0717.0809.24
+; Last modified: 17 Jul 2026 17:21 UTC
+; Version: 2026.0717.1721.45
 ; Syntax: RPZ
-; Number of entries: 6838
+; Number of entries: 6842
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -721,6 +721,8 @@ vdsn-nl-2.azatmutq.com CNAME .
 *.vdsn-nl-2.azatmutq.com CNAME .
 sradg.eastus.cloudapp.azure.com CNAME .
 *.sradg.eastus.cloudapp.azure.com CNAME .
+b-ii.com CNAME .
+*.b-ii.com CNAME .
 dns.b72.com CNAME .
 *.dns.b72.com CNAME .
 dns.bai0012.com CNAME .
@@ -6809,6 +6811,8 @@ dns.usualposts.xyz CNAME .
 *.dns.usualposts.xyz CNAME .
 dns.vaioswolke.xyz CNAME .
 *.dns.vaioswolke.xyz CNAME .
+securedns.vendorvista.xyz CNAME .
+*.securedns.vendorvista.xyz CNAME .
 dns.vinnyp.xyz CNAME .
 *.dns.vinnyp.xyz CNAME .
 dns.vip-kingstore.xyz CNAME .
