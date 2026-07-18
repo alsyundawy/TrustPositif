@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784308860 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784362800 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,8 +10,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Jul 2026 17:21 UTC
-; Version: 2026.0717.1721.45
+; Last modified: 18 Jul 2026 08:20 UTC
+; Version: 2026.0718.0820.50
 ; Syntax: RPZ
 ; Number of entries: 6842
 ;
@@ -3047,6 +3047,8 @@ selsby.info CNAME .
 *.selsby.info CNAME .
 gr.skrsteam.info CNAME .
 *.gr.skrsteam.info CNAME .
+vpn.technicule.info CNAME .
+*.vpn.technicule.info CNAME .
 dns.hee.ink CNAME .
 *.dns.hee.ink CNAME .
 pub.hsuan.ink CNAME .
@@ -3755,8 +3757,6 @@ dot.cox.net CNAME .
 *.dot.cox.net CNAME .
 dohdot.coxlab.net CNAME .
 *.dohdot.coxlab.net CNAME .
-dns.criena.net CNAME .
-*.dns.criena.net CNAME .
 dns.itsec.crolla.net CNAME .
 *.dns.itsec.crolla.net CNAME .
 ae-agh1.dns.cryptroute.net CNAME .
@@ -3947,8 +3947,6 @@ resolv.flokinet.net CNAME .
 *.resolv.flokinet.net CNAME .
 dns.flux24.net CNAME .
 *.dns.flux24.net CNAME .
-de-f1.foxyfy.net CNAME .
-*.de-f1.foxyfy.net CNAME .
 dns.foxyfy.net CNAME .
 *.dns.foxyfy.net CNAME .
 es-ma.foxyfy.net CNAME .
@@ -5949,6 +5947,8 @@ agha.sunryu.site CNAME .
 *.agha.sunryu.site CNAME .
 tecdrive.site CNAME .
 *.tecdrive.site CNAME .
+vtcuong.site CNAME .
+*.vtcuong.site CNAME .
 vuivn.site CNAME .
 *.vuivn.site CNAME .
 dns.levonet.sk CNAME .
