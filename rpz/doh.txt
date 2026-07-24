@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784847960 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784881140 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Jul 2026 23:06 UTC
-; Version: 2026.0723.2306.40
+; Last modified: 24 Jul 2026 08:19 UTC
+; Version: 2026.0724.0819.23
 ; Syntax: RPZ
-; Number of entries: 6848
+; Number of entries: 6846
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3665,6 +3665,8 @@ dnsnl.alekberg.net CNAME .
 *.dnsnl.alekberg.net CNAME .
 odoh-target.alekberg.net CNAME .
 *.odoh-target.alekberg.net CNAME .
+odoh-target-noads-se.alekberg.net CNAME .
+*.odoh-target-noads-se.alekberg.net CNAME .
 odoh-target-se.alekberg.net CNAME .
 *.odoh-target-se.alekberg.net CNAME .
 diskstation.alexpollard.net CNAME .
@@ -3761,8 +3763,6 @@ dot.cox.net CNAME .
 *.dot.cox.net CNAME .
 dohdot.coxlab.net CNAME .
 *.dohdot.coxlab.net CNAME .
-dns.criena.net CNAME .
-*.dns.criena.net CNAME .
 dns.itsec.crolla.net CNAME .
 *.dns.itsec.crolla.net CNAME .
 ae-agh1.dns.cryptroute.net CNAME .
@@ -5273,8 +5273,6 @@ eyg01.dnscry.pt CNAME .
 *.eyg01.dnscry.pt CNAME .
 fet02.dnscry.pt CNAME .
 *.fet02.dnscry.pt CNAME .
-fjr01.dnscry.pt CNAME .
-*.fjr01.dnscry.pt CNAME .
 fnt01.dnscry.pt CNAME .
 *.fnt01.dnscry.pt CNAME .
 fra01.dnscry.pt CNAME .
