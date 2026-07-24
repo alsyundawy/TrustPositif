@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784328540 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784847060 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Jul 2026 22:49 UTC
-; Version: 2026.0717.2249.42
+; Last modified: 23 Jul 2026 22:51 UTC
+; Version: 2026.0723.2251.42
 ; Syntax: RPZ
-; Number of entries: 3044
+; Number of entries: 3048
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -2752,6 +2752,8 @@ dyndns.pro CNAME .
 *.dyndns.pro CNAME .
 hmao.pro CNAME .
 *.hmao.pro CNAME .
+netcraze.pro CNAME .
+*.netcraze.pro CNAME .
 netcabo.pt CNAME .
 *.netcabo.pt CNAME .
 x443.pw CNAME .
@@ -2798,6 +2800,8 @@ coalnet.ru CNAME .
 *.coalnet.ru CNAME .
 corbina.ru CNAME .
 *.corbina.ru CNAME .
+crazedns.ru CNAME .
+*.crazedns.ru CNAME .
 cw03.ru CNAME .
 *.cw03.ru CNAME .
 dagz.ru CNAME .
