@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784309820 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784914800 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Fingerprinting DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Jul 2026 17:37 UTC
-; Version: 2026.0717.1737.29
+; Last modified: 24 Jul 2026 17:40 UTC
+; Version: 2026.0724.1740.45
 ; Syntax: RPZ
-; Number of entries: 850
+; Number of entries: 852
 ;
 h4g3z1-native.tiktok.web.app CNAME .
 *.h4g3z1-native.tiktok.web.app CNAME .
@@ -284,6 +284,8 @@ sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 *.sf16-telemetry-proxy-oci.tiktokcdn-us.com CNAME .
 ad.tiktokv.com CNAME .
 *.ad.tiktokv.com CNAME .
+ad-format-sg.tiktokv.com CNAME .
+*.ad-format-sg.tiktokv.com CNAME .
 ad-instantpage-ru.tiktokv.com CNAME .
 *.ad-instantpage-ru.tiktokv.com CNAME .
 ad-instantpage-sg.tiktokv.com CNAME .
@@ -832,14 +834,14 @@ location-v6-ttp2.tiktokv.us CNAME .
 *.location-v6-ttp2.tiktokv.us CNAME .
 log.tiktokv.us CNAME .
 *.log.tiktokv.us CNAME .
+log19-normal-useast8.tiktokv.us CNAME .
+*.log19-normal-useast8.tiktokv.us CNAME .
 mcs.tiktokv.us CNAME .
 *.mcs.tiktokv.us CNAME .
 mcs-ttp2.tiktokv.us CNAME .
 *.mcs-ttp2.tiktokv.us CNAME .
 rtc-logger.tiktokv.us CNAME .
 *.rtc-logger.tiktokv.us CNAME .
-rtc-logger-ttp2.tiktokv.us CNAME .
-*.rtc-logger-ttp2.tiktokv.us CNAME .
 rtlog16-normal-useast5.tiktokv.us CNAME .
 *.rtlog16-normal-useast5.tiktokv.us CNAME .
 rtlog16-normal-useast8.tiktokv.us CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784309640 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1784914620 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 17 Jul 2026 17:34 UTC
-; Version: 2026.0717.1734.52
+; Last modified: 24 Jul 2026 17:37 UTC
+; Version: 2026.0724.1737.53
 ; Syntax: RPZ
 ; Number of entries: 722
 ;
@@ -388,8 +388,8 @@ maws-aax-us-pdx-rtb.amazon-adsystem.com CNAME .
 *.maws-aax-us-pdx-rtb.amazon-adsystem.com CNAME .
 origin-sq-tungsten-ts.amazon-adsystem.com CNAME .
 *.origin-sq-tungsten-ts.amazon-adsystem.com CNAME .
-origin-sq-tungsten-ts-fe.amazon-adsystem.com CNAME .
-*.origin-sq-tungsten-ts-fe.amazon-adsystem.com CNAME .
+origin-sq-tungsten-ts-eu.amazon-adsystem.com CNAME .
+*.origin-sq-tungsten-ts-eu.amazon-adsystem.com CNAME .
 pri1-3ps.amazon-adsystem.com CNAME .
 *.pri1-3ps.amazon-adsystem.com CNAME .
 pri1-id-eu.amazon-adsystem.com CNAME .
@@ -484,8 +484,6 @@ vfwm-eu.amazon-adsystem.com CNAME .
 *.vfwm-eu.amazon-adsystem.com CNAME .
 vfwm-us.amazon-adsystem.com CNAME .
 *.vfwm-us.amazon-adsystem.com CNAME .
-vfwm-us-west.amazon-adsystem.com CNAME .
-*.vfwm-us-west.amazon-adsystem.com CNAME .
 vfws.amazon-adsystem.com CNAME .
 *.vfws.amazon-adsystem.com CNAME .
 vq-eu-west-1.amazon-adsystem.com CNAME .
@@ -622,6 +620,8 @@ assoc-amazon.fr CNAME .
 *.assoc-amazon.fr CNAME .
 sponsored-ads-eu.amazon.ie CNAME .
 *.sponsored-ads-eu.amazon.ie CNAME .
+sponsored-ads.amazon.in.alphionsee.in CNAME .
+*.sponsored-ads.amazon.in.alphionsee.in CNAME .
 aan.amazon.in CNAME .
 *.aan.amazon.in CNAME .
 advertising.amazon.in CNAME .
