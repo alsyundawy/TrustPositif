@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784914620 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785088320 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 24 Jul 2026 17:37 UTC
-; Version: 2026.0724.1737.53
+; Last modified: 26 Jul 2026 17:52 UTC
+; Version: 2026.0726.1752.56
 ; Syntax: RPZ
-; Number of entries: 722
+; Number of entries: 724
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
@@ -96,6 +96,8 @@ aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
 *.aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
 aax-ott.amazon-adsystem.amazon.com CNAME .
 *.aax-ott.amazon-adsystem.amazon.com CNAME .
+aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
+*.aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
 aax-us.amazon-adsystem.amazon.com CNAME .
 *.aax-us.amazon-adsystem.amazon.com CNAME .
 aax-us-east-1-ott.amazon-adsystem.amazon.com CNAME .
@@ -388,8 +390,6 @@ maws-aax-us-pdx-rtb.amazon-adsystem.com CNAME .
 *.maws-aax-us-pdx-rtb.amazon-adsystem.com CNAME .
 origin-sq-tungsten-ts.amazon-adsystem.com CNAME .
 *.origin-sq-tungsten-ts.amazon-adsystem.com CNAME .
-origin-sq-tungsten-ts-eu.amazon-adsystem.com CNAME .
-*.origin-sq-tungsten-ts-eu.amazon-adsystem.com CNAME .
 pri1-3ps.amazon-adsystem.com CNAME .
 *.pri1-3ps.amazon-adsystem.com CNAME .
 pri1-id-eu.amazon-adsystem.com CNAME .
@@ -484,6 +484,8 @@ vfwm-eu.amazon-adsystem.com CNAME .
 *.vfwm-eu.amazon-adsystem.com CNAME .
 vfwm-us.amazon-adsystem.com CNAME .
 *.vfwm-us.amazon-adsystem.com CNAME .
+vfwm-us-west.amazon-adsystem.com CNAME .
+*.vfwm-us-west.amazon-adsystem.com CNAME .
 vfws.amazon-adsystem.com CNAME .
 *.vfws.amazon-adsystem.com CNAME .
 vq-eu-west-1.amazon-adsystem.com CNAME .

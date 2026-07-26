@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785053040 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785087720 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Jul 2026 08:04 UTC
-; Version: 2026.0726.0804.22
+; Last modified: 26 Jul 2026 17:42 UTC
+; Version: 2026.0726.1742.00
 ; Syntax: RPZ
-; Number of entries: 6846
+; Number of entries: 6844
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3667,8 +3667,6 @@ odoh-target.alekberg.net CNAME .
 *.odoh-target.alekberg.net CNAME .
 odoh-target-noads-se.alekberg.net CNAME .
 *.odoh-target-noads-se.alekberg.net CNAME .
-odoh-target-se.alekberg.net CNAME .
-*.odoh-target-se.alekberg.net CNAME .
 diskstation.alexpollard.net CNAME .
 *.diskstation.alexpollard.net CNAME .
 management.alexpollard.net CNAME .
