@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785246720 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785259620 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Pop-Up Ads DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 28 Jul 2026 13:52 UTC
-; Version: 2026.0728.1352.40
+; Last modified: 28 Jul 2026 17:27 UTC
+; Version: 2026.0728.1727.53
 ; Syntax: RPZ
-; Number of entries: 113222
+; Number of entries: 113220
 ;
 bonzai.ad CNAME .
 *.bonzai.ad CNAME .
@@ -10022,8 +10022,6 @@ pfwdca329.55477.com CNAME .
 *.55mo.com CNAME .
 55sqz.com CNAME .
 *.55sqz.com CNAME .
-ddb8277edc.5608c7633c.com CNAME .
-*.ddb8277edc.5608c7633c.com CNAME .
 561649.com CNAME .
 *.561649.com CNAME .
 561890.com CNAME .
@@ -70084,6 +70082,8 @@ tbllem.com CNAME .
 *.tbllem.com CNAME .
 go.tbllprem.com CNAME .
 *.go.tbllprem.com CNAME .
+go.tbllreg.com CNAME .
+*.go.tbllreg.com CNAME .
 go.tbllrej.com CNAME .
 *.go.tbllrej.com CNAME .
 go.tbllzon.com CNAME .
@@ -100228,6 +100228,8 @@ weeklyround.pro CNAME .
 *.weeklyround.pro CNAME .
 weeklysquare.pro CNAME .
 *.weeklysquare.pro CNAME .
+weepy-fail.pro CNAME .
+*.weepy-fail.pro CNAME .
 weepyprogram.pro CNAME .
 *.weepyprogram.pro CNAME .
 weighty-association.pro CNAME .
@@ -101266,12 +101268,8 @@ barapolaran.shop CNAME .
 *.barapolaran.shop CNAME .
 barmanonymity.shop CNAME .
 *.barmanonymity.shop CNAME .
-chiyouranai.base.shop CNAME .
-*.chiyouranai.base.shop CNAME .
-tokujiro.base.shop CNAME .
-*.tokujiro.base.shop CNAME .
-uranai1111.base.shop CNAME .
-*.uranai1111.base.shop CNAME .
+base.shop CNAME .
+*.base.shop CNAME .
 basiscopyright.shop CNAME .
 *.basiscopyright.shop CNAME .
 battuelevered.shop CNAME .
