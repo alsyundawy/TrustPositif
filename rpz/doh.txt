@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785234300 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785312720 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 28 Jul 2026 10:25 UTC
-; Version: 2026.0728.1025.10
+; Last modified: 29 Jul 2026 08:12 UTC
+; Version: 2026.0729.0812.25
 ; Syntax: RPZ
-; Number of entries: 6840
+; Number of entries: 6842
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -571,8 +571,6 @@ dohsg.goitoi.co CNAME .
 *.dohsg.goitoi.co CNAME .
 adguard.mapor.co CNAME .
 *.adguard.mapor.co CNAME .
-dns.oszx.co CNAME .
-*.dns.oszx.co CNAME .
 blokuj.ujwie.co CNAME .
 *.blokuj.ujwie.co CNAME .
 nitter.ujwie.co CNAME .
@@ -3667,6 +3665,8 @@ odoh-target.alekberg.net CNAME .
 *.odoh-target.alekberg.net CNAME .
 odoh-target-noads-se.alekberg.net CNAME .
 *.odoh-target-noads-se.alekberg.net CNAME .
+odoh-target-se.alekberg.net CNAME .
+*.odoh-target-se.alekberg.net CNAME .
 diskstation.alexpollard.net CNAME .
 *.diskstation.alexpollard.net CNAME .
 management.alexpollard.net CNAME .
@@ -3761,6 +3761,8 @@ dot.cox.net CNAME .
 *.dot.cox.net CNAME .
 dohdot.coxlab.net CNAME .
 *.dohdot.coxlab.net CNAME .
+dns.criena.net CNAME .
+*.dns.criena.net CNAME .
 dns.itsec.crolla.net CNAME .
 *.dns.itsec.crolla.net CNAME .
 ae-agh1.dns.cryptroute.net CNAME .
@@ -5947,8 +5949,6 @@ tecdrive.site CNAME .
 *.tecdrive.site CNAME .
 vtcuong.site CNAME .
 *.vtcuong.site CNAME .
-vuivn.site CNAME .
-*.vuivn.site CNAME .
 dns.levonet.sk CNAME .
 *.dns.levonet.sk CNAME .
 dns.p3k.sk CNAME .
@@ -5973,6 +5973,8 @@ b9c7dc4e-7dde-4903-935b-fd6ea59ca4fb.space CNAME .
 *.b9c7dc4e-7dde-4903-935b-fd6ea59ca4fb.space CNAME .
 addns.jpr.space CNAME .
 *.addns.jpr.space CNAME .
+adguard.neon0404.space CNAME .
+*.adguard.neon0404.space CNAME .
 pygos.space CNAME .
 *.pygos.space CNAME .
 adg.rueiliu.space CNAME .

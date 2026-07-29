@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1784847060 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785312660 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 23 Jul 2026 22:51 UTC
-; Version: 2026.0723.2251.42
+; Last modified: 29 Jul 2026 08:11 UTC
+; Version: 2026.0729.0811.51
 ; Syntax: RPZ
-; Number of entries: 3048
+; Number of entries: 3046
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -430,8 +430,6 @@ damnserver.com CNAME .
 *.damnserver.com CNAME .
 davidsagar.com CNAME .
 *.davidsagar.com CNAME .
-ddns-dvr.com CNAME .
-*.ddns-dvr.com CNAME .
 ddns5.com CNAME .
 *.ddns5.com CNAME .
 ddnsapp.com CNAME .
