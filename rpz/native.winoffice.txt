@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785347820 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785434100 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 29 Jul 2026 17:57 UTC
-; Version: 2026.0729.1757.53
+; Last modified: 30 Jul 2026 17:55 UTC
+; Version: 2026.0730.1755.29
 ; Syntax: RPZ
-; Number of entries: 772
+; Number of entries: 774
 ;
 h4g3z1-native.winoffice.web.app CNAME .
 *.h4g3z1-native.winoffice.web.app CNAME .
@@ -62,6 +62,8 @@ identity.nel.measure.office.net.cardano.com CNAME .
 *.identity.nel.measure.office.net.cardano.com CNAME .
 m365cdn.nel.measure.office.net.cardano.com CNAME .
 *.m365cdn.nel.measure.office.net.cardano.com CNAME .
+officehub.nel.measure.office.net.cardano.com CNAME .
+*.officehub.nel.measure.office.net.cardano.com CNAME .
 spo.nel.measure.office.net.cardano.com CNAME .
 *.spo.nel.measure.office.net.cardano.com CNAME .
 teams.nel.measure.office.net.cardano.com CNAME .
