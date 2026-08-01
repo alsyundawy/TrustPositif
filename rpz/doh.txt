@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785485460 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785583080 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 31 Jul 2026 08:11 UTC
-; Version: 2026.0731.0811.02
+; Last modified: 01 Aug 2026 11:18 UTC
+; Version: 2026.0801.1118.23
 ; Syntax: RPZ
-; Number of entries: 6842
+; Number of entries: 6838
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -3761,8 +3761,6 @@ dot.cox.net CNAME .
 *.dot.cox.net CNAME .
 dohdot.coxlab.net CNAME .
 *.dohdot.coxlab.net CNAME .
-dns.criena.net CNAME .
-*.dns.criena.net CNAME .
 dns.itsec.crolla.net CNAME .
 *.dns.itsec.crolla.net CNAME .
 ae-agh1.dns.cryptroute.net CNAME .
@@ -4457,8 +4455,6 @@ dns.lermer.nl CNAME .
 *.dns.lermer.nl CNAME .
 adguard.lucarius.nl CNAME .
 *.adguard.lucarius.nl CNAME .
-meganerd.nl CNAME .
-*.meganerd.nl CNAME .
 dns.melvin2204.nl CNAME .
 *.dns.melvin2204.nl CNAME .
 dns.mikopono.nl CNAME .
