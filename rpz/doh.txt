@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785596520 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785658140 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 01 Aug 2026 15:02 UTC
-; Version: 2026.0801.1502.30
+; Last modified: 02 Aug 2026 08:09 UTC
+; Version: 2026.0802.0809.15
 ; Syntax: RPZ
-; Number of entries: 6840
+; Number of entries: 6830
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -629,12 +629,6 @@ dns-unfiltered.adguard.com CNAME .
 *.dns-unfiltered.adguard.com CNAME .
 adguard-dns.com CNAME .
 *.adguard-dns.com CNAME .
-dns.adguarddns.com CNAME .
-*.dns.adguarddns.com CNAME .
-family.adguarddns.com CNAME .
-*.family.adguarddns.com CNAME .
-unfiltered.adguarddns.com CNAME .
-*.unfiltered.adguarddns.com CNAME .
 dns.adnull.com CNAME .
 *.dns.adnull.com CNAME .
 dns.adrianlam.com CNAME .
@@ -5591,8 +5585,6 @@ adguard.dbase.in.rs CNAME .
 *.1735r.ru CNAME .
 51576162.ru CNAME .
 *.51576162.ru CNAME .
-ns.77ll.ru CNAME .
-*.ns.77ll.ru CNAME .
 78e281a9.ru CNAME .
 *.78e281a9.ru CNAME .
 de-passage.9273082020.ru CNAME .
@@ -6659,8 +6651,6 @@ bella.981377612.xyz CNAME .
 *.9827015.xyz CNAME .
 dns.985900.xyz CNAME .
 *.dns.985900.xyz CNAME .
-cld.996969.xyz CNAME .
-*.cld.996969.xyz CNAME .
 ddd.999369.xyz CNAME .
 *.ddd.999369.xyz CNAME .
 doh.abraservice.xyz CNAME .
