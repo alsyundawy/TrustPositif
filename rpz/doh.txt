@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785658140 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785669420 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Aug 2026 08:09 UTC
-; Version: 2026.0802.0809.15
+; Last modified: 02 Aug 2026 11:17 UTC
+; Version: 2026.0802.1117.43
 ; Syntax: RPZ
-; Number of entries: 6830
+; Number of entries: 6828
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -5609,8 +5609,6 @@ andrey93rus.ru CNAME .
 *.andrey93rus.ru CNAME .
 angrysky.ru CNAME .
 *.angrysky.ru CNAME .
-dns.anitelekom.ru CNAME .
-*.dns.anitelekom.ru CNAME .
 dns.ru.anitelekom.ru CNAME .
 *.dns.ru.anitelekom.ru CNAME .
 ad.anym0re.ru CNAME .

@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785607200 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785693600 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 01 Aug 2026 18:00 UTC
-; Version: 2026.0801.1800.04
+; Last modified: 02 Aug 2026 18:00 UTC
+; Version: 2026.0802.1800.20
 ; Syntax: RPZ
-; Number of entries: 720
+; Number of entries: 724
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
@@ -96,6 +96,10 @@ aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
 *.aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
 aax-ott.amazon-adsystem.amazon.com CNAME .
 *.aax-ott.amazon-adsystem.amazon.com CNAME .
+aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
+*.aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
+aax-us.amazon-adsystem.amazon.com CNAME .
+*.aax-us.amazon-adsystem.amazon.com CNAME .
 aax-us-east-1-ott.amazon-adsystem.amazon.com CNAME .
 *.aax-us-east-1-ott.amazon-adsystem.amazon.com CNAME .
 aax-us-ott.amazon-adsystem.amazon.com CNAME .
