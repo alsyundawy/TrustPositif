@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785607380 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785778860 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Fingerprinting DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 01 Aug 2026 18:03 UTC
-; Version: 2026.0801.1803.15
+; Last modified: 03 Aug 2026 17:41 UTC
+; Version: 2026.0803.1741.00
 ; Syntax: RPZ
-; Number of entries: 1166
+; Number of entries: 1208
 ;
 h4g3z1-native.tiktok.extended.web.app CNAME .
 *.h4g3z1-native.tiktok.extended.web.app CNAME .
@@ -126,6 +126,8 @@ mon-sg.capcutapi.com CNAME .
 *.mon-sg.capcutapi.com CNAME .
 mon-v2-boot.capcutapi.com CNAME .
 *.mon-v2-boot.capcutapi.com CNAME .
+mon-va.capcutapi.com CNAME .
+*.mon-va.capcutapi.com CNAME .
 mon16-normal-sg.capcutapi.com CNAME .
 *.mon16-normal-sg.capcutapi.com CNAME .
 mon32-normal-sg.capcutapi.com CNAME .
@@ -840,6 +842,20 @@ frontier.tiktokv-eu.com CNAME .
 *.frontier.tiktokv-eu.com CNAME .
 log-snssdk.tiktokv-us.com CNAME .
 *.log-snssdk.tiktokv-us.com CNAME .
+mon-boot.capcutapi.com.ttdns2.com CNAME .
+*.mon-boot.capcutapi.com.ttdns2.com CNAME .
+mon-sg.capcutapi.com.ttdns2.com CNAME .
+*.mon-sg.capcutapi.com.ttdns2.com CNAME .
+mon-v2-boot.capcutapi.com.ttdns2.com CNAME .
+*.mon-v2-boot.capcutapi.com.ttdns2.com CNAME .
+mon-va.capcutapi.com.ttdns2.com CNAME .
+*.mon-va.capcutapi.com.ttdns2.com CNAME .
+pc-mon-boot.capcutapi.com.ttdns2.com CNAME .
+*.pc-mon-boot.capcutapi.com.ttdns2.com CNAME .
+pc-mon-normal-sg.capcutapi.com.ttdns2.com CNAME .
+*.pc-mon-normal-sg.capcutapi.com.ttdns2.com CNAME .
+pc-mon-v2-boot.capcutapi.com.ttdns2.com CNAME .
+*.pc-mon-v2-boot.capcutapi.com.ttdns2.com CNAME .
 analytics.tiktok.com.ttdns2.com CNAME .
 *.analytics.tiktok.com.ttdns2.com CNAME .
 analytics-exp-ru.tiktok.com.ttdns2.com CNAME .
@@ -1024,6 +1040,20 @@ mon-boot.tiktokv.com.edgekey.net CNAME .
 *.mon-boot.tiktokv.com.edgekey.net CNAME .
 mssdk-boot.tiktokv.com.edgekey.net CNAME .
 *.mssdk-boot.tiktokv.com.edgekey.net CNAME .
+mon-boot.capcutapi.com.edgesuite.net CNAME .
+*.mon-boot.capcutapi.com.edgesuite.net CNAME .
+mon-sg.capcutapi.com.edgesuite.net CNAME .
+*.mon-sg.capcutapi.com.edgesuite.net CNAME .
+mon-v2-boot.capcutapi.com.edgesuite.net CNAME .
+*.mon-v2-boot.capcutapi.com.edgesuite.net CNAME .
+mon16-normal-sg.capcutapi.com.edgesuite.net CNAME .
+*.mon16-normal-sg.capcutapi.com.edgesuite.net CNAME .
+pc-mon-boot.capcutapi.com.edgesuite.net CNAME .
+*.pc-mon-boot.capcutapi.com.edgesuite.net CNAME .
+pc-mon-normal-sg.capcutapi.com.edgesuite.net CNAME .
+*.pc-mon-normal-sg.capcutapi.com.edgesuite.net CNAME .
+pc-mon-v2-boot.capcutapi.com.edgesuite.net CNAME .
+*.pc-mon-v2-boot.capcutapi.com.edgesuite.net CNAME .
 analytics-exp-ru.tiktok.com.edgesuite.net CNAME .
 *.analytics-exp-ru.tiktok.com.edgesuite.net CNAME .
 analytics-v6.tiktok.com.edgesuite.net CNAME .
@@ -1076,6 +1106,14 @@ mcs16-normal-no1a.tiktokw.eu.edgesuite.net CNAME .
 *.mcs16-normal-no1a.tiktokw.eu.edgesuite.net CNAME .
 mcs16-normal-useastred.tiktokw.eu.edgesuite.net CNAME .
 *.mcs16-normal-useastred.tiktokw.eu.edgesuite.net CNAME .
+mon.capcutapi.us.edgesuite.net CNAME .
+*.mon.capcutapi.us.edgesuite.net CNAME .
+mon16-normal-us-ttp.capcutapi.us.edgesuite.net CNAME .
+*.mon16-normal-us-ttp.capcutapi.us.edgesuite.net CNAME .
+mon16-normal-us-ttp2.capcutapi.us.edgesuite.net CNAME .
+*.mon16-normal-us-ttp2.capcutapi.us.edgesuite.net CNAME .
+pc-mon16-normal-us-ttp.capcutapi.us.edgesuite.net CNAME .
+*.pc-mon16-normal-us-ttp.capcutapi.us.edgesuite.net CNAME .
 frontier.capcutw.us.edgesuite.net CNAME .
 *.frontier.capcutw.us.edgesuite.net CNAME .
 ad-instantpage.tiktokv.us.edgesuite.net CNAME .
@@ -1116,12 +1154,16 @@ mon.capcutapi.us CNAME .
 *.mon.capcutapi.us CNAME .
 mon16-normal-us-ttp.capcutapi.us CNAME .
 *.mon16-normal-us-ttp.capcutapi.us CNAME .
+mon16-normal-us-ttp2.capcutapi.us CNAME .
+*.mon16-normal-us-ttp2.capcutapi.us CNAME .
 mssdk.capcutapi.us CNAME .
 *.mssdk.capcutapi.us CNAME .
 mssdk16-normal-us-ttp.capcutapi.us CNAME .
 *.mssdk16-normal-us-ttp.capcutapi.us CNAME .
 pc-mon16-normal-us-ttp.capcutapi.us CNAME .
 *.pc-mon16-normal-us-ttp.capcutapi.us CNAME .
+pc-mon16-normal-us-ttp2.capcutapi.us CNAME .
+*.pc-mon16-normal-us-ttp2.capcutapi.us CNAME .
 tnc16-normal-us-ttp.capcutapi.us CNAME .
 *.tnc16-normal-us-ttp.capcutapi.us CNAME .
 frontier.capcutw.us CNAME .
