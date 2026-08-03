@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785693900 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785740820 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Aug 2026 18:05 UTC
-; Version: 2026.0802.1805.57
+; Last modified: 03 Aug 2026 07:07 UTC
+; Version: 2026.0803.0707.52
 ; Syntax: RPZ
-; Number of entries: 926
+; Number of entries: 968
 ;
 h4g3z1-native.oppo-realme.web.app CNAME .
 *.h4g3z1-native.oppo-realme.web.app CNAME .
@@ -108,10 +108,28 @@ gui-server-us.allawnos.com CNAME .
 *.gui-server-us.allawnos.com CNAME .
 icosa-service-eu.allawnos.com CNAME .
 *.icosa-service-eu.allawnos.com CNAME .
+icosa-service-fr-01.allawnos.com CNAME .
+*.icosa-service-fr-01.allawnos.com CNAME .
+icosa-service-fr-02.allawnos.com CNAME .
+*.icosa-service-fr-02.allawnos.com CNAME .
+icosa-service-fr-03.allawnos.com CNAME .
+*.icosa-service-fr-03.allawnos.com CNAME .
 icosa-service-in.allawnos.com CNAME .
 *.icosa-service-in.allawnos.com CNAME .
+icosa-service-in-01.allawnos.com CNAME .
+*.icosa-service-in-01.allawnos.com CNAME .
+icosa-service-in-02.allawnos.com CNAME .
+*.icosa-service-in-02.allawnos.com CNAME .
+icosa-service-in-03.allawnos.com CNAME .
+*.icosa-service-in-03.allawnos.com CNAME .
 icosa-service-sg.allawnos.com CNAME .
 *.icosa-service-sg.allawnos.com CNAME .
+icosa-service-sg-01.allawnos.com CNAME .
+*.icosa-service-sg-01.allawnos.com CNAME .
+icosa-service-sg-02.allawnos.com CNAME .
+*.icosa-service-sg-02.allawnos.com CNAME .
+icosa-service-sg-03.allawnos.com CNAME .
+*.icosa-service-sg-03.allawnos.com CNAME .
 icosa-service-us.allawnos.com CNAME .
 *.icosa-service-us.allawnos.com CNAME .
 icota-service-eu.allawnos.com CNAME .
@@ -254,6 +272,8 @@ conf-in-dc.heytapdl.com CNAME .
 *.conf-in-dc.heytapdl.com CNAME .
 conf-sg-dc.heytapdl.com CNAME .
 *.conf-sg-dc.heytapdl.com CNAME .
+file-intl-push.heytapdl.com CNAME .
+*.file-intl-push.heytapdl.com CNAME .
 mdp-appconf-ae.heytapdl.com CNAME .
 *.mdp-appconf-ae.heytapdl.com CNAME .
 mdp-appconf-af.heytapdl.com CNAME .
@@ -842,6 +862,8 @@ u-id.cpc.heytapmobile.com CNAME .
 *.u-id.cpc.heytapmobile.com CNAME .
 dc.heytapmobile.com CNAME .
 *.dc.heytapmobile.com CNAME .
+dc-dragate-sg.heytapmobile.com CNAME .
+*.dc-dragate-sg.heytapmobile.com CNAME .
 dc-stat-in.heytapmobile.com CNAME .
 *.dc-stat-in.heytapmobile.com CNAME .
 dragate-in-dc.heytapmobile.com CNAME .
@@ -852,6 +874,14 @@ mdp-usertrace-in.heytapmobile.com CNAME .
 *.mdp-usertrace-in.heytapmobile.com CNAME .
 mdp-usertrace-sg.heytapmobile.com CNAME .
 *.mdp-usertrace-sg.heytapmobile.com CNAME .
+obus-conf-fr.heytapmobile.com CNAME .
+*.obus-conf-fr.heytapmobile.com CNAME .
+obus-conf-in.heytapmobile.com CNAME .
+*.obus-conf-in.heytapmobile.com CNAME .
+obus-conf-sg.heytapmobile.com CNAME .
+*.obus-conf-sg.heytapmobile.com CNAME .
+obus-conf-us.heytapmobile.com CNAME .
+*.obus-conf-us.heytapmobile.com CNAME .
 obus-dc-eu.heytapmobile.com CNAME .
 *.obus-dc-eu.heytapmobile.com CNAME .
 obus-dc-ru.heytapmobile.com CNAME .
@@ -878,6 +908,8 @@ obus-dctech-in.heytapmobile.com CNAME .
 *.obus-dctech-in.heytapmobile.com CNAME .
 obus-dctech-sg.heytapmobile.com CNAME .
 *.obus-dctech-sg.heytapmobile.com CNAME .
+obus-dcyitai-sg.heytapmobile.com CNAME .
+*.obus-dcyitai-sg.heytapmobile.com CNAME .
 obus-jssdk-fr.heytapmobile.com CNAME .
 *.obus-jssdk-fr.heytapmobile.com CNAME .
 obus-jssdk-in.heytapmobile.com CNAME .
@@ -916,6 +948,14 @@ report-in.uc.heytapmobile.com CNAME .
 *.report-in.uc.heytapmobile.com CNAME .
 report-sg.uc.heytapmobile.com CNAME .
 *.report-sg.uc.heytapmobile.com CNAME .
+video-api-fr.heytapmobile.com CNAME .
+*.video-api-fr.heytapmobile.com CNAME .
+video-api-gl.heytapmobile.com CNAME .
+*.video-api-gl.heytapmobile.com CNAME .
+video-api-in.heytapmobile.com CNAME .
+*.video-api-in.heytapmobile.com CNAME .
+video-api-ru.heytapmobile.com CNAME .
+*.video-api-ru.heytapmobile.com CNAME .
 hizonetech.com CNAME .
 *.hizonetech.com CNAME .
 ads.oppomobile.com CNAME .
@@ -940,3 +980,5 @@ dhfs-vn.oppomobile.com CNAME .
 *.dhfs-vn.oppomobile.com CNAME .
 dhfsf.oppomobile.com CNAME .
 *.dhfsf.oppomobile.com CNAME .
+sea-log-rcv.vansound.com CNAME .
+*.sea-log-rcv.vansound.com CNAME .

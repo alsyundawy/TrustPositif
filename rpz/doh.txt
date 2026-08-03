@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785669420 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785745260 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 02 Aug 2026 11:17 UTC
-; Version: 2026.0802.1117.43
+; Last modified: 03 Aug 2026 08:21 UTC
+; Version: 2026.0803.0821.15
 ; Syntax: RPZ
-; Number of entries: 6828
+; Number of entries: 6844
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -629,6 +629,12 @@ dns-unfiltered.adguard.com CNAME .
 *.dns-unfiltered.adguard.com CNAME .
 adguard-dns.com CNAME .
 *.adguard-dns.com CNAME .
+dns.adguarddns.com CNAME .
+*.dns.adguarddns.com CNAME .
+family.adguarddns.com CNAME .
+*.family.adguarddns.com CNAME .
+unfiltered.adguarddns.com CNAME .
+*.unfiltered.adguarddns.com CNAME .
 dns.adnull.com CNAME .
 *.dns.adnull.com CNAME .
 dns.adrianlam.com CNAME .
@@ -1049,6 +1055,8 @@ dns.fabidouille.com CNAME .
 *.dns.fabidouille.com CNAME .
 gsat.familyds.com CNAME .
 *.gsat.familyds.com CNAME .
+waterfox-ohttp-relay.fastly-edge.com CNAME .
+*.waterfox-ohttp-relay.fastly-edge.com CNAME .
 home.fendya.com CNAME .
 *.home.fendya.com CNAME .
 adg.fiyaajans.com CNAME .
@@ -4343,6 +4351,8 @@ cc2.v8er.net CNAME .
 *.cc2.v8er.net CNAME .
 alina.virttec.net CNAME .
 *.alina.virttec.net CNAME .
+dooh.waterfox.net CNAME .
+*.dooh.waterfox.net CNAME .
 zuhause.webteufel.net CNAME .
 *.zuhause.webteufel.net CNAME .
 resov.wehao.net CNAME .
@@ -5585,6 +5595,8 @@ adguard.dbase.in.rs CNAME .
 *.1735r.ru CNAME .
 51576162.ru CNAME .
 *.51576162.ru CNAME .
+ns.77ll.ru CNAME .
+*.ns.77ll.ru CNAME .
 78e281a9.ru CNAME .
 *.78e281a9.ru CNAME .
 de-passage.9273082020.ru CNAME .
@@ -5609,6 +5621,8 @@ andrey93rus.ru CNAME .
 *.andrey93rus.ru CNAME .
 angrysky.ru CNAME .
 *.angrysky.ru CNAME .
+dns.anitelekom.ru CNAME .
+*.dns.anitelekom.ru CNAME .
 dns.ru.anitelekom.ru CNAME .
 *.dns.ru.anitelekom.ru CNAME .
 ad.anym0re.ru CNAME .
@@ -6649,6 +6663,8 @@ bella.981377612.xyz CNAME .
 *.9827015.xyz CNAME .
 dns.985900.xyz CNAME .
 *.dns.985900.xyz CNAME .
+cld.996969.xyz CNAME .
+*.cld.996969.xyz CNAME .
 ddd.999369.xyz CNAME .
 *.ddd.999369.xyz CNAME .
 doh.abraservice.xyz CNAME .
