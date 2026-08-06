@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785918000 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786003860 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Aug 2026 08:20 UTC
-; Version: 2026.0805.0820.14
+; Last modified: 06 Aug 2026 08:11 UTC
+; Version: 2026.0806.0811.43
 ; Syntax: RPZ
-; Number of entries: 6816
+; Number of entries: 6806
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -115,8 +115,6 @@ tecworx.at CNAME .
 *.tecworx.at CNAME .
 dns.alwynstudio.com.au CNAME .
 *.dns.alwynstudio.com.au CNAME .
-dns.cloud88.com.au CNAME .
-*.dns.cloud88.com.au CNAME .
 dns.netraptor.com.au CNAME .
 *.dns.netraptor.com.au CNAME .
 wandana.franklinfamily.au CNAME .
@@ -395,8 +393,6 @@ dns.clanto.cloud CNAME .
 *.dns.clanto.cloud CNAME .
 doh.cnetwork.cloud CNAME .
 *.doh.cnetwork.cloud CNAME .
-dns.cysynex.cloud CNAME .
-*.dns.cysynex.cloud CNAME .
 adguard.dessoi.cloud CNAME .
 *.adguard.dessoi.cloud CNAME .
 adguard.dsns.cloud CNAME .
@@ -491,8 +487,6 @@ dns.beardic.cn CNAME .
 *.dns.beardic.cn CNAME .
 dns.citystars.cn CNAME .
 *.dns.citystars.cn CNAME .
-ns.ciwer.cn CNAME .
-*.ns.ciwer.cn CNAME .
 dns.weixin.qq.com.cn CNAME .
 *.dns.weixin.qq.com.cn CNAME .
 gc.cyberbeta.cn CNAME .
@@ -831,8 +825,6 @@ adguard.cedoman.com CNAME .
 *.adguard.cedoman.com CNAME .
 dns.chalkychalk.com CNAME .
 *.dns.chalkychalk.com CNAME .
-rdns2.chancetheitguy.com CNAME .
-*.rdns2.chancetheitguy.com CNAME .
 adguard.chaudharyarnav.com CNAME .
 *.adguard.chaudharyarnav.com CNAME .
 dns.chillstice.com CNAME .
@@ -3289,8 +3281,6 @@ solution.w10.life CNAME .
 *.solution.w10.life CNAME .
 atsilva.link CNAME .
 *.atsilva.link CNAME .
-dns.chattalk.link CNAME .
-*.dns.chattalk.link CNAME .
 dns-free.link CNAME .
 *.dns-free.link CNAME .
 eth.link CNAME .

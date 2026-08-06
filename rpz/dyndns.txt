@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785745200 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1785984660 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's DynDNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 03 Aug 2026 08:20 UTC
-; Version: 2026.0803.0820.33
+; Last modified: 06 Aug 2026 02:51 UTC
+; Version: 2026.0806.0251.22
 ; Syntax: RPZ
-; Number of entries: 3046
+; Number of entries: 3048
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -20,6 +20,8 @@ australia.ai CNAME .
 *.australia.ai CNAME .
 play.ai CNAME .
 *.play.ai CNAME .
+aa.am CNAME .
+*.aa.am CNAME .
 progr.am CNAME .
 *.progr.am CNAME .
 h4g3z1-dyndns.web.app CNAME .
