@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1786003860 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786014240 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Aug 2026 08:11 UTC
-; Version: 2026.0806.0811.43
+; Last modified: 06 Aug 2026 11:04 UTC
+; Version: 2026.0806.1104.35
 ; Syntax: RPZ
-; Number of entries: 6806
+; Number of entries: 6788
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -4643,8 +4643,6 @@ dns8.org CNAME .
 *.dns8.org CNAME .
 dnsbunker.org CNAME .
 *.dnsbunker.org CNAME .
-dnscity.org CNAME .
-*.dnscity.org CNAME .
 ns.dnsviewer.org CNAME .
 *.ns.dnsviewer.org CNAME .
 ns1.dotls.org CNAME .
@@ -5195,12 +5193,8 @@ ams03.dnscry.pt CNAME .
 *.ams03.dnscry.pt CNAME .
 aqx01.dnscry.pt CNAME .
 *.aqx01.dnscry.pt CNAME .
-ath01.dnscry.pt CNAME .
-*.ath01.dnscry.pt CNAME .
 atl01.dnscry.pt CNAME .
 *.atl01.dnscry.pt CNAME .
-bcn01.dnscry.pt CNAME .
-*.bcn01.dnscry.pt CNAME .
 bei01.dnscry.pt CNAME .
 *.bei01.dnscry.pt CNAME .
 bkk01.dnscry.pt CNAME .
@@ -5209,8 +5203,6 @@ blr01.dnscry.pt CNAME .
 *.blr01.dnscry.pt CNAME .
 bne01.dnscry.pt CNAME .
 *.bne01.dnscry.pt CNAME .
-bog01.dnscry.pt CNAME .
-*.bog01.dnscry.pt CNAME .
 bom02.dnscry.pt CNAME .
 *.bom02.dnscry.pt CNAME .
 bre01.dnscry.pt CNAME .
@@ -5263,8 +5255,6 @@ grr01.dnscry.pt CNAME .
 *.grr01.dnscry.pt CNAME .
 gva01.dnscry.pt CNAME .
 *.gva01.dnscry.pt CNAME .
-gye01.dnscry.pt CNAME .
-*.gye01.dnscry.pt CNAME .
 haf01.dnscry.pt CNAME .
 *.haf01.dnscry.pt CNAME .
 han01.dnscry.pt CNAME .
@@ -5311,8 +5301,6 @@ lax01.dnscry.pt CNAME .
 *.lax01.dnscry.pt CNAME .
 lax02.dnscry.pt CNAME .
 *.lax02.dnscry.pt CNAME .
-lim02.dnscry.pt CNAME .
-*.lim02.dnscry.pt CNAME .
 lis01.dnscry.pt CNAME .
 *.lis01.dnscry.pt CNAME .
 lis02.dnscry.pt CNAME .
@@ -5321,8 +5309,6 @@ llk01.dnscry.pt CNAME .
 *.llk01.dnscry.pt CNAME .
 lon01.dnscry.pt CNAME .
 *.lon01.dnscry.pt CNAME .
-los01.dnscry.pt CNAME .
-*.los01.dnscry.pt CNAME .
 los02.dnscry.pt CNAME .
 *.los02.dnscry.pt CNAME .
 mad01.dnscry.pt CNAME .
@@ -5337,8 +5323,6 @@ mia01.dnscry.pt CNAME .
 *.mia01.dnscry.pt CNAME .
 mil01.dnscry.pt CNAME .
 *.mil01.dnscry.pt CNAME .
-mnl01.dnscry.pt CNAME .
-*.mnl01.dnscry.pt CNAME .
 moe01.dnscry.pt CNAME .
 *.moe01.dnscry.pt CNAME .
 mow01.dnscry.pt CNAME .
@@ -5375,8 +5359,6 @@ ped01.dnscry.pt CNAME .
 *.ped01.dnscry.pt CNAME .
 per01.dnscry.pt CNAME .
 *.per01.dnscry.pt CNAME .
-phl01.dnscry.pt CNAME .
-*.phl01.dnscry.pt CNAME .
 phx01.dnscry.pt CNAME .
 *.phx01.dnscry.pt CNAME .
 prg01.dnscry.pt CNAME .
