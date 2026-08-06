@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1785967080 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786053480 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker DNS Blocklist
@@ -9,15 +9,17 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 05 Aug 2026 21:58 UTC
-; Version: 2026.0805.2158.43
+; Last modified: 06 Aug 2026 21:58 UTC
+; Version: 2026.0806.2158.42
 ; Syntax: RPZ
-; Number of entries: 720
+; Number of entries: 722
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
 fls-eu.amazon.ae CNAME .
 *.fls-eu.amazon.ae CNAME .
+sponsored-ads.amazon.ae CNAME .
+*.sponsored-ads.amazon.ae CNAME .
 sponsored-ads-eu.amazon.ae CNAME .
 *.sponsored-ads-eu.amazon.ae CNAME .
 unagi.amazon.ae CNAME .
@@ -372,8 +374,6 @@ maws-aax-eu-rtb-adx.amazon-adsystem.com CNAME .
 *.maws-aax-eu-rtb-adx.amazon-adsystem.com CNAME .
 maws-aax-fe.amazon-adsystem.com CNAME .
 *.maws-aax-fe.amazon-adsystem.com CNAME .
-maws-aax-fe-sin.amazon-adsystem.com CNAME .
-*.maws-aax-fe-sin.amazon-adsystem.com CNAME .
 maws-aax-us-east.amazon-adsystem.com CNAME .
 *.maws-aax-us-east.amazon-adsystem.com CNAME .
 maws-aax-us-east-rtb.amazon-adsystem.com CNAME .
@@ -588,6 +588,8 @@ advertising.amazon.eg CNAME .
 *.advertising.amazon.eg CNAME .
 fls-eu.amazon.eg CNAME .
 *.fls-eu.amazon.eg CNAME .
+sponsored-ads.amazon.eg CNAME .
+*.sponsored-ads.amazon.eg CNAME .
 sponsored-ads-eu.amazon.eg CNAME .
 *.sponsored-ads-eu.amazon.eg CNAME .
 unagi.amazon.eg CNAME .

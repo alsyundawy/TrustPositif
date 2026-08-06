@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1786014240 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786052820 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Aug 2026 11:04 UTC
-; Version: 2026.0806.1104.35
+; Last modified: 06 Aug 2026 21:47 UTC
+; Version: 2026.0806.2147.06
 ; Syntax: RPZ
-; Number of entries: 6788
+; Number of entries: 6784
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1023,8 +1023,6 @@ edgy-dns.com CNAME .
 *.edgy-dns.com CNAME .
 dns.efficientdocuments.com CNAME .
 *.dns.efficientdocuments.com CNAME .
-doh.eieidns.com CNAME .
-*.doh.eieidns.com CNAME .
 adguard.elrobit.com CNAME .
 *.adguard.elrobit.com CNAME .
 dnssec.dns.enginyring.com CNAME .
@@ -3163,8 +3161,6 @@ docker-hub.ir CNAME .
 *.docker-hub.ir CNAME .
 eymg5h77lfs6zhwzmv47gkh0a4r1f1ydfprzxidk.ir CNAME .
 *.eymg5h77lfs6zhwzmv47gkh0a4r1f1ydfprzxidk.ir CNAME .
-dns.farakaft.ir CNAME .
-*.dns.farakaft.ir CNAME .
 globalcloud.ir CNAME .
 *.globalcloud.ir CNAME .
 dns.jungle-im.ir CNAME .
