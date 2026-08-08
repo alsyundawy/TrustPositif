@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1786090080 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786178040 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 07 Aug 2026 08:08 UTC
-; Version: 2026.0807.0808.41
+; Last modified: 08 Aug 2026 08:34 UTC
+; Version: 2026.0808.0834.46
 ; Syntax: RPZ
-; Number of entries: 6782
+; Number of entries: 6774
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -413,8 +413,6 @@ adguard.hartley.cloud CNAME .
 *.adguard.hartley.cloud CNAME .
 adguard.itclogic.cloud CNAME .
 *.adguard.itclogic.cloud CNAME .
-dns1.iwall.cloud CNAME .
-*.dns1.iwall.cloud CNAME .
 adguard.jaydub.cloud CNAME .
 *.adguard.jaydub.cloud CNAME .
 dns.krol.cloud CNAME .
@@ -1153,8 +1151,6 @@ dns.hostingim.com CNAME .
 *.dns.hostingim.com CNAME .
 freemnt.hpitto.com CNAME .
 *.freemnt.hpitto.com CNAME .
-doh.hshkf.com CNAME .
-*.doh.hshkf.com CNAME .
 httpdns.huaweicloud.com CNAME .
 *.httpdns.huaweicloud.com CNAME .
 doth.huque.com CNAME .
@@ -2071,8 +2067,6 @@ cloud2.holzmannclouddns.de CNAME .
 *.cloud2.holzmannclouddns.de CNAME .
 adguard01.homepeter.de CNAME .
 *.adguard01.homepeter.de CNAME .
-dns.hussainnabil.de CNAME .
-*.dns.hussainnabil.de CNAME .
 dns.imchristian.de CNAME .
 *.dns.imchristian.de CNAME .
 dns.immanuelschaffer.de CNAME .
@@ -2965,6 +2959,8 @@ dns.mailcastle.in CNAME .
 *.dns.mailcastle.in CNAME .
 doh.micronets.in CNAME .
 *.doh.micronets.in CNAME .
+dns.nic.in CNAME .
+*.dns.nic.in CNAME .
 h.ra3.in CNAME .
 *.h.ra3.in CNAME .
 dns.skrep.in CNAME .
@@ -3301,8 +3297,6 @@ acomit.lk CNAME .
 *.acomit.lk CNAME .
 greatideasforlife.lol CNAME .
 *.greatideasforlife.lol CNAME .
-dns.green-ping.lol CNAME .
-*.dns.green-ping.lol CNAME .
 johneldenring.lol CNAME .
 *.johneldenring.lol CNAME .
 adguard.konnkors.lol CNAME .
@@ -4551,8 +4545,6 @@ herkes.online CNAME .
 *.herkes.online CNAME .
 dns.hopkinton.online CNAME .
 *.dns.hopkinton.online CNAME .
-ingenmannsland.online CNAME .
-*.ingenmannsland.online CNAME .
 inpssh.online CNAME .
 *.inpssh.online CNAME .
 externalmobiel.lekdijk.online CNAME .
