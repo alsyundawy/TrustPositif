@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1786053540 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786744860 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Windows/Office Tracker DNS Blocklist
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 06 Aug 2026 21:59 UTC
-; Version: 2026.0806.2159.27
+; Last modified: 14 Aug 2026 22:01 UTC
+; Version: 2026.0814.2201.02
 ; Syntax: RPZ
 ; Number of entries: 778
 ;
@@ -504,6 +504,8 @@ o.xbox.com CNAME .
 *.o.xbox.com CNAME .
 beacons.xboxlive.com CNAME .
 *.beacons.xboxlive.com CNAME .
+westeurope-5.in.applicationinsights.azure.com.fiege.de CNAME .
+*.westeurope-5.in.applicationinsights.azure.com.fiege.de CNAME .
 collector.azure.eaglex.ic.gov CNAME .
 *.collector.azure.eaglex.ic.gov CNAME .
 js.cdn.applicationinsights.io CNAME .
@@ -660,8 +662,6 @@ ism-telemetry.trafficmanager.net CNAME .
 *.ism-telemetry.trafficmanager.net CNAME .
 legacywatson.trafficmanager.net CNAME .
 *.legacywatson.trafficmanager.net CNAME .
-o365diagtelemetry.trafficmanager.net CNAME .
-*.o365diagtelemetry.trafficmanager.net CNAME .
 office-events-data.trafficmanager.net CNAME .
 *.office-events-data.trafficmanager.net CNAME .
 oms-analytics.trafficmanager.net CNAME .

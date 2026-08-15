@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1782500640 14400 3600 86400 3600
+@ SOA localhost. root.localhost. 1786745220 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Xiaomi Tracker DNS Blocklist
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 26 Jun 2026 19:04 UTC
-; Version: 2026.0626.1904.40
+; Last modified: 14 Aug 2026 22:07 UTC
+; Version: 2026.0814.2207.01
 ; Syntax: RPZ
-; Number of entries: 694
+; Number of entries: 692
 ;
 h4g3z1-native.xiaomi.web.app CNAME .
 *.h4g3z1-native.xiaomi.web.app CNAME .
@@ -176,8 +176,6 @@ streamback.ff.avast.sec.miui.com CNAME .
 *.streamback.ff.avast.sec.miui.com CNAME .
 cse.avlyun.sec.miui.com CNAME .
 *.cse.avlyun.sec.miui.com CNAME .
-log-abroad.avlyun.sec.miui.com CNAME .
-*.log-abroad.avlyun.sec.miui.com CNAME .
 logupdate.avlyun.sec.miui.com CNAME .
 *.logupdate.avlyun.sec.miui.com CNAME .
 update.avlyun.sec.miui.com CNAME .

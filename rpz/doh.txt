@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1786663740 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786782180 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 13 Aug 2026 23:29 UTC
-; Version: 2026.0813.2329.15
+; Last modified: 15 Aug 2026 08:23 UTC
+; Version: 2026.0815.0823.14
 ; Syntax: RPZ
-; Number of entries: 6702
+; Number of entries: 6706
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1005,6 +1005,8 @@ safe.eaccelera.com CNAME .
 *.safe.eaccelera.com CNAME .
 easyhandshake.com CNAME .
 *.easyhandshake.com CNAME .
+dns.easyhns.com CNAME .
+*.dns.easyhns.com CNAME .
 dns.edc-pws.com CNAME .
 *.dns.edc-pws.com CNAME .
 dns.edgeburnmedia.com CNAME .
@@ -1131,6 +1133,8 @@ httpdns.ocloud.heytapmobi.com CNAME .
 *.httpdns.ocloud.heytapmobi.com CNAME .
 mail.hilton-groups.com CNAME .
 *.mail.hilton-groups.com CNAME .
+hnsdoh.com CNAME .
+*.hnsdoh.com CNAME .
 adguard.hoangcongchuc.com CNAME .
 *.adguard.hoangcongchuc.com CNAME .
 dns.hopsken.com CNAME .
