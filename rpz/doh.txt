@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1786782180 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786868760 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 15 Aug 2026 08:23 UTC
-; Version: 2026.0815.0823.14
+; Last modified: 16 Aug 2026 08:26 UTC
+; Version: 2026.0816.0826.07
 ; Syntax: RPZ
-; Number of entries: 6706
+; Number of entries: 6730
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -389,6 +389,8 @@ dns.brono.cloud CNAME .
 *.dns.brono.cloud CNAME .
 dns.clanto.cloud CNAME .
 *.dns.clanto.cloud CNAME .
+dns-secondary.cloudnx.cloud CNAME .
+*.dns-secondary.cloudnx.cloud CNAME .
 doh.cnetwork.cloud CNAME .
 *.doh.cnetwork.cloud CNAME .
 adguard.dessoi.cloud CNAME .
@@ -795,6 +797,8 @@ agh.broaddy.com CNAME .
 *.agh.broaddy.com CNAME .
 doh.bt.com CNAME .
 *.doh.bt.com CNAME .
+doh.bugdns.com CNAME .
+*.doh.bugdns.com CNAME .
 c-dns.com CNAME .
 *.c-dns.com CNAME .
 dns.cahlen.com CNAME .
@@ -1095,6 +1099,8 @@ vps.grussenmeyer.com CNAME .
 *.vps.grussenmeyer.com CNAME .
 guanmengkai.com CNAME .
 *.guanmengkai.com CNAME .
+dns.guardmydns.com CNAME .
+*.dns.guardmydns.com CNAME .
 homedns.gumeniuk.com CNAME .
 *.homedns.gumeniuk.com CNAME .
 hkns.gzelvis.com CNAME .
@@ -2849,6 +2855,8 @@ dns1.gms.net.id CNAME .
 *.dns1.gms.net.id CNAME .
 dns2.gms.net.id CNAME .
 *.dns2.gms.net.id CNAME .
+doh.infotek.net.id CNAME .
+*.doh.infotek.net.id CNAME .
 doh.max.net.id CNAME .
 *.doh.max.net.id CNAME .
 doh.palapa.net.id CNAME .
@@ -3181,6 +3189,8 @@ dns.neeb.it CNAME .
 *.dns.neeb.it CNAME .
 doh.luigi.nexific.it CNAME .
 *.doh.luigi.nexific.it CNAME .
+dns.npsolution.it CNAME .
+*.dns.npsolution.it CNAME .
 adguard.pangerl.it CNAME .
 *.adguard.pangerl.it CNAME .
 dns.repressoh.it CNAME .
@@ -3485,6 +3495,8 @@ adguard.trevorpease.me CNAME .
 *.adguard.trevorpease.me CNAME .
 dns2.vinc.me CNAME .
 *.dns2.vinc.me CNAME .
+dns.warma.me CNAME .
+*.dns.warma.me CNAME .
 home.weisbrod.me CNAME .
 *.home.weisbrod.me CNAME .
 dns.xydustc.me CNAME .
@@ -3605,8 +3617,20 @@ dns.airns.net CNAME .
 *.dns.airns.net CNAME .
 adguard.ajinga.net CNAME .
 *.adguard.ajinga.net CNAME .
+dns.alekberg.net CNAME .
+*.dns.alekberg.net CNAME .
+dns2.alekberg.net CNAME .
+*.dns2.alekberg.net CNAME .
+dnses.alekberg.net CNAME .
+*.dnses.alekberg.net CNAME .
 dnsnl.alekberg.net CNAME .
 *.dnsnl.alekberg.net CNAME .
+dnsnl-noads.alekberg.net CNAME .
+*.dnsnl-noads.alekberg.net CNAME .
+dnsse.alekberg.net CNAME .
+*.dnsse.alekberg.net CNAME .
+dnsse-noads.alekberg.net CNAME .
+*.dnsse-noads.alekberg.net CNAME .
 odoh-target.alekberg.net CNAME .
 *.odoh-target.alekberg.net CNAME .
 odoh-target-noads-se.alekberg.net CNAME .
