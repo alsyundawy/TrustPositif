@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1786868760 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1786956120 43200 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass DNS Blocklist
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 1 day
-; Last modified: 16 Aug 2026 08:26 UTC
-; Version: 2026.0816.0826.07
+; Last modified: 17 Aug 2026 08:42 UTC
+; Version: 2026.0817.0842.24
 ; Syntax: RPZ
-; Number of entries: 6730
+; Number of entries: 6740
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -1139,6 +1139,8 @@ httpdns.ocloud.heytapmobi.com CNAME .
 *.httpdns.ocloud.heytapmobi.com CNAME .
 mail.hilton-groups.com CNAME .
 *.mail.hilton-groups.com CNAME .
+himedns.com CNAME .
+*.himedns.com CNAME .
 hnsdoh.com CNAME .
 *.hnsdoh.com CNAME .
 adguard.hoangcongchuc.com CNAME .
@@ -1161,6 +1163,8 @@ dns.huyizhou.com CNAME .
 *.dns.huyizhou.com CNAME .
 dns.hyas.com CNAME .
 *.dns.hyas.com CNAME .
+mask.icloud.com CNAME .
+*.mask.icloud.com CNAME .
 mask-canary.icloud.com CNAME .
 *.mask-canary.icloud.com CNAME .
 mask-h2.icloud.com CNAME .
@@ -1573,6 +1577,8 @@ kronos.plan9-dns.com CNAME .
 *.kronos.plan9-dns.com CNAME .
 pluton.plan9-dns.com CNAME .
 *.pluton.plan9-dns.com CNAME .
+hydra.plan9-ns1.com CNAME .
+*.hydra.plan9-ns1.com CNAME .
 draco.plan9-ns2.com CNAME .
 *.draco.plan9-ns2.com CNAME .
 secure-dns.pleumkungz.com CNAME .
@@ -1851,6 +1857,8 @@ dns.yameenassotally.com CNAME .
 *.dns.yameenassotally.com CNAME .
 agh-hetzner.yasirafique.com CNAME .
 *.agh-hetzner.yasirafique.com CNAME .
+lion.yazilimatolye.com CNAME .
+*.lion.yazilimatolye.com CNAME .
 adguard.youler.com CNAME .
 *.adguard.youler.com CNAME .
 yovbak.com CNAME .
@@ -3633,6 +3641,8 @@ dnsse-noads.alekberg.net CNAME .
 *.dnsse-noads.alekberg.net CNAME .
 odoh-target.alekberg.net CNAME .
 *.odoh-target.alekberg.net CNAME .
+odoh-target-noads.alekberg.net CNAME .
+*.odoh-target-noads.alekberg.net CNAME .
 odoh-target-noads-se.alekberg.net CNAME .
 *.odoh-target-noads-se.alekberg.net CNAME .
 odoh-target-se.alekberg.net CNAME .
