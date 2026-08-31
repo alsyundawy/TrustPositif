@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1787955120 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1788154620 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker DNS Blocklist
@@ -8,11 +8,11 @@ $TTL 3600
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-; Expires: 1 day
-; Last modified: 28 Aug 2026 22:12 UTC
-; Version: 2026.0828.2212.25
+; Expires: 8 hours
+; Last modified: 31 Aug 2026 05:37 UTC
+; Version: 2026.0831.0537.39
 ; Syntax: RPZ
-; Number of entries: 726
+; Number of entries: 738
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
@@ -98,6 +98,8 @@ aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
 *.aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
 aax-ott.amazon-adsystem.amazon.com CNAME .
 *.aax-ott.amazon-adsystem.amazon.com CNAME .
+aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
+*.aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
 aax-us-east-1-ott.amazon-adsystem.amazon.com CNAME .
 *.aax-us-east-1-ott.amazon-adsystem.amazon.com CNAME .
 aax-us-ott.amazon-adsystem.amazon.com CNAME .
@@ -570,6 +572,16 @@ assoc-amazon.de CNAME .
 *.assoc-amazon.de CNAME .
 advertising.amazon.dev CNAME .
 *.advertising.amazon.dev CNAME .
+api.metrics.eu-central-1.iris.apx.amazon.dev CNAME .
+*.api.metrics.eu-central-1.iris.apx.amazon.dev CNAME .
+metrics.eu-south-2.iris.apx.amazon.dev CNAME .
+*.metrics.eu-south-2.iris.apx.amazon.dev CNAME .
+metrics.eu-west-1.iris.apx.amazon.dev CNAME .
+*.metrics.eu-west-1.iris.apx.amazon.dev CNAME .
+metrics.us-east-1.iris.apx.amazon.dev CNAME .
+*.metrics.us-east-1.iris.apx.amazon.dev CNAME .
+api.metrics.us-west-2.iris.apx.amazon.dev CNAME .
+*.api.metrics.us-west-2.iris.apx.amazon.dev CNAME .
 mshopbugsnag.irm.amazon.dev CNAME .
 *.mshopbugsnag.irm.amazon.dev CNAME .
 events.app-performance.music.amazon.dev CNAME .
