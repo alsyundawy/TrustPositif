@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1788250500 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1788277560 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Encrypted DNS Bypass - stop people from sneaking around your DNS!
@@ -10,10 +10,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 01 Sep 2026 08:15 UTC
-; Version: 2026.0901.0815.45
+; Last modified: 01 Sep 2026 15:46 UTC
+; Version: 2026.0901.1546.49
 ; Syntax: RPZ
-; Number of entries: 7694
+; Number of entries: 7688
 ;
 extra.mask.ad CNAME .
 *.extra.mask.ad CNAME .
@@ -385,8 +385,6 @@ dot.quickline.ch CNAME .
 *.dot.quickline.ch CNAME .
 dns.sheggi.ch CNAME .
 *.dns.sheggi.ch CNAME .
-metis.sheggi.ch CNAME .
-*.metis.sheggi.ch CNAME .
 dns.simplylinux.ch CNAME .
 *.dns.simplylinux.ch CNAME .
 dns.switch.ch CNAME .
@@ -7457,8 +7455,6 @@ vps.202316.xyz CNAME .
 *.220913.xyz CNAME .
 t2c.240130034.xyz CNAME .
 *.t2c.240130034.xyz CNAME .
-dns.240527.xyz CNAME .
-*.dns.240527.xyz CNAME .
 dns.320888.xyz CNAME .
 *.dns.320888.xyz CNAME .
 dnstw.3300000.xyz CNAME .
@@ -7477,8 +7473,6 @@ n.5201344.xyz CNAME .
 *.n.5201344.xyz CNAME .
 adguard2.546413.xyz CNAME .
 *.adguard2.546413.xyz CNAME .
-55780358.xyz CNAME .
-*.55780358.xyz CNAME .
 bwg.559299366.xyz CNAME .
 *.bwg.559299366.xyz CNAME .
 dc39.559299366.xyz CNAME .
