@@ -1,18 +1,18 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1787700660 43200 3600 259200 3600
+@ SOA localhost. root.localhost. 1788253080 28800 3600 259200 3600
   NS  localhost.
 ;
-; Title: HaGeZi's DynDNS Blocklist
-; Description: Blocks dynamic DNS services to protect against malicious use in phishing campaigns and others.
+; Title: HaGeZi's DynDNS - guards against dynamic DNS abuse!
+; Description: Blocks dynamic DNS services that get abused for phishing campaigns and other shady activity.
 ; Homepage: https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
-; Expires: 1 day
-; Last modified: 25 Aug 2026 23:31 UTC
-; Version: 2026.0825.2331.41
+; Expires: 8 hours
+; Last modified: 01 Sep 2026 08:58 UTC
+; Version: 2026.0901.0858.27
 ; Syntax: RPZ
-; Number of entries: 3080
+; Number of entries: 3070
 ;
 120v.ac CNAME .
 *.120v.ac CNAME .
@@ -366,8 +366,6 @@ brawlcustommusic.com CNAME .
 *.brawlcustommusic.com CNAME .
 briansagar.com CNAME .
 *.briansagar.com CNAME .
-bsn2bsn.com CNAME .
-*.bsn2bsn.com CNAME .
 bumbleshrimp.com CNAME .
 *.bumbleshrimp.com CNAME .
 burlingtondrywall.com CNAME .
@@ -400,8 +398,6 @@ cjtooling.com CNAME .
 *.cjtooling.com CNAME .
 clawmap.com CNAME .
 *.clawmap.com CNAME .
-cmirg.com CNAME .
-*.cmirg.com CNAME .
 codns.com CNAME .
 *.codns.com CNAME .
 compuinter.com CNAME .
@@ -1262,16 +1258,12 @@ routemehome.com CNAME .
 *.routemehome.com CNAME .
 rundis.com CNAME .
 *.rundis.com CNAME .
-russkoeumea.com CNAME .
-*.russkoeumea.com CNAME .
 rwbcode.com CNAME .
 *.rwbcode.com CNAME .
 ryointernational.com CNAME .
 *.ryointernational.com CNAME .
 sannon-stamm.com CNAME .
 *.sannon-stamm.com CNAME .
-sarah-lai.com CNAME .
-*.sarah-lai.com CNAME .
 saves-the-whales.com CNAME .
 *.saves-the-whales.com CNAME .
 scottlewisonline.com CNAME .
@@ -1868,8 +1860,6 @@ home.kg CNAME .
 *.home.kg CNAME .
 kyrgyzstan.kg CNAME .
 *.kyrgyzstan.kg CNAME .
-surak.kz CNAME .
-*.surak.kz CNAME .
 allez.la CNAME .
 *.allez.la CNAME .
 project.li CNAME .
