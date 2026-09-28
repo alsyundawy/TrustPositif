@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790373600 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790540820 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 25 Sep 2026 22:00 UTC
-; Version: 2026.0925.2200.33
+; Last modified: 27 Sep 2026 20:27 UTC
+; Version: 2026.0927.2027.13
 ; Syntax: RPZ
-; Number of entries: 742
+; Number of entries: 744
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
@@ -26,8 +26,8 @@ unagi.amazon.ae CNAME .
 *.unagi.amazon.ae CNAME .
 paa-reporting-advertising.amazon CNAME .
 *.paa-reporting-advertising.amazon CNAME .
-h4g3z1-native.amazon.web.app CNAME .
-*.h4g3z1-native.amazon.web.app CNAME .
+h4g3z1-native-amazon.web.app CNAME .
+*.h4g3z1-native-amazon.web.app CNAME .
 advertising.amazon.com.au CNAME .
 *.advertising.amazon.com.au CNAME .
 fls-fe.amazon.com.au CNAME .
@@ -98,6 +98,8 @@ aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
 *.aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
 aax-ott.amazon-adsystem.amazon.com CNAME .
 *.aax-ott.amazon-adsystem.amazon.com CNAME .
+aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
+*.aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
 aax-us-east-1-ott.amazon-adsystem.amazon.com CNAME .
 *.aax-us-east-1-ott.amazon-adsystem.amazon.com CNAME .
 aax-us-ott.amazon-adsystem.amazon.com CNAME .

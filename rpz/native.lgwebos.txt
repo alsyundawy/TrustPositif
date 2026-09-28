@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790373840 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790541180 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's LG webOS Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,13 +9,13 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 25 Sep 2026 22:04 UTC
-; Version: 2026.0925.2204.49
+; Last modified: 27 Sep 2026 20:33 UTC
+; Version: 2026.0927.2033.25
 ; Syntax: RPZ
-; Number of entries: 458
+; Number of entries: 460
 ;
-h4g3z1-native.lgwebos.web.app CNAME .
-*.h4g3z1-native.lgwebos.web.app CNAME .
+h4g3z1-native-lgwebos.web.app CNAME .
+*.h4g3z1-native-lgwebos.web.app CNAME .
 lgsmartad.com CNAME .
 *.lgsmartad.com CNAME .
 ads.lgtvcommon.com CNAME .
@@ -180,6 +180,8 @@ eg-info-lgsmartad-com.aws-prd.net CNAME .
 *.eg-info-lgsmartad-com.aws-prd.net CNAME .
 es-ad-lgsmartad-com.aws-prd.net CNAME .
 *.es-ad-lgsmartad-com.aws-prd.net CNAME .
+es-info-lgsmartad-com.aws-prd.net CNAME .
+*.es-info-lgsmartad-com.aws-prd.net CNAME .
 et-ad-lgsmartad-com.aws-prd.net CNAME .
 *.et-ad-lgsmartad-com.aws-prd.net CNAME .
 eu7-info-lgsmartad-com.aws-prd.net CNAME .

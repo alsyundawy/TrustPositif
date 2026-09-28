@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790373840 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790541120 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,13 +9,13 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 25 Sep 2026 22:04 UTC
-; Version: 2026.0925.2204.00
+; Last modified: 27 Sep 2026 20:32 UTC
+; Version: 2026.0927.2032.01
 ; Syntax: RPZ
 ; Number of entries: 1228
 ;
-h4g3z1-native.tiktok.extended.web.app CNAME .
-*.h4g3z1-native.tiktok.extended.web.app CNAME .
+h4g3z1-native-tiktok-extended.web.app CNAME .
+*.h4g3z1-native-tiktok-extended.web.app CNAME .
 frontier23-normal-alisg.tiktokv.com.bpgslb.com CNAME .
 *.frontier23-normal-alisg.tiktokv.com.bpgslb.com CNAME .
 ads-sg.business-tiktok.com CNAME .

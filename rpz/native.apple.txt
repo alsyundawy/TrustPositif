@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1789904700 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790540760 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Apple Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,13 +9,13 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 20 Sep 2026 11:45 UTC
-; Version: 2026.0920.1145.21
+; Last modified: 27 Sep 2026 20:26 UTC
+; Version: 2026.0927.2026.05
 ; Syntax: RPZ
-; Number of entries: 218
+; Number of entries: 216
 ;
-h4g3z1-native.apple.web.app CNAME .
-*.h4g3z1-native.apple.web.app CNAME .
+h4g3z1-native-apple.web.app CNAME .
+*.h4g3z1-native-apple.web.app CNAME .
 cdn-xp-ingest.edge.apple CNAME .
 *.cdn-xp-ingest.edge.apple CNAME .
 marketing.services.apple CNAME .
@@ -190,8 +190,6 @@ diagassets-lb.apple.com.akadns.net CNAME .
 *.diagassets-lb.apple.com.akadns.net CNAME .
 diagnostics.apple.com.akadns.net CNAME .
 *.diagnostics.apple.com.akadns.net CNAME .
-iadcontent-lb.apple.com.akadns.net CNAME .
-*.iadcontent-lb.apple.com.akadns.net CNAME .
 iadsdk.apple.com.akadns.net CNAME .
 *.iadsdk.apple.com.akadns.net CNAME .
 idiagnostics.apple.com.akadns.net CNAME .

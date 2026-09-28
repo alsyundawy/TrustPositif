@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790373660 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790540880 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Microsoft Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,13 +9,13 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 25 Sep 2026 22:01 UTC
-; Version: 2026.0925.2201.23
+; Last modified: 27 Sep 2026 20:28 UTC
+; Version: 2026.0927.2028.19
 ; Syntax: RPZ
-; Number of entries: 772
+; Number of entries: 768
 ;
-h4g3z1-native.winoffice.web.app CNAME .
-*.h4g3z1-native.winoffice.web.app CNAME .
+h4g3z1-native-winoffice.web.app CNAME .
+*.h4g3z1-native-winoffice.web.app CNAME .
 collector.azure.microsoft.cloud CNAME .
 *.collector.azure.microsoft.cloud CNAME .
 dc.applicationinsights.azure.cn CNAME .
@@ -224,8 +224,6 @@ sgtus1-powerpoint-telemetry-vip.officeapps.live.com CNAME .
 *.sgtus1-powerpoint-telemetry-vip.officeapps.live.com CNAME .
 sgtus1-word-telemetry-vip.officeapps.live.com CNAME .
 *.sgtus1-word-telemetry-vip.officeapps.live.com CNAME .
-telemetry.officeapps.live.com CNAME .
-*.telemetry.officeapps.live.com CNAME .
 tgtus1-excel-telemetry-vip.officeapps.live.com CNAME .
 *.tgtus1-excel-telemetry-vip.officeapps.live.com CNAME .
 tgtus1-powerpoint-telemetry-vip.officeapps.live.com CNAME .
@@ -762,8 +760,6 @@ nexxtv-events.servicebus.windows.net CNAME .
 *.nexxtv-events.servicebus.windows.net CNAME .
 ppm-licensingtelemetry.servicebus.windows.net CNAME .
 *.ppm-licensingtelemetry.servicebus.windows.net CNAME .
-prd-qlik-telemetry.servicebus.windows.net CNAME .
-*.prd-qlik-telemetry.servicebus.windows.net CNAME .
 prod-eh-v1-analytics.servicebus.windows.net CNAME .
 *.prod-eh-v1-analytics.servicebus.windows.net CNAME .
 prod-eventhub-analytics.servicebus.windows.net CNAME .
