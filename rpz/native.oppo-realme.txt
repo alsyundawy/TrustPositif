@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1790541360 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1790743800 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's OPPO & Realme Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 27 Sep 2026 20:36 UTC
-; Version: 2026.0927.2036.18
+; Last modified: 30 Sep 2026 04:50 UTC
+; Version: 2026.0930.0450.06
 ; Syntax: RPZ
-; Number of entries: 974
+; Number of entries: 976
 ;
 h4g3z1-native-oppo-realme.web.app CNAME .
 *.h4g3z1-native-oppo-realme.web.app CNAME .
@@ -486,6 +486,8 @@ adm-smc-cn.heytapmobi.com CNAME .
 *.adm-smc-cn.heytapmobi.com CNAME .
 ads.heytapmobi.com CNAME .
 *.ads.heytapmobi.com CNAME .
+apisnd.heytapmobi.com CNAME .
+*.apisnd.heytapmobi.com CNAME .
 logforward.browser.heytapmobi.com CNAME .
 *.logforward.browser.heytapmobi.com CNAME .
 stat.browser.heytapmobi.com CNAME .
@@ -837,8 +839,6 @@ cloudconf-app-se.heytapmobile.com CNAME .
 cloudconf-app-sg.heytapmobile.com CNAME .
 *.cloudconf-app-sg.heytapmobile.com CNAME .
 cloudconf-app-sk.heytapmobile.com CNAME .
-*.cloudconf-app-sk.heytapmobile.com CNAME .
-cloudconf-app-E .
 *.cloudconf-app-sk.heytapmobile.com CNAME .
 cloudconf-app-sy.heytapmobile.com CNAME .
 *.cloudconf-app-sy.heytapmobile.com CNAME .
