@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793401260 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794005520 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's Amazon Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,10 +9,10 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 30 Oct 2026 23:01 UTC
-; Version: 2026.1030.2301.02
+; Last modified: 06 Nov 2026 22:52 UTC
+; Version: 2026.1106.2252.27
 ; Syntax: RPZ
-; Number of entries: 738
+; Number of entries: 746
 ;
 advertising.amazon.ae CNAME .
 *.advertising.amazon.ae CNAME .
@@ -92,12 +92,36 @@ advertising.amazon.com CNAME .
 *.advertising.amazon.com CNAME .
 advertising-api-eu.amazon.com CNAME .
 *.advertising-api-eu.amazon.com CNAME .
+aax-audio.amazon-adsystem.amazon.com CNAME .
+*.aax-audio.amazon-adsystem.amazon.com CNAME .
+aax-cpm.amazon-adsystem.amazon.com CNAME .
+*.aax-cpm.amazon-adsystem.amazon.com CNAME .
 aax-dtb-cf.amazon-adsystem.amazon.com CNAME .
 *.aax-dtb-cf.amazon-adsystem.amazon.com CNAME .
+aax-dtb-legacy.amazon-adsystem.amazon.com CNAME .
+*.aax-dtb-legacy.amazon-adsystem.amazon.com CNAME .
+aax-dtb-mobile.amazon-adsystem.amazon.com CNAME .
+*.aax-dtb-mobile.amazon-adsystem.amazon.com CNAME .
+aax-dtb-mobile-bids-geo.amazon-adsystem.amazon.com CNAME .
+*.aax-dtb-mobile-bids-geo.amazon-adsystem.amazon.com CNAME .
+aax-dtb-mobile-events.amazon-adsystem.amazon.com CNAME .
+*.aax-dtb-mobile-events.amazon-adsystem.amazon.com CNAME .
 aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
 *.aax-dtb-mobile-geo.amazon-adsystem.amazon.com CNAME .
+aax-dtb-web.amazon-adsystem.amazon.com CNAME .
+*.aax-dtb-web.amazon-adsystem.amazon.com CNAME .
+aax-dtb-web-bids-geo.amazon-adsystem.amazon.com CNAME .
+*.aax-dtb-web-bids-geo.amazon-adsystem.amazon.com CNAME .
+aax-dtb-web-geo.amazon-adsystem.amazon.com CNAME .
+*.aax-dtb-web-geo.amazon-adsystem.amazon.com CNAME .
+aax-dtb-web-geo-aax.amazon-adsystem.amazon.com CNAME .
+*.aax-dtb-web-geo-aax.amazon-adsystem.amazon.com CNAME .
 aax-ott.amazon-adsystem.amazon.com CNAME .
 *.aax-ott.amazon-adsystem.amazon.com CNAME .
+aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
+*.aax-ott-sdk.amazon-adsystem.amazon.com CNAME .
+aax-us.amazon-adsystem.amazon.com CNAME .
+*.aax-us.amazon-adsystem.amazon.com CNAME .
 aax-us-east-1-ott.amazon-adsystem.amazon.com CNAME .
 *.aax-us-east-1-ott.amazon-adsystem.amazon.com CNAME .
 aax-us-ott.amazon-adsystem.amazon.com CNAME .
@@ -212,8 +236,6 @@ aax-us-east-dtb.amazon-adsystem.com CNAME .
 *.aax-us-east-dtb.amazon-adsystem.com CNAME .
 aax-us-east-dtb-mobile.amazon-adsystem.com CNAME .
 *.aax-us-east-dtb-mobile.amazon-adsystem.com CNAME .
-aax-us-east-dtb-mobile-events.amazon-adsystem.com CNAME .
-*.aax-us-east-dtb-mobile-events.amazon-adsystem.com CNAME .
 aax-us-east-ott.amazon-adsystem.com CNAME .
 *.aax-us-east-ott.amazon-adsystem.com CNAME .
 aax-us-east-rtb.amazon-adsystem.com CNAME .
@@ -272,8 +294,6 @@ assoc-msdk-eu.amazon-adsystem.com CNAME .
 *.assoc-msdk-eu.amazon-adsystem.com CNAME .
 assoc-msdk-us.amazon-adsystem.com CNAME .
 *.assoc-msdk-us.amazon-adsystem.com CNAME .
-at-us-east.amazon-adsystem.com CNAME .
-*.at-us-east.amazon-adsystem.com CNAME .
 atfe.amazon-adsystem.com CNAME .
 *.atfe.amazon-adsystem.com CNAME .
 atue.amazon-adsystem.com CNAME .
@@ -362,16 +382,10 @@ maws-aax-apse-rtb.amazon-adsystem.com CNAME .
 *.maws-aax-apse-rtb.amazon-adsystem.com CNAME .
 maws-aax-apse-rtb-adx.amazon-adsystem.com CNAME .
 *.maws-aax-apse-rtb-adx.amazon-adsystem.com CNAME .
-maws-aax-eu.amazon-adsystem.com CNAME .
-*.maws-aax-eu.amazon-adsystem.com CNAME .
 maws-aax-eu-rtb.amazon-adsystem.com CNAME .
 *.maws-aax-eu-rtb.amazon-adsystem.com CNAME .
 maws-aax-eu-rtb-adx.amazon-adsystem.com CNAME .
 *.maws-aax-eu-rtb-adx.amazon-adsystem.com CNAME .
-maws-aax-fe.amazon-adsystem.com CNAME .
-*.maws-aax-fe.amazon-adsystem.com CNAME .
-maws-aax-us-east.amazon-adsystem.com CNAME .
-*.maws-aax-us-east.amazon-adsystem.com CNAME .
 maws-aax-us-east-rtb.amazon-adsystem.com CNAME .
 *.maws-aax-us-east-rtb.amazon-adsystem.com CNAME .
 maws-aax-us-east-rtb-adx.amazon-adsystem.com CNAME .
@@ -380,8 +394,6 @@ maws-aax-us-east-test4.amazon-adsystem.com CNAME .
 *.maws-aax-us-east-test4.amazon-adsystem.com CNAME .
 maws-aax-us-pdx-rtb.amazon-adsystem.com CNAME .
 *.maws-aax-us-pdx-rtb.amazon-adsystem.com CNAME .
-origin-s.amazon-adsystem.com CNAME .
-*.origin-s.amazon-adsystem.com CNAME .
 origin-sq-tungsten-ts.amazon-adsystem.com CNAME .
 *.origin-sq-tungsten-ts.amazon-adsystem.com CNAME .
 pri1-3ps.amazon-adsystem.com CNAME .
@@ -394,25 +406,6 @@ pri1-id-us.amazon-adsystem.com CNAME .
 *.pri1-id-us.amazon-adsystem.com CNAME .
 ps-eu.amazon-adsystem.com CNAME .
 *.ps-eu.amazon-adsystem.com CNAME .
-ps-fe.amazon-adsystem.com CNAME .
-*.ps-fe.amazon-adsystem.com CNAME .
-ps-jp.amazon-adsystem.com CNAME .
-*.ps-jp.amazon-adsystem.com CNAME .
-ps-us.amazon-adsystem.com CNAME .
-*.ps-us.amazon-adsystem.com CNAME .
-rcm-eu.amazon-adsystem.com CNAME .
-*.rcm-eu.amazon-adsystem.com CNAME .
-rcm-fe.amazon-adsystem.com CNAME .
-*.rcm-fe.amazon-adsystem.com CNAME .
-rcm-na.amazon-adsystem.com CNAME .
-*.rcm-na.amazon-adsystem.com CNAME .
-s.amazon-adsystem.com CNAME .
-*.s.amazon-adsystem.com CNAME .
-s-fe.amazon-adsystem.com CNAME .
-*.s-fe.amazon-adsystem.com CNAME .
-sponsored-ads-eu.amazon-adsystem.com CNAME .
-*.sponsored-ads-eu.amazon-adsystem.com CNAME .
-sponsored-ads-eu-south-2.amazon-adsystem.comAME .
 ps-fe.amazon-adsystem.com CNAME .
 *.ps-fe.amazon-adsystem.com CNAME .
 ps-jp.amazon-adsystem.com CNAME .

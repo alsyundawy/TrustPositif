@@ -1,5 +1,5 @@
 $TTL 3600
-@ SOA localhost. root.localhost. 1793198520 28800 3600 259200 3600
+@ SOA localhost. root.localhost. 1794005820 28800 3600 259200 3600
   NS  localhost.
 ;
 ; Title: HaGeZi's TikTok Extended Tracker - blocks built-in trackers from devices, apps, and OSes!
@@ -9,8 +9,8 @@ $TTL 3600
 ; Issues: https://github.com/hagezi/dns-blocklists/issues
 ; Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ; Expires: 8 hours
-; Last modified: 28 Oct 2026 14:42 UTC
-; Version: 2026.1028.1442.11
+; Last modified: 06 Nov 2026 22:57 UTC
+; Version: 2026.1106.2257.42
 ; Syntax: RPZ
 ; Number of entries: 1528
 ;
@@ -204,6 +204,8 @@ ug-va.capcutapi.com CNAME .
 *.ug-va.capcutapi.com CNAME .
 xlog-va.capcutapi.com CNAME .
 *.xlog-va.capcutapi.com CNAME .
+log9-normal-c-useast1a.tiktokv.com.ecdnx.com CNAME .
+*.log9-normal-c-useast1a.tiktokv.com.ecdnx.com CNAME .
 p16-ttam-sg.ibyteimg.com CNAME .
 *.p16-ttam-sg.ibyteimg.com CNAME .
 p16-ttam-va.ibyteimg.com CNAME .
@@ -212,6 +214,10 @@ p19-ttam-sg.ibyteimg.com CNAME .
 *.p19-ttam-sg.ibyteimg.com CNAME .
 p19-ttam-va.ibyteimg.com CNAME .
 *.p19-ttam-va.ibyteimg.com CNAME .
+log3-normal-c-alisg.tiktokv.com.w.kunlunsl.com CNAME .
+*.log3-normal-c-alisg.tiktokv.com.w.kunlunsl.com CNAME .
+log3-normal-c-useast1a.tiktokv.com.w.kunlunsl.com CNAME .
+*.log3-normal-c-useast1a.tiktokv.com.w.kunlunsl.com CNAME .
 abtest-ch.snssdk.com CNAME .
 *.abtest-ch.snssdk.com CNAME .
 analytics.snssdk.com CNAME .
@@ -456,8 +462,6 @@ location.tiktokv.com CNAME .
 *.location.tiktokv.com CNAME .
 location-i18n.tiktokv.com CNAME .
 *.location-i18n.tiktokv.com CNAME .
-location-ru.tiktokv.com CNAME .
-*.location-ru.tiktokv.com CNAME .
 location-sg.tiktokv.com CNAME .
 *.location-sg.tiktokv.com CNAME .
 location-v6.tiktokv.com CNAME .
@@ -1094,8 +1098,6 @@ ad-format.tiktokv.eu CNAME .
 *.ad-format.tiktokv.eu CNAME .
 ad-format-ie.tiktokv.eu CNAME .
 *.ad-format-ie.tiktokv.eu CNAME .
-ad-format-ttp2.tiktokv.eu CNAME .
-*.ad-format-ttp2.tiktokv.eu CNAME .
 ad-format16-normal-useastred.tiktokv.eu CNAME .
 *.ad-format16-normal-useastred.tiktokv.eu CNAME .
 ad-instantpage.tiktokv.eu CNAME .
@@ -1126,14 +1128,10 @@ location.tiktokv.eu CNAME .
 *.location.tiktokv.eu CNAME .
 location-ie.tiktokv.eu CNAME .
 *.location-ie.tiktokv.eu CNAME .
-location-ttp2.tiktokv.eu CNAME .
-*.location-ttp2.tiktokv.eu CNAME .
 location-v6.tiktokv.eu CNAME .
 *.location-v6.tiktokv.eu CNAME .
 location-v6-ttp2.tiktokv.eu CNAME .
 *.location-v6-ttp2.tiktokv.eu CNAME .
-location16-normal-useastred.tiktokv.eu CNAME .
-*.location16-normal-useastred.tiktokv.eu CNAME .
 locationv16-normal-useastred.tiktokv.eu CNAME .
 *.locationv16-normal-useastred.tiktokv.eu CNAME .
 log.tiktokv.eu CNAME .
@@ -1178,8 +1176,6 @@ mon32-normal-useastred.tiktokv.eu CNAME .
 *.mon32-normal-useastred.tiktokv.eu CNAME .
 rtc-logger.tiktokv.eu CNAME .
 *.rtc-logger.tiktokv.eu CNAME .
-rtc-logger-ie.tiktokv.eu CNAME .
-*.rtc-logger-ie.tiktokv.eu CNAME .
 rtc-logger-ttp2.tiktokv.eu CNAME .
 *.rtc-logger-ttp2.tiktokv.eu CNAME .
 rtc-logger16-normal-useastred.tiktokv.eu CNAME .
@@ -1281,7 +1277,7 @@ mcs-tiktok.byteoversea.net CNAME .
 analytics.tiktok.com.edgekey.net CNAME .
 *.analytics.tiktok.com.edgekey.net CNAME .
 analytics-attribution-va.tiktok.com.edgekey.net CNAME .
-*.analytedgekey.net CNAME .
+*.analytics-attribution-va.tiktok.com.edgekey.net CNAME .
 analytics-exp-i18n.tiktok.com.edgekey.net CNAME .
 *.analytics-exp-i18n.tiktok.com.edgekey.net CNAME .
 analytics-exp-sg.tiktok.com.edgekey.net CNAME .
